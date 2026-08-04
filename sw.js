@@ -67,7 +67,7 @@ function isStaticAsset(url) {
          path.endsWith('.png') ||
          path.endsWith('.jpg') ||
          path.endsWith('.svg') ||
-         path === '/jlpt-study/';
+         path === '/english-study/';
 }
 
 async function cacheFirst(request) {

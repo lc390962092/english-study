@@ -47,7 +47,7 @@
         function findEnglishVoice() {
             const voices = synth.getVoices();
             for (const v of voices) {
-                if (v.lang.startsWith('ja')) { englishVoice = v; break; }
+                if (v.lang.startsWith('en')) { englishVoice = v; break; }
             }
         }
         if (synth.onvoiceschanged !== undefined) {
@@ -272,7 +272,7 @@
         }
         init().catch(err => {
             console.error('加载失败', err);
-            stageEl.innerHTML = `<div class="msg">加载失败：${err.message}<br>请刷新重试</div>`;
+            stageEl.innerHTML = `<div class="msg">加载失败：${err.message}<br><button onclick="location.reload()" class="btn btn-primary" style="margin-top:16px;">刷新重试</button></div>`;
         });
     </script>
 </body>

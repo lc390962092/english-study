@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/common.css">
     <style>
         .header { padding: 40px 20px 30px; }
+        .loading-msg { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
+        .loading-msg.error { color: var(--danger); }
     </style>
 </head>
 <body>
@@ -26,7 +28,9 @@
         <h1>English 英语学习</h1>
         <p>词汇 + 语法 · A1-C1 全等级</p>
     </div>
-    <div class="levels" id="levels"></div>
+    <div class="levels" id="levels">
+        <div class="loading-msg" id="loadingMsg">加载中...</div>
+    </div>
 
     <script src="js/common.js"></script>
     <script>
@@ -61,30 +65,41 @@
         }
 
         async function render() {
-            const summary = await fetch('content/summary.json').then(r => r.json());
             const container = document.getElementById('levels');
-            container.innerHTML = levels.map(lv => {
-                const wordsTotal = summary[`${lv.id}_words`] || 0;
-                const grammarTotal = summary[`${lv.id}_grammar`] || 0;
-                const wordsDone = getProgress(lv.id, 'words');
-                const grammarDone = getProgress(lv.id, 'grammar');
-                return `
-                    <div class="level-card ${lv.colorClass}">
-                        <div class="level-badge">${lv.id}</div>
-                        <h3>${lv.name}</h3>
-                        <div class="mode-btns">
-                            <a href="study.html?level=${lv.id}" class="mode-btn words">词汇</a>
-                            <a href="grammar.html?level=${lv.id}" class="mode-btn grammar">语法</a>
-                            <a href="quiz.html?level=${lv.id}" class="mode-btn quiz">测试</a>
-                            <a href="exam.html" class="mode-btn exam">测试</a>
+            const loading = document.getElementById('loadingMsg');
+            try {
+                const summary = await fetch('content/summary.json').then(r => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.json();
+                });
+                container.innerHTML = levels.map(lv => {
+                    const wordsTotal = summary[`${lv.id}_words`] || 0;
+                    const grammarTotal = summary[`${lv.id}_grammar`] || 0;
+                    const wordsDone = getProgress(lv.id, 'words');
+                    const grammarDone = getProgress(lv.id, 'grammar');
+                    return `
+                        <div class="level-card ${lv.colorClass}">
+                            <div class="level-badge">${lv.id}</div>
+                            <h3>${lv.name}</h3>
+                            <div class="mode-btns">
+                                <a href="study.html?level=${lv.id}" class="mode-btn words">词汇</a>
+                                <a href="grammar.html?level=${lv.id}" class="mode-btn grammar">语法</a>
+                                <a href="quiz.html?level=${lv.id}" class="mode-btn quiz">测试</a>
+                            </div>
+                            <div class="progress-row">
+                                ${progressBarHTML(wordsDone, wordsTotal, '词汇', 'words')}
+                                ${progressBarHTML(grammarDone, grammarTotal, '语法', 'grammar')}
+                            </div>
                         </div>
-                        <div class="progress-row">
-                            ${progressBarHTML(wordsDone, wordsTotal, '词汇', 'words')}
-                            ${progressBarHTML(grammarDone, grammarTotal, '语法', 'grammar')}
-                        </div>
-                    </div>
-                `;
-            }).join('');
+                    `;
+                }).join('');
+            } catch (err) {
+                console.error('加载失败', err);
+                if (loading) {
+                    loading.className = 'loading-msg error';
+                    loading.innerHTML = `加载失败：${err.message}<br><button onclick="location.reload()" class="btn btn-primary" style="margin-top:16px;width:auto;padding:12px 24px;">刷新重试</button>`;
+                }
+            }
         }
         render();
     </script>

@@ -1,257 +1,1056 @@
 [
   {
-    "grammar": "Third conditional",
-    "meaning": "第三条件句",
-    "usage": "If + had + 过去分词，would have + 过去分词。表与过去事实相反的虚拟。",
+    "grammar": "Advanced present perfect",
+    "meaning": "现在完成时进阶",
+    "usage": "现在完成时与 just, yet, already, ever, never, for, since 的细微区别。",
     "examples": [
-      "If I had studied harder, I would have passed.",
-      "If she had known, she would have come.",
-      "I wouldn't have been late if I had left earlier."
+      "Have you ever been to Rome?",
+      "I've known her for years.",
+      "She hasn't finished yet."
     ],
     "mistakes": [
-      "if 从句用 would have",
-      "主句用过去式而非 would have done"
+      "know 等状态动词用现在完成时表持续",
+      "already/yet 位置错误"
     ],
-    "compare": "第三条件 vs. 第二条件：过去虚拟 vs. 现在虚拟。",
-    "id": "004ba8b5-0a0b-4119-81a5-91a87358e30c",
+    "compare": "状态动词 know/like/have 等用于完成时表持续状态。",
+    "id": "043385f3-b17e-4221-8232-c310c0c47978",
     "level": "B2"
   },
   {
-    "grammar": "Mixed conditionals",
-    "meaning": "混合条件句",
-    "usage": "if 从句与主句时间不一致，如 if 过去 + 主句现在。",
+    "grammar": "Past perfect vs. past simple",
+    "meaning": "过去完成时 vs. 一般过去时",
+    "usage": "过去完成时表过去的过去，过去完成进行时表过程。",
     "examples": [
-      "If I had studied medicine, I would be a doctor now.",
-      "If I were rich, I would have bought that house.",
-      "If you had taken the map, we wouldn't be lost."
+      "When I arrived, he had left.",
+      "By 2010, she had graduated.",
+      "She had been waiting for hours."
     ],
     "mistakes": [
-      "时态混用导致逻辑不清",
-      "全句用同一条件结构"
+      "两个过去动作都用过去式",
+      "过去完成时与过去进行时混淆"
     ],
-    "compare": "混合条件用于过去原因影响现在结果。",
-    "id": "a93d71fd-54ea-4163-aa12-30c26abc39e5",
+    "compare": "叙事中先发生的动作常用过去完成时。",
+    "id": "c423b430-09c7-4002-b1ac-7ec8d13dcde8",
     "level": "B2"
   },
   {
-    "grammar": "Wishes and regrets",
-    "meaning": "wish 与遗憾",
-    "usage": "wish + 过去式（现在），wish + had done（过去），wish + would/could（将来）。",
+    "grammar": "Future in the past",
+    "meaning": "过去将来时",
+    "usage": "was/were going to, would, was/were about to, was/were to 表从过去看将来。",
     "examples": [
-      "I wish I knew the answer.",
+      "I was going to call you.",
+      "He said he would help.",
+      "The train was about to leave."
+    ],
+    "mistakes": [
+      "was going to 与 would 完全等同",
+      "was about to 后接 to do 重复"
+    ],
+    "compare": "was going to 表过去计划；would 表过去将来。",
+    "id": "6d30e438-b98d-4d09-8fd5-ca1970bdffc4",
+    "level": "B2"
+  },
+  {
+    "grammar": "Future continuous vs. future perfect",
+    "meaning": "将来进行时 vs. 将来完成时",
+    "usage": "将来进行表将来某时正在做；将来完成表将来某时前完成。",
+    "examples": [
+      "This time tomorrow, I'll be flying.",
+      "By 6 p.m., I'll have finished.",
+      "Will you be working at 8?"
+    ],
+    "mistakes": [
+      "将来完成时与将来时混淆",
+      "将来进行时结构错误"
+    ],
+    "compare": "will be doing vs. will have done。",
+    "id": "37aa1324-9837-4908-af0e-7db19a663d18",
+    "level": "B2"
+  },
+  {
+    "grammar": "Mixed conditionals (advanced)",
+    "meaning": "混合条件句进阶",
+    "usage": "结合第二/第三条件句，表达复杂假设。",
+    "examples": [
+      "If I had taken that job, I would be richer now.",
+      "If I were more confident, I would have asked her out.",
+      "If we hadn't missed the bus, we wouldn't be late now."
+    ],
+    "mistakes": [
+      "时间对应关系混乱",
+      "would have 与 would be 混淆"
+    ],
+    "compare": "混合条件句前后时间不同，时态要对应用。",
+    "id": "62ad553c-1c9a-4321-8f15-875e38a80c74",
+    "level": "B2"
+  },
+  {
+    "grammar": "Wish / If only (advanced)",
+    "meaning": "wish / if only 进阶",
+    "usage": "wish + 过去完成时（过去）；wish + would（不满/希望改变）。",
+    "examples": [
       "I wish I had studied harder.",
-      "I wish you would stop talking."
+      "I wish you would stop talking.",
+      "If only I knew the answer."
     ],
     "mistakes": [
-      "wish 后接真实时态",
-      "I wish I was  vs. were（正式用 were）"
+      "wish + would 用于自己（不自然）",
+      "wish 与 hope 用法混淆"
     ],
-    "compare": "wish vs. hope：wish 表难实现，hope 表可能实现。",
-    "id": "fb338ce9-93c9-4ac8-abd4-72a905f9d260",
+    "compare": "wish + would 常用于对他人行为不满。",
+    "id": "902911f5-e334-4a83-acbc-2f71bc354a24",
     "level": "B2"
   },
   {
-    "grammar": "Passives (all tenses)",
-    "meaning": "全时态被动语态",
-    "usage": "各种时态的 be + 过去分词：is being done, has been done, will be done 等。",
+    "grammar": "Modal verbs: deductions about the past",
+    "meaning": "过去推测情态动词",
+    "usage": "must have done, can't have done, might have done, may have done, could have done。",
     "examples": [
+      "He must have forgotten.",
+      "She can't have seen us.",
+      "They might have missed the train."
+    ],
+    "mistakes": [
+      "must have 后接过去分词误用成过去式",
+      "can't have done 与 mustn't have done 混淆"
+    ],
+    "compare": "must have done 肯定；can't have done 否定；might/may/could have done 可能。",
+    "id": "b6c4c693-5890-47aa-b54e-30a1dcb7d00a",
+    "level": "B2"
+  },
+  {
+    "grammar": "Modal verbs: deductions about the present",
+    "meaning": "现在推测情态动词",
+    "usage": "must be, can't be, might be, may be, could be + doing/adjective。",
+    "examples": [
+      "He must be tired.",
+      "It can't be true.",
+      "She might be sleeping."
+    ],
+    "mistakes": [
+      "must be 后接动词原形",
+      "might be 与 maybe 混淆"
+    ],
+    "compare": "maybe 是副词，might be 是情态动词+be。",
+    "id": "9730105d-772a-4fcc-a807-9f90f32f8422",
+    "level": "B2"
+  },
+  {
+    "grammar": "Modal verbs: criticism/regret",
+    "meaning": "情态动词表批评/遗憾",
+    "usage": "could have done 本可以做；should have done 本应该做；would have done 本会做。",
+    "examples": [
+      "You could have told me.",
+      "I should have studied more.",
+      "I would have helped, but I was busy."
+    ],
+    "mistakes": [
+      "should have 与 must have 混淆",
+      "could have 后接动词原形"
+    ],
+    "compare": "should have done 表遗憾或批评。",
+    "id": "77be62a3-05aa-4298-afb3-e9baf9fa5c32",
+    "level": "B2"
+  },
+  {
+    "grammar": "Modal verbs: ability in the past",
+    "meaning": "过去能力",
+    "usage": "could do 过去一般能力；was able to / managed to 过去具体成功做到。",
+    "examples": [
+      "I could swim when I was five.",
+      "The fire was serious, but we were able to escape.",
+      "She managed to finish on time."
+    ],
+    "mistakes": [
+      "could 用于过去具体成功时（应为 was able to）",
+      "managed to 与 could 完全等同"
+    ],
+    "compare": "过去具体成功用 was able to / managed to。",
+    "id": "9bc1eb48-358e-4f7a-bb08-a1ca74564e02",
+    "level": "B2"
+  },
+  {
+    "grammar": "Passive voice: advanced forms",
+    "meaning": "被动语态进阶",
+    "usage": "完成时、进行时、情态动词、短语动词的被动。",
+    "examples": [
+      "The house has been being painted. (罕见)",
       "The project is being discussed.",
-      "The house has been sold.",
-      "The work will have been finished by tomorrow."
+      "The work must be finished soon."
     ],
     "mistakes": [
-      "进行时被动态结构错误",
-      "漏掉助动词 be 的相应时态"
+      "进行时被动语态结构错误",
+      "短语动词被动漏介词"
     ],
-    "compare": "主动 vs. 被动：根据强调重点选择。",
-    "id": "77311afd-3d22-49fd-9f6e-fd331bc6c8a5",
+    "compare": "被动语态中短语动词介词不能丢。",
+    "id": "1ff16fad-2b2e-464a-96b0-8c5c0274a534",
     "level": "B2"
   },
   {
-    "grammar": "Reported speech (advanced)",
-    "meaning": "间接引语（进阶）",
-    "usage": "命令/建议转述：tell/ask/order/advise/warn + sb + to do； suggest doing。",
+    "grammar": "Passive voice: get + past participle",
+    "meaning": "get 被动",
+    "usage": "get + 过去分词，常用于口语或意外事件。",
     "examples": [
-      "He told me to wait.",
-      "She suggested going to the cinema.",
-      "They warned us not to go out."
+      "He got hurt.",
+      "The window got broken.",
+      "I got caught in the rain."
     ],
     "mistakes": [
-      "suggest 后接 to do（应为 doing）",
-      "ask 后接宾语从句时结构错误"
+      "get 后接现在分词表被动",
+      "get 被动与 be 被动完全等同"
     ],
-    "compare": "say/tell vs. ask/order/advise 的转述结构不同。",
-    "id": "30ec7d6f-fdf8-4ebd-a647-b9b19ae4843b",
+    "compare": "get 被动更口语、常表意外。",
+    "id": "bbe5a1f1-c67a-493f-9037-134f3f439524",
     "level": "B2"
   },
   {
-    "grammar": "Relative clauses (non-defining)",
-    "meaning": "非限定性定语从句",
-    "usage": "who/which/whose/where 引导，用逗号隔开，提供附加信息。",
+    "grammar": "Passive voice: verbs with two objects",
+    "meaning": "双宾语被动进阶",
+    "usage": "give, send, show, tell, offer, teach, lend 等。",
     "examples": [
-      "My brother, who lives in Tokyo, is a teacher.",
-      "Paris, which is the capital of France, is beautiful.",
-      "The book, whose cover is red, is mine."
+      "I was given a book. / A book was given to me.",
+      "She was offered a job. / A job was offered to her."
     ],
     "mistakes": [
-      "非限定性从句用 that",
-      "漏掉逗号"
+      "双宾语被动中 to 位置错误",
+      "介词 for 与 to 混淆"
     ],
-    "compare": "限定性 vs. 非限定性：限定性必要，非限定性补充。",
-    "id": "5cfdfc6f-9ecd-494a-903d-5da4389af628",
+    "compare": "buy/make/get sb sth → sth is bought/made/got for sb。",
+    "id": "1ddac251-cbd1-40a1-a4c5-d00e59c01656",
     "level": "B2"
   },
   {
-    "grammar": "Participle clauses",
-    "meaning": "分词短语",
-    "usage": "-ing/-ed 分词短语作状语，表时间、原因、条件、结果。",
+    "grammar": "Reporting verbs: patterns and nuances",
+    "meaning": "转述动词",
+    "usage": "admit, deny, suggest, claim, insist, promise, refuse, threaten, agree, offer, recommend。",
     "examples": [
-      "Walking home, I met an old friend.",
-      "Feeling tired, she went to bed early.",
-      "Broken into pieces, the vase was useless."
+      "He admitted stealing the money.",
+      "She suggested leaving early.",
+      "They promised to help."
     ],
     "mistakes": [
-      "分词逻辑主语与主句不一致",
-      "误用 having + 过去分词"
+      "admit 后接 to do",
+      "deny 后接 to do"
     ],
-    "compare": "分词短语 vs. 完整从句：更简洁，但需主语一致。",
-    "id": "8ddb8b20-99a5-430d-b0d7-8176a8f8b9e2",
+    "compare": "admit/deny + doing；promise/agree/offer/refuse + to do。",
+    "id": "d6b72da1-40f4-43bd-b67b-9082b8a4ccc2",
     "level": "B2"
   },
   {
-    "grammar": "Causative: have/get something done",
-    "meaning": "使役结构 have/get sth done",
-    "usage": "have/get + 宾语 + 过去分词。表让别人做某事。",
+    "grammar": "Reporting verbs with that-clause",
+    "meaning": "that 从句转述动词",
+    "usage": "argue, claim, deny, insist, suggest, recommend 等 + that 从句。",
     "examples": [
-      "I had my hair cut.",
-      "We need to get the car repaired.",
-      "She got the report translated."
+      "He insisted that we leave early.",
+      "She suggested that he (should) see a doctor.",
+      "They claimed that they had finished."
     ],
     "mistakes": [
-      "have sth done 与 have done 混淆",
-      "get 后接动词原形"
+      "insist 后接 to do",
+      "suggest 后接 that 从句用 should 时误以为必须"
     ],
-    "compare": "have sth done 表他人完成，do sth oneself 表亲自做。",
-    "id": "1c1c127c-3886-4650-a302-fa6ae0d699a9",
+    "compare": "suggest/insist/propose 后的 that 从句常用虚拟语气。",
+    "id": "b9eedc6d-f744-46ca-8c97-9a06f87163c5",
     "level": "B2"
   },
   {
-    "grammar": "Emphasis: cleft sentences",
-    "meaning": "强调句 It is/was ... that/who",
-    "usage": "It is/was + 被强调部分 + that/who + 句子其余部分。",
+    "grammar": "Reporting verbs with gerund/infinitive",
+    "meaning": "转述动词搭配",
+    "usage": "不同转述动词后接 doing 或 to do。",
     "examples": [
-      "It was John who broke the window.",
-      "It was yesterday that I saw her.",
-      "It is in Paris that they met."
+      "He agreed to help.",
+      "She admitted making a mistake.",
+      "They refused to answer."
     ],
     "mistakes": [
-      "强调句用 when/where 替代 that（非正式可接受，但标准用 that）",
-      "被强调部分位置错误"
+      "admit 后接 to do",
+      "deny 后接 to do"
     ],
-    "compare": "强调句 vs. 普通句：强调句突出某一成分。",
-    "id": "40f866cb-e73a-4634-b023-ae2cc4ba51a9",
+    "compare": "deny + doing；threaten + to do。",
+    "id": "1bb48b0e-5d08-412e-9fb7-70f24353f0b0",
     "level": "B2"
   },
   {
-    "grammar": "Inversion",
-    "meaning": "倒装",
-    "usage": "否定副词开头或 only + 状语开头时部分倒装：助动词提前。",
+    "grammar": "Reported speech: time and place changes",
+    "meaning": "间接引语时态/时间/地点变化",
+    "usage": "now→then, today→that day, here→there, this→that, tomorrow→the next day。",
     "examples": [
-      "Never have I seen such a beautiful sight.",
-      "Only when I arrived did I understand.",
-      "Hardly had I left when it started raining."
+      "'I'm busy now,' she said. → She said she was busy then.",
+      "'I'll see you tomorrow,' he said. → He said he would see me the next day."
     ],
     "mistakes": [
-      "倒装时未提前助动词",
-      "非否定副词开头也倒装"
+      "间接引语中保留 now/today",
+      "时间地点变化不完整"
     ],
-    "compare": "倒装 vs. 正常语序：倒装强调或正式。",
-    "id": "01969def-692e-4060-90a5-2fe3f3b5fa51",
+    "compare": "间接引语需根据语境调整时间和指示词。",
+    "id": "14e85c42-101d-4987-a0d8-889636f68492",
     "level": "B2"
   },
   {
-    "grammar": "Subjunctive mood",
-    "meaning": "虚拟语气",
-    "usage": "表示建议、要求、命令的从句中用 (should) + 动词原形。常见于 suggest, insist, recommend, demand。",
+    "grammar": "Reported speech: reporting questions accurately",
+    "meaning": "间接疑问句准确转述",
+    "usage": "注意 if/whether, 疑问词, 语序和时态变化。",
     "examples": [
-      "I suggest that he (should) go early.",
-      "It is important that she be informed.",
-      "They demanded that he leave."
+      "'Are you coming?' he asked. → He asked if I was coming.",
+      "'Where do you live?' she asked. → She asked where I lived."
     ],
     "mistakes": [
-      "从句中用真实时态（*I suggest that he goes* 美式可接受，但正式用 should go / go）",
-      "should 后加 to"
+      "间接疑问句仍用疑问语序",
+      "if/whether 使用不当"
     ],
-    "compare": "英式常用 should do，美式常直接用动词原形。",
-    "id": "e2202b3a-69eb-47c0-8b2d-d6321018fc13",
+    "compare": "yes/no 问句用 if/whether；wh-问句用 wh-词。",
+    "id": "8b0a2b72-e1d4-467d-9b8a-5088c91d1758",
     "level": "B2"
   },
   {
-    "grammar": "Future continuous",
-    "meaning": "将来进行时",
-    "usage": "will be + V-ing。表将来某时正在进行的动作。",
+    "grammar": "Relative clauses: advanced",
+    "meaning": "定语从句进阶",
+    "usage": "介词 + whom/which, 非限定, 省略关系词, 分裂句。",
     "examples": [
-      "This time tomorrow, I'll be flying to Paris.",
-      "At 8 pm, she will be cooking dinner.",
-      "They will be waiting for us."
+      "The man about whom I told you is here.",
+      "The reason why he left is unclear.",
+      "The book (that) I bought is good."
     ],
     "mistakes": [
-      "will be 后接动词原形",
-      "与将来完成时混淆"
+      "介词前置时用 that",
+      "which 指人"
     ],
-    "compare": "将来进行时 vs. will do：将来某时正在 vs. 将来发生。",
-    "id": "763c0f69-9962-41cb-acdd-9c4a87f26170",
+    "compare": "介词前置时不用 that。",
+    "id": "07b3753d-a3ae-44fa-b718-dc9f1db8f170",
     "level": "B2"
   },
   {
-    "grammar": "Future perfect",
-    "meaning": "将来完成时",
-    "usage": "will have + 过去分词。表将来某时之前完成的动作。",
+    "grammar": "Relative clauses: which referring to a clause",
+    "meaning": "which 指代整个句子",
+    "usage": "which 可引导非限定从句指代前面整个句子。",
     "examples": [
-      "By next year, I will have graduated.",
-      "She will have finished by 6 pm.",
-      "They will have left before you arrive."
+      "He failed the exam, which surprised me.",
+      "She arrived late, which annoyed the boss.",
+      "He helped me, which I appreciated."
     ],
     "mistakes": [
-      "will have 后接动词原形",
-      "时间状语用 since 而非 by"
+      "which 指代句子时误用 that",
+      "which 指代句子时用 it 重复"
     ],
-    "compare": "将来完成时 vs. 将来完成进行时：是否强调持续。",
-    "id": "6017f120-2af2-49ff-b43d-da2e4c8536e9",
+    "compare": "which 在此相当于 and that。",
+    "id": "78182d29-e0d5-41fd-b299-9a670c61c8e4",
     "level": "B2"
   },
   {
-    "grammar": "Ellipsis",
-    "meaning": "省略",
-    "usage": "避免重复，省略已知部分。常见于比较、回答、并列句。",
+    "grammar": "Nominal relative clauses",
+    "meaning": "名词性关系从句",
+    "usage": "what, whatever, whoever, wherever 等 = the thing that, the person who, the place where。",
     "examples": [
-      "I like tea, but she prefers coffee. (省略 likes)",
-      "He can run faster than I can. (省略 run)",
-      "Yes, I will. (省略 come)"
+      "What he said was true.",
+      "Whoever wins will be famous.",
+      "I'll do whatever you suggest."
     ],
     "mistakes": [
-      "省略导致句子不完整或歧义",
-      "比较结构中省略 than I do 的 do"
+      "what 与 that 混淆",
+      "whoever 与 anyone who 混淆"
     ],
-    "compare": "省略 vs. 完整句：口语更常省略。",
-    "id": "df758ea0-8486-4710-b305-f4de024edd7e",
+    "compare": "what = the thing(s) that；whoever = anyone who。",
+    "id": "e3b84a08-b862-4ce4-81a6-0fb03e5a5426",
+    "level": "B2"
+  },
+  {
+    "grammar": "Reduced relative clauses: advanced",
+    "meaning": "简化定语从句进阶",
+    "usage": "用现在分词、过去分词、形容词短语、介词短语简化。",
+    "examples": [
+      "The man standing by the door is my teacher.",
+      "The book written in 1990 is famous.",
+      "Anyone interested should apply."
+    ],
+    "mistakes": [
+      "简化后关系代词未省略",
+      "分词与主语逻辑不一致"
+    ],
+    "compare": "主动 doing，被动 done。",
+    "id": "375d3897-8761-407a-8d53-40931d719784",
+    "level": "B2"
+  },
+  {
+    "grammar": "Participle clauses: advanced",
+    "meaning": "分词短语进阶",
+    "usage": "分词短语表时间、原因、条件、让步、结果，注意逻辑主语。",
+    "examples": [
+      "Having finished, I went home. (时间)",
+      "Seen from the hill, the city is beautiful. (条件)",
+      "Not knowing the answer, I guessed. (原因)"
+    ],
+    "mistakes": [
+      "分词短语逻辑主语与主句不一致",
+      "having been 后接过去分词错误"
+    ],
+    "compare": "Having + 过去分词表先于主句动作。",
+    "id": "0dfc67fd-88c9-451c-ae13-456ff45e351d",
+    "level": "B2"
+  },
+  {
+    "grammar": "Gerund and infinitive: advanced contrasts",
+    "meaning": "动名词与不定式进阶对比",
+    "usage": "remember, forget, stop, try, regret, mean, go on, can't help, can't stand。",
+    "examples": [
+      "I tried to open the door. (尽力)",
+      "I tried opening the door. (尝试方法)",
+      "I regret telling him. (后悔做过)",
+      "I regret to tell you. (遗憾地告知)"
+    ],
+    "mistakes": [
+      "try to do 与 try doing 混淆",
+      "regret to do 与 doing 混淆"
+    ],
+    "compare": "try to do 尽力；try doing 尝试；regret doing 后悔做过；regret to do 遗憾告知。",
+    "id": "ab9cd3f4-59b2-4642-b458-754f49f0613a",
+    "level": "B2"
+  },
+  {
+    "grammar": "Complex gerund phrases",
+    "meaning": "复杂动名词短语",
+    "usage": "动名词带逻辑主语、宾语、状语。",
+    "examples": [
+      "His arriving late annoyed us.",
+      "I don't mind your using my car.",
+      "There's no point in waiting."
+    ],
+    "mistakes": [
+      "动名词前逻辑主语用主格（应为所有格/宾格）",
+      "no point 后接 to do"
+    ],
+    "compare": "There's no point in doing。",
+    "id": "50430653-2c5b-4470-987b-ae4415eb72ce",
+    "level": "B2"
+  },
+  {
+    "grammar": "Infinitive of result",
+    "meaning": "结果不定式",
+    "usage": "only to + 动词，表意外结果。",
+    "examples": [
+      "He rushed to the station, only to find the train had gone.",
+      "She opened the door, only to see a stranger.",
+      "I arrived, only to be told to leave."
+    ],
+    "mistakes": [
+      "only to 后接动词原形（正确）但意义误用",
+      "only to 与 in order to 混淆"
+    ],
+    "compare": "only to 表意外或令人失望的结果。",
+    "id": "ffae6f89-67af-42d1-b1e6-8d18b5a12aef",
+    "level": "B2"
+  },
+  {
+    "grammar": "Bare infinitive after verbs of perception",
+    "meaning": "感官动词后不定式",
+    "usage": "see/hear/watch/feel/notice + 宾语 + 动词原形/doing。",
+    "examples": [
+      "I saw him leave.",
+      "I heard her singing.",
+      "I watched them play."
+    ],
+    "mistakes": [
+      "感官动词后接 to do",
+      "原形与 doing 意义不分"
+    ],
+    "compare": "see sb do 全过程；see sb doing 片段。",
+    "id": "671a61b4-8b6e-445a-8d17-61afd1a2ea2e",
+    "level": "B2"
+  },
+  {
+    "grammar": "Subjunctive in formal contexts",
+    "meaning": "正式场合虚拟语气",
+    "usage": "demand, insist, suggest, recommend, propose, essential, important, necessary 后。",
+    "examples": [
+      "It is essential that he be informed.",
+      "They demanded that he leave.",
+      "The judge recommended that he serve time."
+    ],
+    "mistakes": [
+      "should 省略误以为是错",
+      "demand 后接 to do"
+    ],
+    "compare": "be 型虚拟语气中动词用原形，should 可省略。",
+    "id": "536e2525-be97-42ba-82a7-40f21282a22b",
+    "level": "B2"
+  },
+  {
+    "grammar": "Inversion in conditionals",
+    "meaning": "条件句倒装",
+    "usage": "Had I known, Were I you, Should you need 等省略 if 的倒装。",
+    "examples": [
+      "Had I known, I would have come.",
+      "Were I you, I'd accept.",
+      "Should you need help, call us."
+    ],
+    "mistakes": [
+      "倒装时动词形式错误",
+      "Had I known 写成 If I had known 后未倒装"
+    ],
+    "compare": "Had/Were/Should + 主语 + 动词。",
+    "id": "963ce24f-1aef-49ef-8931-05e27bf8cde8",
+    "level": "B2"
+  },
+  {
+    "grammar": "Inversion after negative expressions",
+    "meaning": "否定表达倒装",
+    "usage": "not only, never, seldom, hardly, scarcely, no sooner, under no circumstances, at no time。",
+    "examples": [
+      "Not only did he win, but he also broke the record.",
+      "Under no circumstances should you give up.",
+      "Hardly had I sat down when the phone rang."
+    ],
+    "mistakes": [
+      "倒装部分与 but also 部分助动词不一致",
+      "under no circumstances 后未倒装"
+    ],
+    "compare": "not only...but also 前后结构尽量平行。",
+    "id": "bfd6f4fe-ef75-4880-96c9-594137a69ce3",
+    "level": "B2"
+  },
+  {
+    "grammar": "Emphasis: fronting",
+    "meaning": "前置强调",
+    "usage": "将宾语、状语、表语前置到句首以强调。",
+    "examples": [
+      "What I need is a holiday.",
+      "On the table stood a vase.",
+      "Rarely have I seen such beauty."
+    ],
+    "mistakes": [
+      "前置后未倒装（部分需倒装）",
+      "what 引导从句语序错误"
+    ],
+    "compare": "what-引导的前置强调主语从句。",
+    "id": "c21b5812-aa63-4620-a861-938c10d74a92",
+    "level": "B2"
+  },
+  {
+    "grammar": "Emphasis: adding emphasis with auxiliary verbs",
+    "meaning": "助动词强调",
+    "usage": "do/does/did + 动词原形，或重复助动词表强调。",
+    "examples": [
+      "I do like him.",
+      "She did finish it.",
+      "He said he would come, and come he did."
+    ],
+    "mistakes": [
+      "强调时动词加 -s",
+      "do 后接动词未用原形"
+    ],
+    "compare": "Do/Does/Did + 动词原形。",
+    "id": "85a4c6ca-cfd8-4bfd-a73d-8f2faf54ed41",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of reason: advanced",
+    "meaning": "原因状语从句进阶",
+    "usage": "in that, now that, seeing that, given that, on the grounds that。",
+    "examples": [
+      "Now that you're here, we can start.",
+      "Given that it's raining, let's stay home.",
+      "I like him in that he is honest."
+    ],
+    "mistakes": [
+      "now that 与 now 混淆",
+      "given that 后接 will"
+    ],
+    "compare": "now that 表既然。",
+    "id": "0fd83f79-0411-4f68-9a6a-12058751ad38",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of result: advanced",
+    "meaning": "结果状语从句进阶",
+    "usage": "so/such...that, with the result that, to the extent that。",
+    "examples": [
+      "So fast did he run that he won.",
+      "Such was his anger that he left.",
+      "He studied hard, with the result that he passed."
+    ],
+    "mistakes": [
+      "so 引导倒装时结构错误",
+      "with the result that 后接 will 时态错误"
+    ],
+    "compare": "with the result that 后接正常时态。",
+    "id": "c65d9474-89e1-4cbb-9048-abcd866f833b",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of purpose: advanced",
+    "meaning": "目的状语从句进阶",
+    "usage": "lest, for fear that, in case, in order that, so that。",
+    "examples": [
+      "He ran lest he be late.",
+      "She spoke slowly so that everyone could hear.",
+      "Take an umbrella in case it rains."
+    ],
+    "mistakes": [
+      "lest 后接 should 或动词原形",
+      "in order that 与 in order to 混淆"
+    ],
+    "compare": "in order that + 从句；in order to + 动词。",
+    "id": "dbcb4e67-3fcf-4989-b273-539c0ec64a72",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of concession: advanced",
+    "meaning": "让步状语从句进阶",
+    "usage": "much as, while, whereas, even if, even though, no matter how/what。",
+    "examples": [
+      "Much as I like him, I can't trust him.",
+      "No matter what you say, I won't go.",
+      "Even if it rains, we'll go."
+    ],
+    "mistakes": [
+      "much as 位置错误",
+      "no matter what 后接疑问语序"
+    ],
+    "compare": "no matter + wh-word + 陈述语序。",
+    "id": "f030f93e-f127-4f95-9ec0-a98d868e0be1",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of time: advanced",
+    "meaning": "时间状语从句进阶",
+    "usage": "the minute/moment/instant, every time, by the time, no sooner...than, hardly...when。",
+    "examples": [
+      "The moment I saw him, I knew.",
+      "Every time I see her, she smiles.",
+      "No sooner had I arrived than it rained."
+    ],
+    "mistakes": [
+      "no sooner 后接 than 与 when 混淆",
+      "the moment 后接 will"
+    ],
+    "compare": "no sooner...than；hardly...when。",
+    "id": "a2805ebf-7ce5-479f-90f4-9a3397268aa9",
+    "level": "B2"
+  },
+  {
+    "grammar": "Clauses of manner: as / as though / as if",
+    "meaning": "方式状语从句进阶",
+    "usage": "as if/as though 后接过去式/过去完成式表虚拟，或正常时态表可能。",
+    "examples": [
+      "He treats me as if I were a child.",
+      "It looks as if it's going to rain.",
+      "Do as I do."
+    ],
+    "mistakes": [
+      "as if 后接 will 表虚拟",
+      "as if 与 like 正式文体混用"
+    ],
+    "compare": "as if 后可接真实或虚拟。",
+    "id": "6cde9661-e984-422a-8d1a-27b85b21fc8e",
+    "level": "B2"
+  },
+  {
+    "grammar": "Noun clauses: advanced",
+    "meaning": "名词性从句进阶",
+    "usage": "the fact that, what, whether, whatever, whoever, wherever, whenever, whichever。",
+    "examples": [
+      "The fact that he lied surprised me.",
+      "I believe whatever you say.",
+      "Whoever comes is welcome."
+    ],
+    "mistakes": [
+      "the fact that 与 that 完全等同",
+      "whoever 引导从句用疑问语序"
+    ],
+    "compare": "the fact that 使句子更正式。",
+    "id": "ecdf3cea-87a2-48ae-9736-3488616bf2b5",
+    "level": "B2"
+  },
+  {
+    "grammar": "Exclamations with what / how",
+    "meaning": "what / how 感叹句",
+    "usage": "What + (a/an) + adj + noun！How + adj/adv！",
+    "examples": [
+      "What a beautiful day!",
+      "How kind you are!",
+      "What nonsense!"
+    ],
+    "mistakes": [
+      "how 后接名词（应为 what）",
+      "what 后接 adj + 副词"
+    ],
+    "compare": "what + 名词；how + 形容词/副词。",
+    "id": "9a7d94bc-a6cd-471a-8498-feb55714b9ea",
+    "level": "B2"
+  },
+  {
+    "grammar": "Conditional sentences: review",
+    "meaning": "条件句复习",
+    "usage": "零/一/二/三/混合条件句总结。",
+    "examples": [
+      "If you heat water, it boils. (零)",
+      "If I were you, I'd go. (二)",
+      "If I had known, I would have gone. (三)"
+    ],
+    "mistakes": [
+      "条件句类型混淆",
+      "if 从句用 will"
+    ],
+    "compare": "零条件：真实/科学；一条件：可能；二条件：虚拟；三条件：过去虚拟。",
+    "id": "7254d8f5-b3a3-49fc-8345-eb0772d30cce",
+    "level": "B2"
+  },
+  {
+    "grammar": "Unreal past: It's time, would rather, wish, if only",
+    "meaning": "非真实过去",
+    "usage": "It's time, would rather, wish, if only 后接过去式表现在非真实。",
+    "examples": [
+      "It's time you left.",
+      "I'd rather you didn't smoke.",
+      "I wish I knew."
+    ],
+    "mistakes": [
+      "It's time 后接 to leave（表真实）与 left（表建议）混淆",
+      "would rather 后接 you + 现在时"
+    ],
+    "compare": "这些结构后接过去式常表建议/遗憾。",
+    "id": "df7d994b-50aa-43e8-aa90-038573f3ea3f",
+    "level": "B2"
+  },
+  {
+    "grammar": "Complex passive constructions",
+    "meaning": "复杂被动结构",
+    "usage": "be believed to be, be said to have done, be reported to be doing。",
+    "examples": [
+      "He is believed to be abroad.",
+      "She is said to have left.",
+      "They are reported to be negotiating."
+    ],
+    "mistakes": [
+      "be said to 后接动词原形表现在正在",
+      "be believed to 后接 doing"
+    ],
+    "compare": "be believed/said/reported to do/have done/be doing。",
+    "id": "e666bee1-ce33-4a20-a828-276f93fd18fc",
+    "level": "B2"
+  },
+  {
+    "grammar": "Causative and permissive: make/let/allow/permit/enable",
+    "meaning": "使役与许可",
+    "usage": "make/let + 宾语 + 原形；allow/permit/enable + 宾语 + to do。",
+    "examples": [
+      "He made me laugh.",
+      "She let me go.",
+      "They allowed us to enter."
+    ],
+    "mistakes": [
+      "allow 后接原形",
+      "make 后接 to do"
+    ],
+    "compare": "make/let 后接不带 to 的不定式。",
+    "id": "e9427cfa-c699-4a21-8447-be075cae39c4",
+    "level": "B2"
+  },
+  {
+    "grammar": "Articles: advanced and idiomatic",
+    "meaning": "冠词进阶与习惯用法",
+    "usage": "固定搭配、抽象名词、机构名称、乐器、朝代、发明等。",
+    "examples": [
+      "play the piano",
+      "the Internet",
+      "the rich, the poor",
+      "the Renaissance",
+      "the wheel"
+    ],
+    "mistakes": [
+      "乐器前漏 the",
+      "抽象名词前随意加 the"
+    ],
+    "compare": "the + 形容词 表一类人。",
+    "id": "50356075-52ad-4201-a6e0-0965e82df6ec",
+    "level": "B2"
+  },
+  {
+    "grammar": "Articles: zero article in set phrases",
+    "meaning": "零冠词固定搭配",
+    "usage": "go to school, at home, by bus, on foot, in bed, at work, at school, in prison/hospital。",
+    "examples": [
+      "at home",
+      "by car",
+      "in hospital",
+      "at work"
+    ],
+    "mistakes": [
+      "所有地点建筑前都加 the",
+      "by bus 与 by the bus 混淆"
+    ],
+    "compare": "零冠词常表抽象功能或固定搭配。",
+    "id": "a420d450-37f6-41dd-b1fe-7b3d995eee42",
+    "level": "B2"
+  },
+  {
+    "grammar": "Determiners and quantifiers: subtle distinctions",
+    "meaning": "限定词与量词细微区别",
+    "usage": "few/a few, little/a little, several, a number of, the number of, a great deal of。",
+    "examples": [
+      "Several people came.",
+      "A number of students were absent.",
+      "The number of students is increasing."
+    ],
+    "mistakes": [
+      "a number of 与 the number of 后接动词数不一致",
+      "a great deal of 后接可数名词"
+    ],
+    "compare": "a number of + 复数动词；the number of + 单数动词。",
+    "id": "a973a001-4416-4633-b10b-11b34eb53912",
+    "level": "B2"
+  },
+  {
+    "grammar": "Pronouns: ambiguity and clarity",
+    "meaning": "代词歧义与清晰",
+    "usage": "they, it, one, this, that 的明确指代。",
+    "examples": [
+      "The government changed its policy. (not their)",
+      "If you need a pen, I can lend you one.",
+      "This is what I meant."
+    ],
+    "mistakes": [
+      "they 指代单数名词",
+      "it 指代不清"
+    ],
+    "compare": "they 作单数代词在非正式场合可接受。",
+    "id": "04a700d3-88fe-4af3-b381-ae9e36e7a132",
+    "level": "B2"
+  },
+  {
+    "grammar": "Reflexive pronouns: emphasis",
+    "meaning": "反身代词强调",
+    "usage": "反身代词作主语同位语或强调。",
+    "examples": [
+      "I myself will do it.",
+      "The manager himself served us.",
+      "She wrote the letter herself."
+    ],
+    "mistakes": [
+      "himself 放主语前位置错误",
+      "反身代词用于无宾语动词"
+    ],
+    "compare": "myself 放主语后或句末表强调。",
+    "id": "e4668c61-242a-4f2e-8781-c12d4bb96515",
+    "level": "B2"
+  },
+  {
+    "grammar": "Reciprocal pronouns",
+    "meaning": "相互代词",
+    "usage": "each other 两者之间；one another 三者及以上。",
+    "examples": [
+      "They love each other.",
+      "The team members help one another.",
+      "We know each other well."
+    ],
+    "mistakes": [
+      "each other 用于三者及以上",
+      "each other 与 one another 在现代英语中常混用"
+    ],
+    "compare": "现代英语中两者常可互换。",
+    "id": "41c0b3d9-5512-4e75-a1c5-3f0a88096e51",
+    "level": "B2"
+  },
+  {
+    "grammar": "Possessives: apostrophe s vs. of",
+    "meaning": "所有格",
+    "usage": "'s 用于有生命/时间/国家；of 用于无生命/较长名词短语。",
+    "examples": [
+      "the dog's tail",
+      "today's news",
+      "the leg of the table",
+      "a friend of mine"
+    ],
+    "mistakes": [
+      "有生命物用 of 表所有（可用但 's 更常见）",
+      "双重所有格错误"
+    ],
+    "compare": "a friend of mine 是双重所有格。",
+    "id": "77484b83-48a0-422a-9a4e-be412da1500a",
+    "level": "B2"
+  },
+  {
+    "grammar": "Word order: advanced",
+    "meaning": "词序进阶",
+    "usage": "副词位置、宾语从句、强调、倒装对词序的影响。",
+    "examples": [
+      "Seldom have I seen such talent.",
+      "What I really need is rest.",
+      "He speaks English very fluently."
+    ],
+    "mistakes": [
+      "倒装后语序错误",
+      "very 修饰副词位置错误"
+    ],
+    "compare": "very 修饰副词时放在副词前。",
+    "id": "044ff1c5-fb9a-4a8e-933b-dd9c1ed5e39d",
+    "level": "B2"
+  },
+  {
+    "grammar": "Ellipsis and substitution: advanced",
+    "meaning": "省略与替代进阶",
+    "usage": "省略和替代在避免重复时的灵活运用。",
+    "examples": [
+      "I wanted to go, but he didn't.",
+      "So do I.",
+      "I hope so."
+    ],
+    "mistakes": [
+      "省略后助动词与主语不一致",
+      "so 替代从句时结构错误"
+    ],
+    "compare": "I think so / I hope so / I'm afraid so。",
+    "id": "9d272eb3-e4d9-4250-bab2-272fd6099a70",
     "level": "B2"
   },
   {
     "grammar": "Discourse markers",
-    "meaning": "语篇标记词",
-    "usage": "however, therefore, furthermore, on the other hand, nevertheless 等连接观点。",
+    "meaning": "话语标记语",
+    "usage": "well, you know, I mean, actually, basically, frankly, honestly, obviously。",
     "examples": [
-      "It was raining. However, we went out.",
-      "She's smart. Therefore, she got the job.",
-      "On the other hand, it's too expensive."
+      "Well, I don't know.",
+      "Frankly, I think it's a bad idea.",
+      "Obviously, we need more time."
     ],
     "mistakes": [
-      "however 与 but 连用（*But however*）",
-      "however 后逗号位置错误"
+      "正式写作中过度使用话语标记语",
+      "话语标记语改变句子基本语法结构"
     ],
-    "compare": "however 较正式，but 更口语。",
-    "id": "48e45def-9351-40ad-a6fd-3147e033ee28",
+    "compare": "话语标记语用于口语，正式写作中少用。",
+    "id": "2a9afbf8-5604-4b98-8959-3e083fe05a13",
+    "level": "B2"
+  },
+  {
+    "grammar": "Hedging language",
+    "meaning": "模糊限定语",
+    "usage": "perhaps, probably, might, seem, appear, tend to, in some cases, to some extent。",
+    "examples": [
+      "This seems to be the case.",
+      "In some cases, the results may vary.",
+      "It might be argued that..."
+    ],
+    "mistakes": [
+      "hedging 与明确断言混用导致语气不当",
+      "过度使用 hedging 使句子无力"
+    ],
+    "compare": "学术论文中常用 hedging 避免绝对化。",
+    "id": "abef48ca-edb5-4d11-a00a-205076130afc",
+    "level": "B2"
+  },
+  {
+    "grammar": "Formal and informal registers",
+    "meaning": "语域",
+    "usage": "正式：无缩写、被动、名词化；非正式：缩写、口语、主动。",
+    "examples": [
+      "Formal: The meeting was cancelled.",
+      "Informal: They cancelled the meeting.",
+      "Formal: We regret to inform you..."
+    ],
+    "mistakes": [
+      "正式文体用过多口语表达",
+      "非正式文体用过于正式句式"
+    ],
+    "compare": "根据受众和文体选择语域。",
+    "id": "6e4b5f11-f5eb-45ba-b039-198aebc22fce",
+    "level": "B2"
+  },
+  {
+    "grammar": "Academic writing: hedging, nominalization, passives",
+    "meaning": "学术写作",
+    "usage": "名词化、被动语态、 hedging 使语气客观。",
+    "examples": [
+      "An increase in sales was observed.",
+      "It is widely accepted that...",
+      "There is evidence to suggest that..."
+    ],
+    "mistakes": [
+      "学术写作中滥用第一人称",
+      "过度使用被动使句子生硬"
+    ],
+    "compare": "学术写作常用 There is/are... 和 It is... that...。",
+    "id": "3036a70a-9ca4-4092-a49c-f6ddb8e03b39",
+    "level": "B2"
+  },
+  {
+    "grammar": "Cohesion and coherence",
+    "meaning": "衔接与连贯",
+    "usage": "使用代词、同义词、连接词、重复和省略实现连贯。",
+    "examples": [
+      "The proposal has several advantages. Firstly, it is cost-effective. Secondly, it is easy to implement. Finally, it is environmentally friendly."
+    ],
+    "mistakes": [
+      "代词指代不明",
+      "段落间缺乏过渡"
+    ],
+    "compare": "好文章需要清晰的衔接手段。",
+    "id": "d1f5b43d-bc7d-4eb2-9f62-9e081251fcc9",
+    "level": "B2"
+  },
+  {
+    "grammar": "Writing: essays, reports, reviews, letters",
+    "meaning": "写作体裁",
+    "usage": "essay, report, review, formal/informal letter 的不同结构和语言。",
+    "examples": [
+      "Essay: introduction, body paragraphs, conclusion",
+      "Report: headings, bullet points, formal language",
+      "Review: opinion, recommendation, descriptive language"
+    ],
+    "mistakes": [
+      "report 用过多叙事",
+      "review 缺少推荐"
+    ],
+    "compare": "不同体裁需匹配相应结构和语域。",
+    "id": "0bcaa702-44d4-40fb-8bd5-942dcd2dbe98",
+    "level": "B2"
+  },
+  {
+    "grammar": "Describing graphs and charts",
+    "meaning": "描述图表",
+    "usage": "趋势、比较、数据、结论的常用表达。",
+    "examples": [
+      "The number of people rose steadily.",
+      "There was a sharp increase in sales.",
+      "In conclusion, the data shows a clear trend."
+    ],
+    "mistakes": [
+      "rise 与 raise 混淆",
+      "形容词与副词在描述中混淆"
+    ],
+    "compare": "rise 不及物，raise 及物。",
+    "id": "e0dcec97-969e-4c66-beb6-e1ea8fe6a1e1",
+    "level": "B2"
+  },
+  {
+    "grammar": "Expressing cause and effect accurately",
+    "meaning": "准确表达因果",
+    "usage": "cause, lead to, result in, bring about, contribute to, be responsible for, stem from, arise from。",
+    "examples": [
+      "The storm caused widespread damage.",
+      "Smoking can lead to serious illness.",
+      "The problem stems from a misunderstanding."
+    ],
+    "mistakes": [
+      "cause 与 reason 混用",
+      "lead to 后接 to do"
+    ],
+    "compare": "cause + 名词；result in + 结果；stem from + 原因。",
+    "id": "cd6c09b2-2b72-4a1a-8d23-d6ac5c581406",
+    "level": "B2"
+  },
+  {
+    "grammar": "Speculating and predicting",
+    "meaning": "推测与预测",
+    "usage": "might, could, may, is likely to, is bound to, is unlikely to, will probably。",
+    "examples": [
+      "It might rain tomorrow.",
+      "The economy is likely to improve.",
+      "He is bound to win."
+    ],
+    "mistakes": [
+      "is bound to 与 maybe 混用",
+      "likely 后接 to do 与 of 混淆"
+    ],
+    "compare": "be likely to do；be bound to do。",
+    "id": "af3270fd-6e53-4d3f-a06e-b832048bb975",
     "level": "B2"
   }
 ]

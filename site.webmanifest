@@ -2,7 +2,7 @@
   "name": "English 英语学习",
   "short_name": "English学习",
   "description": "English 英语词汇与语法学习，支持 C1-A1 全等级测试练习",
-  "start_url": "/jlpt-study/index.html",
+  "start_url": "/english-study/index.html",
   "display": "standalone",
   "background_color": "#f5f7fa",
   "theme_color": "#667eea",
