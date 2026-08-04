@@ -1,0 +1,258 @@
+[
+  {
+    "grammar": "Subjunctive in conditionals",
+    "meaning": "虚拟条件句中的倒装与省略",
+    "usage": "Were I you... / Had I known... / Should you need... 省略 if 的倒装形式。",
+    "examples": [
+      "Were I you, I would accept.",
+      "Had I known, I would have come.",
+      "Should you need help, call me."
+    ],
+    "mistakes": [
+      "倒装时未恢复助动词",
+      "与一般疑问句结构混淆"
+    ],
+    "compare": "正式倒装 vs. 普通 if 句：更正式、书面。",
+    "id": "81caffee-779b-4ffa-9875-ad9fb3564a09",
+    "level": "C1"
+  },
+  {
+    "grammar": "Advanced passive and impersonal constructions",
+    "meaning": "高级被动与无人称结构",
+    "usage": "It is believed/said/claimed that...；sb is believed to be...；there is said to be...",
+    "examples": [
+      "It is believed that the suspect has left.",
+      "He is said to be rich.",
+      "There is expected to be heavy rain."
+    ],
+    "mistakes": [
+      "is believed to be 后接从句而非不定式",
+      "there is said 结构错误"
+    ],
+    "compare": "It is said that... vs. Sb is said to...：两种表达可互换。",
+    "id": "24178c85-9b97-47ca-8310-dfa434c5b263",
+    "level": "C1"
+  },
+  {
+    "grammar": "Emphasis and fronting",
+    "meaning": "强调与前置",
+    "usage": "将状语或宾语提前以强调，常配合倒装。",
+    "examples": [
+      "On the table stood a vase.",
+      "What I need is a break.",
+      "Into the room walked the president."
+    ],
+    "mistakes": [
+      "前置后未保持主谓一致",
+      "随意前置导致不自然"
+    ],
+    "compare": "前置 vs. 强调句：前置突出位置/成分，强调句突出主语/宾语/时间。",
+    "id": "2a14435a-9186-490a-90e3-7a07b716ab46",
+    "level": "C1"
+  },
+  {
+    "grammar": "Modals in the past: should have, could have, might have",
+    "meaning": "情态动词 + have done",
+    "usage": "should have done 本应该；could have done 本可以；might have done 也许已经；needn't have done 本不必。",
+    "examples": [
+      "You should have told me.",
+      "I could have been a doctor.",
+      "She might have forgotten."
+    ],
+    "mistakes": [
+      "should have 后接动词原形",
+      "could have 与 could has 混淆"
+    ],
+    "compare": "should have done 表过去责备，could have done 表过去可能性。",
+    "id": "26802ccd-58bb-44de-ab15-b672f08ef4ec",
+    "level": "C1"
+  },
+  {
+    "grammar": "Distinguishing shades of meaning: might/could/should/ought to",
+    "meaning": "情态动词细微差别",
+    "usage": "might 推测最弱；could 表可能/能力；should 表合理预期；ought to 更强调道义。",
+    "examples": [
+      "It might rain. (也许)",
+      "It could rain. (可能)",
+      "It should be fine. (按理应)",
+      "You ought to apologize. (道义上)"
+    ],
+    "mistakes": [
+      "should 与 ought to 后接 to 混淆（should 无 to，ought to 有 to）",
+      "用 must 表推测时忽略证据强度"
+    ],
+    "compare": "should 与 ought to 基本同义，但 ought to 更正式、更道德化。",
+    "id": "3a1e22e3-6e3a-4f63-a363-9057ee80e1bb",
+    "level": "C1"
+  },
+  {
+    "grammar": "Nominalisation",
+    "meaning": "名词化",
+    "usage": "将动词/形容词转化为名词，使表达更客观、简洁。",
+    "examples": [
+      "The destruction of the building was quick. (destroy -> destruction)",
+      "There is a need for improvement. (improve -> improvement)",
+      "His refusal surprised us. (refuse -> refusal)"
+    ],
+    "mistakes": [
+      "名词化与原动词形式混用",
+      "冠词与名词化搭配错误"
+    ],
+    "compare": "名词化 vs. 动词结构：名词化更正式、学术。",
+    "id": "00c1308c-f537-44c8-a472-73ac117d04a0",
+    "level": "C1"
+  },
+  {
+    "grammar": "Complex sentence connectors",
+    "meaning": "复杂句连接词",
+    "usage": "whereas, while, albeit, notwithstanding, inasmuch as, provided that, on condition that。",
+    "examples": [
+      "Whereas he is talented, he lacks discipline.",
+      "I'll help you provided that you help me.",
+      "Notwithstanding the rain, we went out."
+    ],
+    "mistakes": [
+      "whereas 与 while 后逗号缺失",
+      "provided that 与 providing 用法混淆"
+    ],
+    "compare": "provided that 表条件，whereas 表对比。",
+    "id": "dfbdc46a-da23-44ef-b257-d774d0910565",
+    "level": "C1"
+  },
+  {
+    "grammar": "Pronouns and determiners: ambiguity",
+    "meaning": "代词与限定词的歧义",
+    "usage": "注意 it/they/this/which 的指代对象，避免歧义。",
+    "examples": [
+      "The man met his son, and he was happy. (he 指代不明)",
+      "I bought a book and a pen. It was expensive. (it 指代不明)",
+      "The policy, which the manager introduced, was effective."
+    ],
+    "mistakes": [
+      "代词指代不清导致句子歧义",
+      "关系代词前无明确先行词"
+    ],
+    "compare": "明确指代 vs. 模糊指代：好的写作应清晰。",
+    "id": "84276b40-2fd1-4de8-a445-09a85bf66808",
+    "level": "C1"
+  },
+  {
+    "grammar": "Cohesion and substitution",
+    "meaning": "衔接与替代",
+    "usage": "用 one/ones, so, do/does, such 等避免重复，保持段落连贯。",
+    "examples": [
+      "I need a new phone. The old one is broken.",
+      "I think so. / I hope so.",
+      "He likes pizza, and so do I."
+    ],
+    "mistakes": [
+      "so 替代后结构错误（*I think so that*）",
+      "one/ones 与 it/they 混淆"
+    ],
+    "compare": "one 替代可数名词，so 替代整句。",
+    "id": "d57ec56b-0cdf-40ae-8d9d-06c4cf08e550",
+    "level": "C1"
+  },
+  {
+    "grammar": "Adverb position (complex)",
+    "meaning": "副词位置（复杂）",
+    "usage": "中位副词（频率、程度）位于助动词后、实义动词前；句首/句尾副语用于强调。",
+    "examples": [
+      "I have always wanted to go.",
+      "Probably, he will come late.",
+      "She speaks English fluently."
+    ],
+    "mistakes": [
+      "中位副词位置错误（*I always have wanted* 应为 have always wanted）",
+      "程度副词与所修饰词距离太远"
+    ],
+    "compare": "中位 vs. 句首/句尾：位置影响强调。",
+    "id": "9a9cd570-cdfd-4b0a-80f3-7043d25e427a",
+    "level": "C1"
+  },
+  {
+    "grammar": "Ellipsis in informal English",
+    "meaning": "非正式英语中的省略",
+    "usage": "口语中省略主语、助动词、开头词等。",
+    "examples": [
+      "Seen the movie? (= Have you seen...)",
+      "Going to the party? (= Are you going...)",
+      "Nice to meet you."
+    ],
+    "mistakes": [
+      "正式写作中过度使用省略",
+      "省略导致句子结构不完整"
+    ],
+    "compare": "省略 vs. 完整句：正式写作用完整句。",
+    "id": "8e876b0f-bd90-44fc-808f-d0a9ee72e09d",
+    "level": "C1"
+  },
+  {
+    "grammar": "Register and style awareness",
+    "meaning": "语体与风格意识",
+    "usage": "区分正式/非正式、口语/书面、学术/日常表达。",
+    "examples": [
+      "Informal: Kids shouldn't do that. Formal: Children should not be permitted to do so.",
+      "Informal: I wanna go. Formal: I would like to go.",
+      "Informal: Thanks a lot. Formal: I would be most grateful."
+    ],
+    "mistakes": [
+      "正式邮件中过度使用缩写和口语",
+      "学术写作中混用俚语"
+    ],
+    "compare": "根据场合选择 register：formal, neutral, informal。",
+    "id": "76bbbc41-281c-4cc1-8f5a-a89304eefdde",
+    "level": "C1"
+  },
+  {
+    "grammar": " hedging and cautious language",
+    "meaning": "模糊/谨慎表达",
+    "usage": "seem, appear, tend to, may, might, could, arguably, it is likely that... 用于避免绝对化。",
+    "examples": [
+      "It seems that the results are positive.",
+      "This could be due to several factors.",
+      "Arguably, the policy was successful."
+    ],
+    "mistakes": [
+      "学术写作中过度绝对化（*This proves that* 应为 *This suggests that*）",
+      "hedging 过多导致观点无力"
+    ],
+    "compare": "hedging 与明确表达：学术写作需要 balance。",
+    "id": "7882d39d-7d2d-499f-b8d0-d763e4e10220",
+    "level": "C1"
+  },
+  {
+    "grammar": "Reporting verbs and patterns",
+    "meaning": "转述动词及其搭配",
+    "usage": "agree + to do, admit + doing, persuade + sb + to do, blame + sb + for + doing 等。",
+    "examples": [
+      "She agreed to help.",
+      "He admitted stealing the money.",
+      "They blamed him for the delay."
+    ],
+    "mistakes": [
+      "admit 后接 to do（应为 doing）",
+      "persuade 与 convince 搭配混淆"
+    ],
+    "compare": "不同转述动词后接 to do / doing / that 从句不同。",
+    "id": "a511127e-28a3-43dd-a943-50a7a22ee5bd",
+    "level": "C1"
+  },
+  {
+    "grammar": "Chunks and collocations",
+    "meaning": "语块与搭配",
+    "usage": "make a decision, take into account, strongly recommend, deeply regret 等固定搭配。",
+    "examples": [
+      "We need to make a decision soon.",
+      "Please take this into account.",
+      "I strongly recommend this book."
+    ],
+    "mistakes": [
+      "错误搭配（*do a decision* 应为 make a decision）",
+      "与母语直译导致不自然搭配"
+    ],
+    "compare": "collocation 不是语法规则，而是高频共现，需要大量积累。",
+    "id": "c9812f1b-183a-4288-a8d8-c8716860b5d4",
+    "level": "C1"
+  }
+]

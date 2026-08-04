@@ -1,0 +1,257 @@
+[
+  {
+    "grammar": "Present simple (be)",
+    "meaning": "be动词的一般现在时",
+    "usage": "I am / You are / He is / She is / It is / We are / They are。用于描述身份、状态、位置。",
+    "examples": [
+      "I am a student.",
+      "They are in the park.",
+      "She is happy."
+    ],
+    "mistakes": [
+      "说 *He am* 而不是 He is",
+      "忘记根据人称变化（I am vs. he is）"
+    ],
+    "compare": "与 have/has 区分：be 表状态，have 表拥有。",
+    "id": "087c06c5-e917-4390-8c67-ed3e793616b7",
+    "level": "A1"
+  },
+  {
+    "grammar": "Present simple (regular verbs)",
+    "meaning": "一般现在时（一般动词）",
+    "usage": "第三人称单数加 -s/-es。用于习惯、事实、日常安排。",
+    "examples": [
+      "She works in Tokyo.",
+      "I drink coffee every morning.",
+      "The sun rises in the east."
+    ],
+    "mistakes": [
+      "第三人称单数忘记加 -s",
+      "将 do/does 与动词 -s 同时用（*Does he works?*）"
+    ],
+    "compare": "一般现在时 vs. 现在进行时：习惯/事实用一般现在，此刻动作用现在进行。",
+    "id": "bb901970-06a7-431d-8495-ce01bb80790f",
+    "level": "A1"
+  },
+  {
+    "grammar": "Present continuous",
+    "meaning": "现在进行时",
+    "usage": "am/is/are + V-ing。用于此刻正在进行的动作或近期临时安排。",
+    "examples": [
+      "I am reading a book now.",
+      "They are playing football.",
+      "She is meeting her friend tomorrow."
+    ],
+    "mistakes": [
+      "漏掉 be 动词（*I reading*）",
+      "将 be 动词与动词原形连用（*I am read*）"
+    ],
+    "compare": "现在进行时 vs. 一般现在时：此刻/临时 vs. 习惯/事实。",
+    "id": "ee563e74-72ec-43e5-80af-a3a8cbe6f25f",
+    "level": "A1"
+  },
+  {
+    "grammar": "Articles: a/an/the",
+    "meaning": "冠词",
+    "usage": "a/an 用于首次提及或泛指；the 用于特指、独一无二、上文已提。",
+    "examples": [
+      "I have a dog. The dog is brown.",
+      "She is an engineer.",
+      "The sun is hot."
+    ],
+    "mistakes": [
+      "在不可数名词前误用 a/an",
+      "在特指名词前漏掉 the"
+    ],
+    "compare": "a/an 表泛指，the 表特指。零冠词用于泛 plurals 或抽象名词。",
+    "id": "ff39028b-50d8-4f56-b067-bab4a57705d0",
+    "level": "A1"
+  },
+  {
+    "grammar": "Possessive adjectives",
+    "meaning": "物主形容词",
+    "usage": "my, your, his, her, its, our, their 放在名词前表所属。",
+    "examples": [
+      "This is my book.",
+      "Her brother is a doctor.",
+      "Our house is big."
+    ],
+    "mistakes": [
+      "与物主代词混淆（*This book is my*）",
+      "在名词前误用名词性物主代词"
+    ],
+    "compare": "my + 名词 vs. mine（单独使用）。",
+    "id": "ec3a0dc5-41d1-4cae-939c-3e49d2105edc",
+    "level": "A1"
+  },
+  {
+    "grammar": "There is / There are",
+    "meaning": "存在句",
+    "usage": "There is + 单数/不可数；There are + 复数。表示某处存在某物。",
+    "examples": [
+      "There is a book on the table.",
+      "There are two cats in the garden.",
+      "There is some milk in the fridge."
+    ],
+    "mistakes": [
+      "主谓不一致（*There are a student*）",
+      "与 have 混淆（*There have* ）"
+    ],
+    "compare": "There is/are 表存在，have/has 表拥有。",
+    "id": "b3a06bfb-e99c-4ee5-88a6-af3e296f6676",
+    "level": "A1"
+  },
+  {
+    "grammar": "Can / Can't",
+    "meaning": "能力/许可/可能性",
+    "usage": "can + 动词原形。表能力、许可或可能性。否定 can't，疑问 Can...?",
+    "examples": [
+      "I can swim.",
+      "Can you help me?",
+      "It can't be true."
+    ],
+    "mistakes": [
+      "can 后加 to（*I can to swim*）",
+      "can 后加 -ing"
+    ],
+    "compare": "can vs. could：can 表现在/将来能力，could 表过去或更委婉。",
+    "id": "cb0aceab-a1dc-406d-ae61-591687351835",
+    "level": "A1"
+  },
+  {
+    "grammar": "Simple past (be)",
+    "meaning": "be动词的一般过去时",
+    "usage": "I/he/she/it was, you/we/they were。用于过去的状态、位置。",
+    "examples": [
+      "I was tired yesterday.",
+      "They were at school last week.",
+      "She was happy as a child."
+    ],
+    "mistakes": [
+      "was/were 与人称混用",
+      "在现在时用 was/were"
+    ],
+    "compare": "was/were vs. did：was 是 be 的过去式，did 是助动词 do 的过去式。",
+    "id": "5330be57-ff38-4686-ae00-e17eb41ebb48",
+    "level": "A1"
+  },
+  {
+    "grammar": "Simple past (regular verbs)",
+    "meaning": "一般过去时（规则动词）",
+    "usage": "动词 + -ed。用于过去发生的动作。",
+    "examples": [
+      "I walked to school yesterday.",
+      "She watched TV last night.",
+      "We played tennis on Sunday."
+    ],
+    "mistakes": [
+      "疑问句/否定句误用 did + 过去式（*Did you went?*）",
+      "不规则动词按规则加 -ed"
+    ],
+    "compare": "一般过去时 vs. 现在完成时：过去具体时间点 vs. 与现在有关的经历。",
+    "id": "5d274051-b3bd-45f6-89b8-337343e3ab31",
+    "level": "A1"
+  },
+  {
+    "grammar": "Imperatives",
+    "meaning": "祈使句",
+    "usage": "动词原形开头。表命令、请求、指示、建议。否定用 Don't + 动词原形。",
+    "examples": [
+      "Open the door, please.",
+      "Don't be late.",
+      "Sit down."
+    ],
+    "mistakes": [
+      "祈使句加主语 you（*You open the door* 不自然）",
+      "否定祈使用 Don't + 动词原形时漏掉 don't"
+    ],
+    "compare": "祈使句 vs. 建议句：祈使更直接，You should... 更委婉。",
+    "id": "123d5134-34d5-4197-8bf8-3995c6e6065e",
+    "level": "A1"
+  },
+  {
+    "grammar": "Countable/uncountable nouns",
+    "meaning": "可数/不可数名词",
+    "usage": "可数名词有单复数；不可数名词无复数，常用 some/much/a little。",
+    "examples": [
+      "I have two apples. (countable)",
+      "I need some advice. (uncountable)",
+      "There is too much noise."
+    ],
+    "mistakes": [
+      "不可数名词加 s（*advices*）",
+      "用 many 修饰不可数名词"
+    ],
+    "compare": "a few + 可数 vs. a little + 不可数。",
+    "id": "b541e552-4b8c-4a7a-a234-8c4d7bbe7818",
+    "level": "A1"
+  },
+  {
+    "grammar": "Prepositions of place",
+    "meaning": "地点介词",
+    "usage": "in（在……里）、on（在……上）、at（在某点/某地）。",
+    "examples": [
+      "The book is on the table.",
+      "She lives in Paris.",
+      "I am at the station."
+    ],
+    "mistakes": [
+      "in 与 on 混用（*on the room*）",
+      "at 用于大地点（*at Paris*）"
+    ],
+    "compare": "in 大地点/空间，on 表面/接触，at 精确点。",
+    "id": "38346db5-1c71-4df0-a7bc-b36ef3ec5ae1",
+    "level": "A1"
+  },
+  {
+    "grammar": "Prepositions of time",
+    "meaning": "时间介词",
+    "usage": "at 用于钟点/节日；on 用于日期/星期；in 用于月份/年份/季节。",
+    "examples": [
+      "I wake up at 7 o'clock.",
+      "We met on Monday.",
+      "She was born in 1990."
+    ],
+    "mistakes": [
+      "on Monday morning 用 in",
+      "at night 用 in night"
+    ],
+    "compare": "at 点，on 天，in 段。",
+    "id": "03ec27a5-043f-4e0e-b414-3dbdebb6316b",
+    "level": "A1"
+  },
+  {
+    "grammar": "Wh- questions",
+    "meaning": "特殊疑问句",
+    "usage": "What/Where/When/Who/Why/How + 助动词/be + 主语 + 动词。",
+    "examples": [
+      "Where do you live?",
+      "What is your name?",
+      "How old are you?"
+    ],
+    "mistakes": [
+      "疑问句中主语与动词不倒装（*You where live?*）",
+      "加了 do 又变动词形式（*Where does she lives?*）"
+    ],
+    "compare": "Wh- question vs. Yes/No question：Wh- 需要具体信息。",
+    "id": "4b9179aa-dd84-4d0e-8b81-71188f5e13f7",
+    "level": "A1"
+  },
+  {
+    "grammar": "Have got",
+    "meaning": "拥有（英式口语）",
+    "usage": "I've got / He's got / Have you got... 表拥有、关系或特征。",
+    "examples": [
+      "I've got a new car.",
+      "Have you got any brothers?",
+      "She's got blue eyes."
+    ],
+    "mistakes": [
+      "got 后加 -s（*He's gots*）",
+      "将 have got 与 be 混淆"
+    ],
+    "compare": "have got vs. have：口语中同义，have got 更英式。",
+    "id": "03645bcc-ea6b-4798-87ed-40794529aac9",
+    "level": "A1"
+  }
+]

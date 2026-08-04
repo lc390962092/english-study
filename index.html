@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="English 英语学习应用，支持 A1-C1 词汇、语法学习与测试">
+    <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="English学习">
+    <meta property="og:title" content="English 英语学习">
+    <meta property="og:description" content="词汇 + 语法 · A1-C1 全等级">
+    <meta property="og:type" content="website">
+    <title>English 英语学习</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" href="icons/icon-96x96.png">
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        .header { padding: 40px 20px 30px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>English 英语学习</h1>
+        <p>词汇 + 语法 · A1-C1 全等级</p>
+    </div>
+    <div class="levels" id="levels"></div>
+
+    <script src="js/common.js"></script>
+    <script>
+        const levels = [
+            { id: 'A1', name: 'A1 入门', colorClass: 'a1' },
+            { id: 'A2', name: 'A2 基础', colorClass: 'a2' },
+            { id: 'B1', name: 'B1 中阶', colorClass: 'b1' },
+            { id: 'B2', name: 'B2 中高', colorClass: 'b2' },
+            { id: 'C1', name: 'C1 高级', colorClass: 'c1' }
+        ];
+
+        function getProgress(level, kind) {
+            const key = kind === 'words' ? `english_progress_${level}` : `english_grammar_progress_${level}`;
+            const known = JSON.parse(localStorage.getItem(key) || '[]');
+            return known.length;
+        }
+
+        function progressBarHTML(done, total, label, kind) {
+            const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+            const safePct = Math.min(100, Math.max(0, pct));
+            return `
+                <div class="progress-item ${kind}">
+                    <div class="progress-label">
+                        <span>${label}</span>
+                        <span>${done}/${total}</span>
+                    </div>
+                    <div class="progress-bar" aria-label="${label} 学习进度 ${safePct}%">
+                        <div class="fill" style="width: ${safePct}%;"></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function render() {
+            const summary = await fetch('content/summary.json').then(r => r.json());
+            const container = document.getElementById('levels');
+            container.innerHTML = levels.map(lv => {
+                const wordsTotal = summary[`${lv.id}_words`] || 0;
+                const grammarTotal = summary[`${lv.id}_grammar`] || 0;
+                const wordsDone = getProgress(lv.id, 'words');
+                const grammarDone = getProgress(lv.id, 'grammar');
+                return `
+                    <div class="level-card ${lv.colorClass}">
+                        <div class="level-badge">${lv.id}</div>
+                        <h3>${lv.name}</h3>
+                        <div class="mode-btns">
+                            <a href="study.html?level=${lv.id}" class="mode-btn words">词汇</a>
+                            <a href="grammar.html?level=${lv.id}" class="mode-btn grammar">语法</a>
+                            <a href="quiz.html?level=${lv.id}" class="mode-btn quiz">测试</a>
+                            <a href="exam.html" class="mode-btn exam">测试</a>
+                        </div>
+                        <div class="progress-row">
+                            ${progressBarHTML(wordsDone, wordsTotal, '词汇', 'words')}
+                            ${progressBarHTML(grammarDone, grammarTotal, '语法', 'grammar')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        render();
+    </script>
+</body>
+</html>

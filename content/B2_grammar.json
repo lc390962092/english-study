@@ -1,0 +1,257 @@
+[
+  {
+    "grammar": "Third conditional",
+    "meaning": "第三条件句",
+    "usage": "If + had + 过去分词，would have + 过去分词。表与过去事实相反的虚拟。",
+    "examples": [
+      "If I had studied harder, I would have passed.",
+      "If she had known, she would have come.",
+      "I wouldn't have been late if I had left earlier."
+    ],
+    "mistakes": [
+      "if 从句用 would have",
+      "主句用过去式而非 would have done"
+    ],
+    "compare": "第三条件 vs. 第二条件：过去虚拟 vs. 现在虚拟。",
+    "id": "004ba8b5-0a0b-4119-81a5-91a87358e30c",
+    "level": "B2"
+  },
+  {
+    "grammar": "Mixed conditionals",
+    "meaning": "混合条件句",
+    "usage": "if 从句与主句时间不一致，如 if 过去 + 主句现在。",
+    "examples": [
+      "If I had studied medicine, I would be a doctor now.",
+      "If I were rich, I would have bought that house.",
+      "If you had taken the map, we wouldn't be lost."
+    ],
+    "mistakes": [
+      "时态混用导致逻辑不清",
+      "全句用同一条件结构"
+    ],
+    "compare": "混合条件用于过去原因影响现在结果。",
+    "id": "a93d71fd-54ea-4163-aa12-30c26abc39e5",
+    "level": "B2"
+  },
+  {
+    "grammar": "Wishes and regrets",
+    "meaning": "wish 与遗憾",
+    "usage": "wish + 过去式（现在），wish + had done（过去），wish + would/could（将来）。",
+    "examples": [
+      "I wish I knew the answer.",
+      "I wish I had studied harder.",
+      "I wish you would stop talking."
+    ],
+    "mistakes": [
+      "wish 后接真实时态",
+      "I wish I was  vs. were（正式用 were）"
+    ],
+    "compare": "wish vs. hope：wish 表难实现，hope 表可能实现。",
+    "id": "fb338ce9-93c9-4ac8-abd4-72a905f9d260",
+    "level": "B2"
+  },
+  {
+    "grammar": "Passives (all tenses)",
+    "meaning": "全时态被动语态",
+    "usage": "各种时态的 be + 过去分词：is being done, has been done, will be done 等。",
+    "examples": [
+      "The project is being discussed.",
+      "The house has been sold.",
+      "The work will have been finished by tomorrow."
+    ],
+    "mistakes": [
+      "进行时被动态结构错误",
+      "漏掉助动词 be 的相应时态"
+    ],
+    "compare": "主动 vs. 被动：根据强调重点选择。",
+    "id": "77311afd-3d22-49fd-9f6e-fd331bc6c8a5",
+    "level": "B2"
+  },
+  {
+    "grammar": "Reported speech (advanced)",
+    "meaning": "间接引语（进阶）",
+    "usage": "命令/建议转述：tell/ask/order/advise/warn + sb + to do； suggest doing。",
+    "examples": [
+      "He told me to wait.",
+      "She suggested going to the cinema.",
+      "They warned us not to go out."
+    ],
+    "mistakes": [
+      "suggest 后接 to do（应为 doing）",
+      "ask 后接宾语从句时结构错误"
+    ],
+    "compare": "say/tell vs. ask/order/advise 的转述结构不同。",
+    "id": "30ec7d6f-fdf8-4ebd-a647-b9b19ae4843b",
+    "level": "B2"
+  },
+  {
+    "grammar": "Relative clauses (non-defining)",
+    "meaning": "非限定性定语从句",
+    "usage": "who/which/whose/where 引导，用逗号隔开，提供附加信息。",
+    "examples": [
+      "My brother, who lives in Tokyo, is a teacher.",
+      "Paris, which is the capital of France, is beautiful.",
+      "The book, whose cover is red, is mine."
+    ],
+    "mistakes": [
+      "非限定性从句用 that",
+      "漏掉逗号"
+    ],
+    "compare": "限定性 vs. 非限定性：限定性必要，非限定性补充。",
+    "id": "5cfdfc6f-9ecd-494a-903d-5da4389af628",
+    "level": "B2"
+  },
+  {
+    "grammar": "Participle clauses",
+    "meaning": "分词短语",
+    "usage": "-ing/-ed 分词短语作状语，表时间、原因、条件、结果。",
+    "examples": [
+      "Walking home, I met an old friend.",
+      "Feeling tired, she went to bed early.",
+      "Broken into pieces, the vase was useless."
+    ],
+    "mistakes": [
+      "分词逻辑主语与主句不一致",
+      "误用 having + 过去分词"
+    ],
+    "compare": "分词短语 vs. 完整从句：更简洁，但需主语一致。",
+    "id": "8ddb8b20-99a5-430d-b0d7-8176a8f8b9e2",
+    "level": "B2"
+  },
+  {
+    "grammar": "Causative: have/get something done",
+    "meaning": "使役结构 have/get sth done",
+    "usage": "have/get + 宾语 + 过去分词。表让别人做某事。",
+    "examples": [
+      "I had my hair cut.",
+      "We need to get the car repaired.",
+      "She got the report translated."
+    ],
+    "mistakes": [
+      "have sth done 与 have done 混淆",
+      "get 后接动词原形"
+    ],
+    "compare": "have sth done 表他人完成，do sth oneself 表亲自做。",
+    "id": "1c1c127c-3886-4650-a302-fa6ae0d699a9",
+    "level": "B2"
+  },
+  {
+    "grammar": "Emphasis: cleft sentences",
+    "meaning": "强调句 It is/was ... that/who",
+    "usage": "It is/was + 被强调部分 + that/who + 句子其余部分。",
+    "examples": [
+      "It was John who broke the window.",
+      "It was yesterday that I saw her.",
+      "It is in Paris that they met."
+    ],
+    "mistakes": [
+      "强调句用 when/where 替代 that（非正式可接受，但标准用 that）",
+      "被强调部分位置错误"
+    ],
+    "compare": "强调句 vs. 普通句：强调句突出某一成分。",
+    "id": "40f866cb-e73a-4634-b023-ae2cc4ba51a9",
+    "level": "B2"
+  },
+  {
+    "grammar": "Inversion",
+    "meaning": "倒装",
+    "usage": "否定副词开头或 only + 状语开头时部分倒装：助动词提前。",
+    "examples": [
+      "Never have I seen such a beautiful sight.",
+      "Only when I arrived did I understand.",
+      "Hardly had I left when it started raining."
+    ],
+    "mistakes": [
+      "倒装时未提前助动词",
+      "非否定副词开头也倒装"
+    ],
+    "compare": "倒装 vs. 正常语序：倒装强调或正式。",
+    "id": "01969def-692e-4060-90a5-2fe3f3b5fa51",
+    "level": "B2"
+  },
+  {
+    "grammar": "Subjunctive mood",
+    "meaning": "虚拟语气",
+    "usage": "表示建议、要求、命令的从句中用 (should) + 动词原形。常见于 suggest, insist, recommend, demand。",
+    "examples": [
+      "I suggest that he (should) go early.",
+      "It is important that she be informed.",
+      "They demanded that he leave."
+    ],
+    "mistakes": [
+      "从句中用真实时态（*I suggest that he goes* 美式可接受，但正式用 should go / go）",
+      "should 后加 to"
+    ],
+    "compare": "英式常用 should do，美式常直接用动词原形。",
+    "id": "e2202b3a-69eb-47c0-8b2d-d6321018fc13",
+    "level": "B2"
+  },
+  {
+    "grammar": "Future continuous",
+    "meaning": "将来进行时",
+    "usage": "will be + V-ing。表将来某时正在进行的动作。",
+    "examples": [
+      "This time tomorrow, I'll be flying to Paris.",
+      "At 8 pm, she will be cooking dinner.",
+      "They will be waiting for us."
+    ],
+    "mistakes": [
+      "will be 后接动词原形",
+      "与将来完成时混淆"
+    ],
+    "compare": "将来进行时 vs. will do：将来某时正在 vs. 将来发生。",
+    "id": "763c0f69-9962-41cb-acdd-9c4a87f26170",
+    "level": "B2"
+  },
+  {
+    "grammar": "Future perfect",
+    "meaning": "将来完成时",
+    "usage": "will have + 过去分词。表将来某时之前完成的动作。",
+    "examples": [
+      "By next year, I will have graduated.",
+      "She will have finished by 6 pm.",
+      "They will have left before you arrive."
+    ],
+    "mistakes": [
+      "will have 后接动词原形",
+      "时间状语用 since 而非 by"
+    ],
+    "compare": "将来完成时 vs. 将来完成进行时：是否强调持续。",
+    "id": "6017f120-2af2-49ff-b43d-da2e4c8536e9",
+    "level": "B2"
+  },
+  {
+    "grammar": "Ellipsis",
+    "meaning": "省略",
+    "usage": "避免重复，省略已知部分。常见于比较、回答、并列句。",
+    "examples": [
+      "I like tea, but she prefers coffee. (省略 likes)",
+      "He can run faster than I can. (省略 run)",
+      "Yes, I will. (省略 come)"
+    ],
+    "mistakes": [
+      "省略导致句子不完整或歧义",
+      "比较结构中省略 than I do 的 do"
+    ],
+    "compare": "省略 vs. 完整句：口语更常省略。",
+    "id": "df758ea0-8486-4710-b305-f4de024edd7e",
+    "level": "B2"
+  },
+  {
+    "grammar": "Discourse markers",
+    "meaning": "语篇标记词",
+    "usage": "however, therefore, furthermore, on the other hand, nevertheless 等连接观点。",
+    "examples": [
+      "It was raining. However, we went out.",
+      "She's smart. Therefore, she got the job.",
+      "On the other hand, it's too expensive."
+    ],
+    "mistakes": [
+      "however 与 but 连用（*But however*）",
+      "however 后逗号位置错误"
+    ],
+    "compare": "however 较正式，but 更口语。",
+    "id": "48e45def-9351-40ad-a6fd-3147e033ee28",
+    "level": "B2"
+  }
+]

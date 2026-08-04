@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="English 英语学习应用，支持 A1-C1 词汇、语法学习与测试">
+    <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <title>English 测试</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html" class="back">← 返回</a>
+        <div class="level-title">综合测试</div>
+        <div style="width:40px"></div>
+    </div>
+    <div class="stage" id="stage">
+        <div class="panel">
+            <h2>选择等级开始测试</h2>
+            <div class="levels" id="levels"></div>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script>
+        const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
+        document.getElementById('levels').innerHTML = levels.map(lv => `
+            <a href="quiz.html?level=${lv}" class="level-card ${lv.toLowerCase()}">
+                <div class="level-badge">${lv}</div>
+                <h3>${lv} 测试</h3>
+                <div class="mode-btns">
+                    <div class="mode-btn quiz">开始</div>
+                </div>
+            </a>
+        `).join('');
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+[
+  {
+    "grammar": "Present perfect continuous",
+    "meaning": "现在完成进行时",
+    "usage": "have/has been + V-ing。表从过去持续到现在、可能继续的动作。",
+    "examples": [
+      "I have been studying for two hours.",
+      "She has been working here since 2020.",
+      "It has been raining all day."
+    ],
+    "mistakes": [
+      "been 后接动词原形",
+      "与现在完成时混淆，忽略持续感"
+    ],
+    "compare": "现在完成时 vs. 现在完成进行时：后者强调动作持续。",
+    "id": "ed3dfead-2ada-4861-b8a6-d56dda84e3e1",
+    "level": "B1"
+  },
+  {
+    "grammar": "Past continuous",
+    "meaning": "过去进行时",
+    "usage": "was/were + V-ing。表过去某时刻正在进行的动作。",
+    "examples": [
+      "I was watching TV at 8 pm.",
+      "They were sleeping when I called.",
+      "What were you doing yesterday?"
+    ],
+    "mistakes": [
+      "was/were 后接动词原形",
+      "一般过去时与过去进行时不分"
+    ],
+    "compare": "过去进行时 vs. 一般过去时：背景动作 vs. 打断动作。",
+    "id": "9eac6402-f903-40c6-bd4f-4571bc4ffe3a",
+    "level": "B1"
+  },
+  {
+    "grammar": "Past perfect",
+    "meaning": "过去完成时",
+    "usage": "had + 过去分词。表过去某一时间点之前已完成的动作。",
+    "examples": [
+      "She had already left when I arrived.",
+      "I realized I had forgotten my keys.",
+      "They had finished lunch before we came."
+    ],
+    "mistakes": [
+      "had 后接动词原形或过去式",
+      "与一般过去时顺序混淆"
+    ],
+    "compare": "过去完成时 vs. 一般过去时：过去的过去。",
+    "id": "ff4f4ff4-7bdd-449f-ad77-b86f8cb21955",
+    "level": "B1"
+  },
+  {
+    "grammar": "Used to",
+    "meaning": "过去常常",
+    "usage": "used to + 动词原形。表过去习惯或状态，现在不再。",
+    "examples": [
+      "I used to smoke.",
+      "There used to be a cinema here.",
+      "Did you use to play tennis?"
+    ],
+    "mistakes": [
+      "used to 后加 -ing",
+      "疑问句用 did you used to（应为 use to）"
+    ],
+    "compare": "used to vs. would：used to 可表状态，would 只表动作。",
+    "id": "68cf6fd0-8632-4cb6-a6e4-11e096530b2b",
+    "level": "B1"
+  },
+  {
+    "grammar": "First conditional",
+    "meaning": "第一条件句",
+    "usage": "If + 一般现在，will + 动词原形。表真实、可能发生的将来情况。",
+    "examples": [
+      "If it rains, I will stay home.",
+      "If you study hard, you will pass.",
+      "I'll call you if I arrive late."
+    ],
+    "mistakes": [
+      "if 从句用将来时（*If it will rain*）",
+      "主句用一般现在时"
+    ],
+    "compare": "第一条件 vs. 第二条件：真实可能 vs. 虚拟现在。",
+    "id": "e0488198-e18c-40bf-9c94-c03518c2a75c",
+    "level": "B1"
+  },
+  {
+    "grammar": "Second conditional",
+    "meaning": "第二条件句",
+    "usage": "If + 过去式，would + 动词原形。表现在/将来不太可能或虚拟的情况。",
+    "examples": [
+      "If I were rich, I would travel the world.",
+      "If she knew, she would be angry.",
+      "I would buy it if I had enough money."
+    ],
+    "mistakes": [
+      "if 从句用 would（*If I would be*）",
+      "所有人称用 was（正式用 were）"
+    ],
+    "compare": "第二条件 vs. 第一条件：后者真实，前者虚拟。",
+    "id": "2d00f5d3-9d6f-4a4b-8b00-9d0386d814f3",
+    "level": "B1"
+  },
+  {
+    "grammar": "Passives (present/past simple)",
+    "meaning": "被动语态（一般现在/过去）",
+    "usage": "be + 过去分词。主语是动作承受者。",
+    "examples": [
+      "The book is written in English.",
+      "The window was broken by the dog.",
+      "English is spoken all over the world."
+    ],
+    "mistakes": [
+      "忘记 by 前宾语互换",
+      "be 动词时态错误"
+    ],
+    "compare": "主动 vs. 被动：强调动作执行者 vs. 承受者。",
+    "id": "f5327407-1541-4c9b-9ab0-f51172decf3b",
+    "level": "B1"
+  },
+  {
+    "grammar": "Reported speech (statements)",
+    "meaning": "间接引语（陈述句）",
+    "usage": "主句过去时，从句时态后推；人称、时间、地点相应变化。",
+    "examples": [
+      "He said (that) he was tired.",
+      "She told me she had finished.",
+      "They said they would come."
+    ],
+    "mistakes": [
+      "时态没有后推",
+      "say/tell 结构混淆（say + that，tell + sb）"
+    ],
+    "compare": "直接引语 vs. 间接引语：引号内原话 vs. 转述。",
+    "id": "2b58f995-d04b-4a7e-a9cc-d8fe44b70c13",
+    "level": "B1"
+  },
+  {
+    "grammar": "Reported questions",
+    "meaning": "间接引语（疑问句）",
+    "usage": "Wh-/if 引导，陈述语序，不用问号。",
+    "examples": [
+      "He asked where I lived.",
+      "She wondered if I was coming.",
+      "They asked me what time it was."
+    ],
+    "mistakes": [
+      "保留疑问语序（*He asked where did I live*）",
+      "保留问号"
+    ],
+    "compare": "间接疑问 vs. 直接疑问：后者倒装，前者陈述语序。",
+    "id": "bb956b2c-6ad3-40f3-bfe7-d931239081e2",
+    "level": "B1"
+  },
+  {
+    "grammar": "Gerunds and infinitives (basic)",
+    "meaning": "动名词与不定式（基础）",
+    "usage": "enjoy/practice/finish + doing；want/plan/decide/hope + to do。",
+    "examples": [
+      "I enjoy swimming.",
+      "She decided to leave.",
+      "We plan to visit Paris."
+    ],
+    "mistakes": [
+      "want 后加 doing",
+      "enjoy 后加 to do"
+    ],
+    "compare": "固定搭配：有些动词后接 doing，有些接 to do。",
+    "id": "ee8b788c-c267-48d1-97c5-25b1590ec606",
+    "level": "B1"
+  },
+  {
+    "grammar": "Modal verbs: may/might",
+    "meaning": "may/might 表可能/许可",
+    "usage": "may/might + 动词原形。表可能性或请求许可，might 更弱。",
+    "examples": [
+      "It may rain later.",
+      "Might I ask a question?",
+      "She might be at home."
+    ],
+    "mistakes": [
+      "may 后加 to",
+      "may 与 maybe 混淆"
+    ],
+    "compare": "may vs. might：might 可能性更小、更委婉。",
+    "id": "cb071259-0a53-4e32-ae11-ef8437337bec",
+    "level": "B1"
+  },
+  {
+    "grammar": "Modal verbs: must / have to",
+    "meaning": "must/have to 表必须",
+    "usage": "must 表主观义务或强烈推测；have to 表客观需要。",
+    "examples": [
+      "You must stop smoking.",
+      "I have to wear a uniform at work.",
+      "He must be tired."
+    ],
+    "mistakes": [
+      "must 的过去时误用 musted（应用 had to）",
+      "mustn't 与 don't have to 混淆"
+    ],
+    "compare": "mustn't 禁止，don't have to 不必。",
+    "id": "856b74be-e538-4d0e-9d98-6dbc8d6f1610",
+    "level": "B1"
+  },
+  {
+    "grammar": "Modal verbs: could / was able to",
+    "meaning": "could/was able to 表过去能力",
+    "usage": "could 表过去一般能力；was able to / managed to 表某次成功做到。",
+    "examples": [
+      "I could swim when I was five.",
+      "The fire was serious but everyone was able to escape.",
+      "I couldn't finish it on time."
+    ],
+    "mistakes": [
+      "在成功做到某次时用 could（语义弱）",
+      "could 与 managed to 不分"
+    ],
+    "compare": "could 表能力，was able to 表具体成功。",
+    "id": "ff4e2e6c-6349-42aa-a1a8-c168d1c2d3ad",
+    "level": "B1"
+  },
+  {
+    "grammar": "Relative clauses (defining)",
+    "meaning": "限定性定语从句",
+    "usage": "who/which/that 引导，修饰先行词，不可省略关系词。",
+    "examples": [
+      "The man who lives next door is a doctor.",
+      "This is the book that I bought.",
+      "She's the person who helped me."
+    ],
+    "mistakes": [
+      "关系词在从句中作宾语时仍保留人称重复（*the book that I bought it*）",
+      "指人用 which"
+    ],
+    "compare": "限定性 vs. 非限定性：前者无逗号，后者有逗号。",
+    "id": "3f09a533-9f7b-41a8-8091-41b088ea18e7",
+    "level": "B1"
+  },
+  {
+    "grammar": "Phrasal verbs (common)",
+    "meaning": "常见短语动词",
+    "usage": "get up, give up, look after, turn on, take off 等。动词 + 小品词。",
+    "examples": [
+      "I get up at 7.",
+      "She gave up smoking.",
+      "Please turn off the lights."
+    ],
+    "mistakes": [
+      "小品词位置错误（*turn the lights off* 其实也对，但需理解可分离性）",
+      "按字面意思理解短语动词"
+    ],
+    "compare": "可分离 vs. 不可分离：代词必须放中间（turn it on），名词可放中间或后。",
+    "id": "ede0b400-5d34-4ba3-87bc-01eefc963771",
+    "level": "B1"
+  }
+]

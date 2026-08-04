@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="English 英语学习应用，支持 A1-C1 词汇、语法学习与测试">
+    <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="English学习">
+        <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" href="icons/icon-96x96.png">
+<title>English 词汇学习</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        /* 页面特有微调：保持公共样式已覆盖，此处留空备用 */
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html" class="back">← 返回</a>
+        <div class="level-title" id="levelTitle">A1</div>
+        <div class="progress-info" id="progressInfo">0 / 0</div>
+    </div>
+    <div class="stage" id="stage">
+        <div class="msg">加载中...</div>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script>
+        const params = new URLSearchParams(location.search);
+        const level = params.get('level') || 'A1';
+        const titleEl = document.getElementById('levelTitle');
+        const progressEl = document.getElementById('progressInfo');
+        const stageEl = document.getElementById('stage');
+        titleEl.textContent = level;
+
+        let words = [];
+        let index = 0;
+        let known = new Set();
+        let autoFlip = localStorage.getItem('english_auto_flip') === 'true';
+        let synth = window.speechSynthesis;
+        let englishVoice = null;
+
+        function findEnglishVoice() {
+            const voices = synth.getVoices();
+            for (const v of voices) {
+                if (v.lang.startsWith('ja')) { englishVoice = v; break; }
+            }
+        }
+        if (synth.onvoiceschanged !== undefined) {
+            synth.onvoiceschanged = findEnglishVoice;
+        }
+        findEnglishVoice();
+
+        function speak(text, rate = 0.85) {
+            if (!synth) return;
+            synth.cancel();
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = 'en-US';
+            utter.rate = rate;
+            utter.pitch = 1.0;
+            if (englishVoice) utter.voice = englishVoice;
+            synth.speak(utter);
+        }
+
+        function loadProgress() {
+            const saved = localStorage.getItem(`english_progress_${level}`);
+            if (saved) known = new Set(JSON.parse(saved));
+            autoFlip = localStorage.getItem('english_auto_flip') === 'true';
+        }
+        function saveProgress() {
+            localStorage.setItem(`english_progress_${level}`, JSON.stringify([...known]));
+        }
+
+        function renderCardContent(w) {
+            return {
+                front: `
+                    <div class="word">${w.word}</div>
+                    <div class="accent">${w.pos} ${w.accent}</div>
+                    <div class="hint">点击卡片查看释义</div>
+                `,
+                back: `
+                    <div class="word">${w.word}</div>
+                    <div class="reading">${w.reading}</div>
+                    <div class="accent">${w.pos} ${w.accent}</div>
+                    <div class="meaning">${w.meaning}</div>
+                    ${w.sentence ? `
+                    <div class="sentence-box">
+                        <div class="sentence">${w.sentence}</div>
+                        <div class="sentence-reading">${w.sentence_reading}</div>
+                        <div class="sentence-meaning">${w.sentence_meaning}</div>
+                    </div>
+                    ` : ''}
+                `
+            };
+        }
+
+        function cardHtml(w, cls) {
+            const content = renderCardContent(w);
+            const flipped = autoFlip ? 'flipped' : '';
+            return `
+                <div class="card ${cls} ${flipped}" data-id="${w.id}">
+                    <div class="front-face">${content.front}</div>
+                    <div class="back-face">${content.back}</div>
+                </div>
+            `;
+        }
+
+        function render() {
+            if (!words.length) {
+                stageEl.innerHTML = '<div class="msg">暂无词汇数据</div>';
+                return;
+            }
+            if (index >= words.length) {
+                stageEl.innerHTML = `
+                    <div class="msg">
+                        <h2>🎉 ${level} 已完成</h2>
+                        <p>本轮共 ${words.length} 词，已掌握 ${known.size} 词</p>
+                        <button class="btn btn-known" onclick="restart()" style="margin-top:20px;">重新开始</button>
+                    </div>
+                `;
+                progressEl.textContent = `${known.size} / ${words.length}`;
+                return;
+            }
+            const w = words[index];
+            const nextW = words[index + 1];
+            const isKnown = known.has(w.id);
+            progressEl.textContent = `${index + 1} / ${words.length} · 已掌握 ${known.size}`;
+            stageEl.innerHTML = `
+                <div class="settings-bar">
+                    <label class="setting-label">
+                        <input type="checkbox" id="autoFlipCheck" ${autoFlip ? 'checked' : ''}>
+                        默认展开释义
+                    </label>
+                </div>
+                <div class="card-stack" id="cardStack">
+                    ${nextW ? cardHtml(nextW, 'next') : ''}
+                    ${cardHtml(w, 'current')}
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-word" onclick="event.stopPropagation(); speakWord()">🔊 读音</button>
+                    ${w.sentence ? `<button class="btn btn-sentence" onclick="event.stopPropagation(); speakSentence()">📝 例句</button>` : ''}
+                    <button class="btn ${isKnown ? 'btn-unknown' : 'btn-known'}" onclick="event.stopPropagation(); toggleKnown()">${isKnown ? '取消掌握' : '✓ 掌握'}</button>
+                </div>
+                <div class="controls">
+                    <button class="nav-btn" onclick="prev()" ${index === 0 ? 'disabled' : ''}>← 上一个</button>
+                    <button class="nav-btn" onclick="next()">下一个 →</button>
+                </div>
+            `;
+
+            const autoFlipCheck = document.getElementById('autoFlipCheck');
+            if (autoFlipCheck) {
+                autoFlipCheck.addEventListener('change', (e) => {
+                    autoFlip = e.target.checked;
+                    localStorage.setItem('english_auto_flip', autoFlip ? 'true' : 'false');
+                    render();
+                });
+            }
+
+            setupCardClick();
+            setupSwipe();
+        }
+
+        function setupCardClick() {
+            const card = document.querySelector('#cardStack .card.current');
+            if (!card) return;
+            card.addEventListener('click', (e) => {
+                if (card.dataset.swiped === 'true') {
+                    card.dataset.swiped = 'false';
+                    return;
+                }
+                card.classList.toggle('flipped');
+            });
+        }
+
+        function setupSwipe() {
+            const card = document.querySelector('#cardStack .card.current');
+            if (!card) return;
+
+            let startX = 0;
+            let currentX = 0;
+            let isDragging = false;
+
+            const onStart = (x) => {
+                startX = x;
+                currentX = x;
+                isDragging = true;
+                card.style.transition = 'none';
+                card.dataset.swiped = 'false';
+            };
+            const onMove = (x) => {
+                if (!isDragging) return;
+                currentX = x;
+                const dx = currentX - startX;
+                card.style.transform = `translateX(${dx}px) rotate(${dx * 0.03}deg)`;
+            };
+            const onEnd = () => {
+                if (!isDragging) return;
+                isDragging = false;
+                card.style.transition = '';
+                const dx = currentX - startX;
+                if (dx < -80) {
+                    card.dataset.swiped = 'true';
+                    card.classList.add('sliding-left');
+                    setTimeout(next, 250);
+                } else if (dx > 80) {
+                    card.dataset.swiped = 'true';
+                    card.classList.add('sliding-right');
+                    setTimeout(prev, 250);
+                } else {
+                    card.style.transform = '';
+                }
+            };
+
+            card.addEventListener('touchstart', (e) => onStart(e.touches[0].clientX), { passive: true });
+            card.addEventListener('touchmove', (e) => onMove(e.touches[0].clientX), { passive: true });
+            card.addEventListener('touchend', onEnd);
+
+            card.addEventListener('mousedown', (e) => onStart(e.clientX));
+            window.addEventListener('mousemove', (e) => onMove(e.clientX));
+            window.addEventListener('mouseup', onEnd);
+        }
+
+        function flip() {
+            const card = document.querySelector('#cardStack .card.current');
+            if (card) card.classList.toggle('flipped');
+        }
+
+        function speakWord() {
+            const w = words[index];
+            speak(`${w.word}、${w.reading}`);
+        }
+
+        function speakSentence() {
+            const w = words[index];
+            if (w.sentence) speak(w.sentence);
+        }
+
+        function toggleKnown() {
+            const w = words[index];
+            if (known.has(w.id)) known.delete(w.id);
+            else known.add(w.id);
+            saveProgress();
+            render();
+        }
+
+        function next() {
+            if (synth) synth.cancel();
+            index++;
+            render();
+        }
+
+        function prev() {
+            if (synth) synth.cancel();
+            if (index > 0) index--;
+            render();
+        }
+
+        function restart() {
+            index = 0;
+            render();
+        }
+
+        async function init() {
+            loadProgress();
+            const basePath = location.pathname.replace(/\/[^\/]*$/, '/');
+            const resp = await fetch(`${basePath}content/${level}_words.json`);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            words = await resp.json();
+            render();
+        }
+        init().catch(err => {
+            console.error('加载失败', err);
+            stageEl.innerHTML = `<div class="msg">加载失败：${err.message}<br>请刷新重试</div>`;
+        });
+    </script>
+</body>
+</html>

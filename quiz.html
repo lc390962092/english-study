@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="English 英语学习应用，支持 A1-C1 词汇、语法学习与测试">
+    <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="English学习">
+        <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" href="icons/icon-96x96.png">
+<title>English 测试</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        /* 本页特有：无，公共样式已覆盖 */
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html" class="back">← 返回</a>
+        <div class="level-title" id="levelTitle">A1</div>
+        <div class="progress-info" id="progressInfo">测试模式</div>
+    </div>
+    <div class="stage" id="stage">
+        <div class="msg">加载中...</div>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script>
+        const params = new URLSearchParams(location.search);
+        const level = params.get('level') || 'A1';
+        const titleEl = document.getElementById('levelTitle');
+        const stageEl = document.getElementById('stage');
+        titleEl.textContent = level + ' 测试';
+
+        const LS_KEYS = {
+            mistakes: (lv) => `english_quiz_mistakes_${lv}`,
+            bookmarks: (lv) => `english_quiz_bookmarks_${lv}`,
+            history: (lv) => `english_quiz_history_${lv}`,
+            settings: () => `english_quiz_settings`
+        };
+
+        let words = [];
+        let grammars = [];
+        let questions = [];
+        let currentIdx = 0;
+        let correctCount = 0;
+        let answers = [];
+        let settings = { count: 20, scope: 'mixed', mistakesOnly: false, bookmarksOnly: false, order: 'random' };
+
+        async function init() {
+            const basePath = location.pathname.replace(/\/[^\/]*$/, '/');
+            try {
+                const [wResp, gResp] = await Promise.all([
+                    fetch(`${basePath}content/${level}_words.json`),
+                    fetch(`${basePath}content/${level}_grammar.json`)
+                ]);
+                if (!wResp.ok || !gResp.ok) throw new Error('数据加载失败');
+                words = await wResp.json();
+                grammars = await gResp.json();
+                loadSettings();
+                renderSetup();
+            } catch (err) {
+                console.error(err);
+                stageEl.innerHTML = `<div class="msg">加载失败：${err.message}<br>请刷新重试</div>`;
+            }
+        }
+
+        function loadSettings() {
+            const saved = localStorage.getItem(LS_KEYS.settings());
+            if (saved) settings = { ...settings, ...JSON.parse(saved) };
+        }
+        function saveSettings() {
+            localStorage.setItem(LS_KEYS.settings(), JSON.stringify(settings));
+        }
+
+        function getMistakes() {
+            const raw = localStorage.getItem(LS_KEYS.mistakes(level));
+            return raw ? JSON.parse(raw) : [];
+        }
+        function saveMistakes(list) {
+            localStorage.setItem(LS_KEYS.mistakes(level), JSON.stringify(list.slice(-200)));
+        }
+        function addMistake(q) {
+            const list = getMistakes();
+            const key = q.key;
+            const idx = list.findIndex(m => m.key === key);
+            if (idx >= 0) list.splice(idx, 1);
+            list.push({ key, type: q.type, data: q.data, correctText: q.options[q.answerIndex] });
+            saveMistakes(list);
+        }
+        function removeMistake(key) {
+            const list = getMistakes();
+            const idx = list.findIndex(m => m.key === key);
+            if (idx >= 0) {
+                list.splice(idx, 1);
+                saveMistakes(list);
+            }
+        }
+
+        function getBookmarks() {
+            const raw = localStorage.getItem(LS_KEYS.bookmarks(level));
+            return raw ? JSON.parse(raw) : [];
+        }
+        function saveBookmarks(list) {
+            localStorage.setItem(LS_KEYS.bookmarks(level), JSON.stringify(list.slice(-500)));
+        }
+        function isBookmarked(key) {
+            return getBookmarks().some(b => b.key === key);
+        }
+        function toggleBookmark(q) {
+            const list = getBookmarks();
+            const idx = list.findIndex(b => b.key === q.key);
+            if (idx >= 0) {
+                list.splice(idx, 1);
+            } else {
+                list.push({ key: q.key, type: q.type, data: q.data, correctText: q.options[q.answerIndex] });
+            }
+            saveBookmarks(list);
+            return idx < 0;
+        }
+
+        function randPick(arr, n, excludeSet) {
+            const pool = arr.filter(x => !excludeSet.has(x));
+            const out = [];
+            while (out.length < n && pool.length) {
+                const idx = Math.floor(Math.random() * pool.length);
+                out.push(pool.splice(idx, 1)[0]);
+            }
+            return out;
+        }
+
+        function shuffle(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function makeWordQuestions(pool, count) {
+            const selected = settings.order === 'random' ? shuffle(pool).slice(0, count) : pool.slice(0, count);
+            return selected.map(item => {
+                const isWordToMeaning = Math.random() < 0.5;
+                const correctText = isWordToMeaning ? item.meaning : item.word;
+                const distractors = randPick(
+                    pool.filter(x => x.id !== item.id).map(x => isWordToMeaning ? x.meaning : x.word),
+                    3,
+                    new Set([correctText])
+                );
+                const options = shuffle([correctText, ...distractors]);
+                const phonetic = item.phonetic_us || item.phonetic_uk || '';
+                return {
+                    type: isWordToMeaning ? 'word_meaning' : 'word_recognition',
+                    key: item.id,
+                    data: item,
+                    question: isWordToMeaning ? item.word : item.meaning,
+                    sub: isWordToMeaning ? (phonetic ? `音标：${phonetic}` : '') : (phonetic ? `选出对应的英文词` : ''),
+                    options,
+                    answerIndex: options.indexOf(correctText),
+                    explanation: `${item.word}（${phonetic}）→ ${item.meaning}`
+                };
+            });
+        }
+
+        function makeGrammarQuestions(pool, count) {
+            const selected = settings.order === 'random' ? shuffle(pool).slice(0, count) : pool.slice(0, count);
+            return selected.map(item => {
+                const r = Math.random();
+                let type, question, sub, correctText, distractorMap;
+                if (r < 0.5) {
+                    type = 'grammar_meaning';
+                    question = `${item.grammar} 的意思是？`;
+                    sub = '';
+                    correctText = item.meaning;
+                    distractorMap = x => x.meaning;
+                } else {
+                    type = 'grammar_form';
+                    question = `「${item.meaning}」对应的语法点是？`;
+                    sub = '';
+                    correctText = item.grammar;
+                    distractorMap = x => x.grammar;
+                }
+                const used = new Set([correctText]);
+                const rawDistractors = pool
+                    .filter(x => x.id !== item.id)
+                    .map(distractorMap)
+                    .filter(t => t && !used.has(t));
+                const distractors = randPick(rawDistractors, 3, used);
+                const options = shuffle([correctText, ...distractors]);
+                return {
+                    type, key: item.id, data: item,
+                    question, sub, options,
+                    answerIndex: options.indexOf(correctText),
+                    explanation: `${item.grammar}：${item.meaning}`
+                };
+            });
+        }
+
+        function generateQuestions() {
+            const count = settings.count;
+            if (settings.mistakesOnly) {
+                const mistakes = getMistakes();
+                const out = [];
+                for (const m of mistakes) {
+                    if (m.type.startsWith('word_')) {
+                        const item = words.find(x => x.id === m.key);
+                        if (item) out.push(...makeWordQuestions([item], 1));
+                    } else {
+                        const item = grammars.find(x => x.id === m.key);
+                        if (item) out.push(...makeGrammarQuestions([item], 1));
+                    }
+                }
+                return shuffle(out);
+            }
+            if (settings.bookmarksOnly) {
+                const bookmarks = getBookmarks();
+                const out = [];
+                for (const b of bookmarks) {
+                    if (b.type.startsWith('word_')) {
+                        const item = words.find(x => x.id === b.key);
+                        if (item) out.push(...makeWordQuestions([item], 1));
+                    } else {
+                        const item = grammars.find(x => x.id === b.key);
+                        if (item) out.push(...makeGrammarQuestions([item], 1));
+                    }
+                }
+                return shuffle(out);
+            }
+
+            let q = [];
+            if (settings.scope === 'words') {
+                q = makeWordQuestions(words, Math.min(count, words.length));
+            } else if (settings.scope === 'grammar') {
+                q = makeGrammarQuestions(grammars, Math.min(count, grammars.length));
+            } else {
+                const half = Math.ceil(count / 2);
+                const wordCount = Math.min(half, words.length);
+                const grammarCount = Math.min(count - wordCount, grammars.length);
+                const wordQ = makeWordQuestions(words, wordCount);
+                const grammarQ = makeGrammarQuestions(grammars, grammarCount);
+                q = shuffle([...wordQ, ...grammarQ]);
+            }
+            return q;
+        }
+
+        function renderSetup() {
+            const mistakesCount = getMistakes().length;
+            const bookmarksCount = getBookmarks().length;
+            stageEl.innerHTML = `
+                <div class="panel">
+                    <h2>${level} 测试测试</h2>
+                    <div class="sub">词汇 ${words.length} 条 · 语法 ${grammars.length} 条 · 错题 ${mistakesCount} 条 · 收藏 ${bookmarksCount} 条</div>
+
+                    <div class="form-row">
+                        <label class="form-label">题型</label>
+                        <div class="option-group">
+                            <div class="option-chip ${settings.scope === 'words' ? 'active' : ''}" data-scope="words">词汇</div>
+                            <div class="option-chip ${settings.scope === 'grammar' ? 'active' : ''}" data-scope="grammar">语法</div>
+                            <div class="option-chip ${settings.scope === 'mixed' ? 'active' : ''}" data-scope="mixed">混合</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-label">题量</label>
+                        <div class="option-group">
+                            <div class="option-chip ${settings.count === 10 ? 'active' : ''}" data-count="10">10</div>
+                            <div class="option-chip ${settings.count === 20 ? 'active' : ''}" data-count="20">20</div>
+                            <div class="option-chip ${settings.count === 50 ? 'active' : ''}" data-count="50">50</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-label">顺序</label>
+                        <div class="option-group">
+                            <div class="option-chip ${settings.order === 'random' ? 'active' : ''}" data-order="random">随机</div>
+                            <div class="option-chip ${settings.order === 'sequential' ? 'active' : ''}" data-order="sequential">顺序</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="switch-row" id="mistakesToggle">
+                            <span>只练错题 (${mistakesCount})</span>
+                            <div class="switch ${settings.mistakesOnly ? 'active' : ''}"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="switch-row" id="bookmarksToggle">
+                            <span>只练收藏 (${bookmarksCount})</span>
+                            <div class="switch ${settings.bookmarksOnly ? 'active' : ''}"></div>
+                        </div>
+                    </div>
+
+                    <button class="start-btn" id="startBtn">开始测试</button>
+                    <div class="quick-test-row">
+                        <button data-quick="10">10 题速测</button>
+                        <button data-quick="20">20 题速测</button>
+                    </div>
+                </div>
+            `;
+
+            document.querySelectorAll('[data-scope]').forEach(el => {
+                el.addEventListener('click', () => {
+                    settings.scope = el.dataset.scope;
+                    if (settings.mistakesOnly) settings.mistakesOnly = false;
+                    if (settings.bookmarksOnly) settings.bookmarksOnly = false;
+                    saveSettings();
+                    renderSetup();
+                });
+            });
+            document.querySelectorAll('[data-count]').forEach(el => {
+                el.addEventListener('click', () => {
+                    settings.count = parseInt(el.dataset.count, 10);
+                    saveSettings();
+                    renderSetup();
+                });
+            });
+            document.querySelectorAll('[data-order]').forEach(el => {
+                el.addEventListener('click', () => {
+                    settings.order = el.dataset.order;
+                    saveSettings();
+                    renderSetup();
+                });
+            });
+            document.getElementById('mistakesToggle').addEventListener('click', () => {
+                settings.mistakesOnly = !settings.mistakesOnly;
+                if (settings.mistakesOnly) settings.bookmarksOnly = false;
+                saveSettings();
+                renderSetup();
+            });
+            document.getElementById('bookmarksToggle').addEventListener('click', () => {
+                settings.bookmarksOnly = !settings.bookmarksOnly;
+                if (settings.bookmarksOnly) settings.mistakesOnly = false;
+                saveSettings();
+                renderSetup();
+            });
+            document.querySelectorAll('[data-quick]').forEach(el => {
+                el.addEventListener('click', () => {
+                    settings.count = parseInt(el.dataset.quick, 10);
+                    settings.mistakesOnly = false;
+                    settings.bookmarksOnly = false;
+                    saveSettings();
+                    startQuiz();
+                });
+            });
+            document.getElementById('startBtn').addEventListener('click', startQuiz);
+        }
+
+        function startQuiz() {
+            questions = generateQuestions();
+            if (!questions.length) {
+                if (settings.mistakesOnly) alert('暂无错题，先去学习吧！');
+                else if (settings.bookmarksOnly) alert('暂无收藏，做题时长按收藏按钮添加。');
+                else alert('题目生成失败，请检查数据。');
+                return;
+            }
+            currentIdx = 0;
+            correctCount = 0;
+            answers = [];
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const q = questions[currentIdx];
+            const total = questions.length;
+            const progress = ((currentIdx) / total) * 100;
+            const bookmarked = isBookmarked(q.key);
+            stageEl.innerHTML = `
+                <div class="quiz-top">
+                    <span>${currentIdx + 1} / ${total}</span>
+                    <span>${typeLabel(q.type)}</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width:${progress}%"></div></div>
+                <div class="question-card">
+                    <button class="bookmark-btn ${bookmarked ? 'active' : ''}" id="bookmarkBtn" title="收藏">${bookmarked ? '★' : '☆'}</button>
+                    <div class="q-type">${typeLabel(q.type)}</div>
+                    <div class="q-main">${escapeHtml(q.question)}</div>
+                    ${q.sub ? `<div class="q-sub">${escapeHtml(q.sub)}</div>` : ''}
+                </div>
+                <div class="choices" id="choices">
+                    ${q.options.map((opt, i) => `
+                        <div class="choice" data-idx="${i}">
+                            <span class="badge">${String.fromCharCode(65 + i)}</span>
+                            <span>${escapeHtml(opt)}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div id="feedback"></div>
+                <button class="next-btn hidden" id="nextBtn">下一题</button>
+            `;
+            document.getElementById('bookmarkBtn').addEventListener('click', () => {
+                const now = toggleBookmark(q);
+                document.getElementById('bookmarkBtn').innerHTML = now ? '★' : '☆';
+                document.getElementById('bookmarkBtn').classList.toggle('active', now);
+            });
+            document.querySelectorAll('.choice').forEach(el => {
+                el.addEventListener('click', () => selectOption(parseInt(el.dataset.idx)));
+            });
+            document.getElementById('nextBtn').addEventListener('click', nextQuestion);
+        }
+
+        function typeLabel(type) {
+            const map = {
+                word_meaning: '词义选择', word_recognition: '看义选词',
+                grammar_meaning: '语法含义', grammar_form: '语法形式'
+            };
+            return map[type] || type;
+        }
+
+        function selectOption(idx) {
+            const q = questions[currentIdx];
+            const correct = idx === q.answerIndex;
+            const choices = document.querySelectorAll('.choice');
+            choices.forEach((c, i) => {
+                c.classList.add('disabled');
+                if (i === q.answerIndex) c.classList.add('correct');
+                else if (i === idx) c.classList.add('wrong');
+            });
+
+            if (correct) {
+                correctCount++;
+                removeMistake(q.key);
+            } else {
+                addMistake(q);
+            }
+            answers.push({ selected: idx, correct, q });
+            saveHistory();
+
+            const fb = document.getElementById('feedback');
+            fb.innerHTML = `
+                <div class="feedback ${correct ? 'correct' : 'wrong'}">
+                    <div class="feedback-title">${correct ? '回答正确！' : '回答错误'}</div>
+                    <div class="feedback-detail">
+                        正确答案：${escapeHtml(q.options[q.answerIndex])}<br>
+                        ${escapeHtml(q.explanation)}
+                    </div>
+                </div>
+            `;
+            document.getElementById('nextBtn').classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            currentIdx++;
+            if (currentIdx >= questions.length) {
+                renderResult();
+            } else {
+                renderQuestion();
+            }
+        }
+
+        function saveHistory() {
+            const key = LS_KEYS.history(level);
+            let history = [];
+            try { history = JSON.parse(localStorage.getItem(key)) || []; } catch { history = []; }
+            history.push({
+                time: Date.now(),
+                total: questions.length,
+                correct: correctCount,
+                answers: answers.map(a => ({ key: a.q.key, type: a.q.type, correct: a.correct }))
+            });
+            localStorage.setItem(key, JSON.stringify(history.slice(-50)));
+        }
+
+        function renderResult() {
+            const total = questions.length;
+            const pct = total ? Math.round((correctCount / total) * 100) : 0;
+            const mistakes = answers.filter(a => !a.correct);
+            const typeStats = {};
+            for (const a of answers) {
+                const t = a.q.type;
+                if (!typeStats[t]) typeStats[t] = { total: 0, correct: 0 };
+                typeStats[t].total++;
+                if (a.correct) typeStats[t].correct++;
+            }
+            // weak grammar points
+            const weakPoints = [];
+            for (const a of answers.filter(x => !x.correct && x.q.type.startsWith('grammar'))) {
+                const name = a.q.data.grammar || a.q.data.word;
+                if (name) weakPoints.push(name);
+            }
+            const topWeak = Object.entries(weakPoints.reduce((acc, cur) => { acc[cur] = (acc[cur] || 0) + 1; return acc; }, {}))
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 3)
+                .map(([name, count]) => `${name}（${count} 次）`);
+
+            stageEl.innerHTML = `
+                <div class="panel">
+                    <div class="result-score">
+                        <div class="score-ring" style="--score-deg:${pct * 3.6}deg">
+                            <div class="score-text">${pct}%</div>
+                            <div class="score-label">正确率</div>
+                        </div>
+                        <div class="result-title">${scoreComment(pct)}</div>
+                        <div class="result-desc">答对 ${correctCount} / ${total} 题</div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat"><div class="num">${total}</div><div class="label">总题数</div></div>
+                        <div class="stat"><div class="num">${correctCount}</div><div class="label">正确</div></div>
+                        <div class="stat"><div class="num">${total - correctCount}</div><div class="label">错误</div></div>
+                    </div>
+                    ${topWeak.length ? `
+                    <div class="weak-point">
+                        <h4>薄弱语法点 TOP3</h4>
+                        <ul>${topWeak.map(w => `<li>${escapeHtml(w)}</li>`).join('')}</ul>
+                    </div>` : ''}
+                    <div class="btn-row">
+                        <button class="btn-primary" id="restartBtn">再做一次</button>
+                        <button class="btn-secondary" id="reviewBtn">查看错题</button>
+                    </div>
+                </div>
+            `;
+            document.getElementById('restartBtn').addEventListener('click', () => { currentIdx = 0; correctCount = 0; answers = []; questions = generateQuestions(); renderQuestion(); });
+            document.getElementById('reviewBtn').addEventListener('click', () => reviewMistakes(mistakes));
+        }
+
+        function reviewMistakes(mistakes) {
+            if (!mistakes.length) {
+                stageEl.innerHTML = `<div class="panel"><div class="msg">没有错题，太棒了！</div><button class="start-btn" id="backBtn">返回</button></div>`;
+                document.getElementById('backBtn').addEventListener('click', renderResult);
+                return;
+            }
+            stageEl.innerHTML = `
+                <div class="panel">
+                    <h2>错题回顾</h2>
+                    <div class="sub">共 ${mistakes.length} 题</div>
+                    ${mistakes.map(a => `
+                        <div class="review-item">
+                            <div class="rev-q">${escapeHtml(a.q.question)}</div>
+                            <div class="rev-ans">正确答案：<span class="right">${escapeHtml(a.q.options[a.q.answerIndex])}</span> · 你的答案：<span class="wrong">${escapeHtml(a.q.options[a.selected])}</span></div>
+                            <div class="rev-exp">${escapeHtml(a.q.explanation)}</div>
+                        </div>
+                    `).join('')}
+                    <button class="start-btn" id="backBtn">返回</button>
+                </div>
+            `;
+            document.getElementById('backBtn').addEventListener('click', renderResult);
+        }
+
+        function scoreComment(pct) {
+            if (pct >= 90) return ' excellent！继续保持';
+            if (pct >= 70) return ' 还不错，继续加油';
+            if (pct >= 50) return ' 有进步空间，针对错题复习';
+            return ' 别灰心，错题是最好的老师';
+        }
+
+        function escapeHtml(str) {
+            if (str == null) return '';
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        init();
+    </script>
+</body>
+</html>

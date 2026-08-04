@@ -1,0 +1,257 @@
+[
+  {
+    "grammar": "Past simple (irregular verbs)",
+    "meaning": "一般过去时（不规则动词）",
+    "usage": "常见不规则动词：go-went, eat-ate, see-saw, take-took, come-came。",
+    "examples": [
+      "I went to London last year.",
+      "She ate breakfast at 8.",
+      "We saw a great film."
+    ],
+    "mistakes": [
+      "不规则动词按规则加 -ed",
+      "did 后动词仍用过去式"
+    ],
+    "compare": "不规则 vs. 规则：只能死记，无统一规律。",
+    "id": "125cbefd-1868-4dc4-a200-1910c20ed331",
+    "level": "A2"
+  },
+  {
+    "grammar": "Going to future",
+    "meaning": "be going to 表将来",
+    "usage": "am/is/are going to + 动词原形。用于计划、意图或明显迹象。",
+    "examples": [
+      "I am going to study medicine.",
+      "Look at those clouds! It's going to rain.",
+      "She is going to call you later."
+    ],
+    "mistakes": [
+      "to 后加 -ing（*going to studying*）",
+      "漏掉 be 动词"
+    ],
+    "compare": "be going to vs. will：going to 表已有计划/迹象，will 表即时决定或预测。",
+    "id": "90332b52-9c82-4dd3-ab5d-cae9a57ac80e",
+    "level": "A2"
+  },
+  {
+    "grammar": "Will future",
+    "meaning": "will 表将来",
+    "usage": "will + 动词原形。表即时决定、预测、承诺、请求。",
+    "examples": [
+      "I'll help you.",
+      "I think it will rain tomorrow.",
+      "Will you open the window?"
+    ],
+    "mistakes": [
+      "will 后加 to（*I will to go*）",
+      "will 后动词加 -s"
+    ],
+    "compare": "will vs. going to：will 更临时/主观，going to 更计划/依据。",
+    "id": "b5c48842-62d3-46c9-b01c-a7089f896027",
+    "level": "A2"
+  },
+  {
+    "grammar": "Present perfect",
+    "meaning": "现在完成时",
+    "usage": "have/has + 过去分词。表经历、已完成且与现在有关的动作。",
+    "examples": [
+      "I have visited Paris twice.",
+      "She has lost her keys.",
+      "Have you ever been to Japan?"
+    ],
+    "mistakes": [
+      "过去分词用错（*I have went*）",
+      "与过去时间状语连用（*I have seen him yesterday*）"
+    ],
+    "compare": "现在完成时 vs. 一般过去时：是否强调与现在的联系。",
+    "id": "e9641a04-e22d-4180-a8cd-a249e507cad0",
+    "level": "A2"
+  },
+  {
+    "grammar": "Comparative adjectives",
+    "meaning": "形容词比较级",
+    "usage": "-er / more + adj + than。短形容词加 -er，长形容词用 more。",
+    "examples": [
+      "She is taller than me.",
+      "This book is more interesting than that one.",
+      "Today is hotter than yesterday."
+    ],
+    "mistakes": [
+      "双写规则错误（*biger*）",
+      "more 与 -er 同时用（*more taller*）"
+    ],
+    "compare": "比较级 vs. 最高级：两者比较用 -er/more，三者及以上用 -est/most。",
+    "id": "da692c8f-984f-4f66-9a20-1be07e3100e6",
+    "level": "A2"
+  },
+  {
+    "grammar": "Superlative adjectives",
+    "meaning": "形容词最高级",
+    "usage": "-est / most + adj + the。短形容词加 -est，长形容词用 most。",
+    "examples": [
+      "He is the tallest in the class.",
+      "This is the most expensive restaurant.",
+      "It was the best day of my life."
+    ],
+    "mistakes": [
+      "漏掉 the",
+      "最高级后仍用 than（应用 in/of）"
+    ],
+    "compare": "最高级常与 in + 群体 / of + 范围连用。",
+    "id": "89a02e10-0a5e-4a8f-81b9-961937673b7e",
+    "level": "A2"
+  },
+  {
+    "grammar": "Adverbs of frequency",
+    "meaning": "频率副词",
+    "usage": "always, usually, often, sometimes, rarely, never。位置：be 后、实义动词前。",
+    "examples": [
+      "I always drink coffee.",
+      "She is often late.",
+      "We rarely eat out."
+    ],
+    "mistakes": [
+      "频率副词放错位置（*I drink always coffee*）",
+      "在句末误用 always"
+    ],
+    "compare": "always 与 usually 频率强弱：always 100%，usually 约80%。",
+    "id": "771ec24b-fbb6-4cd5-b9f6-b051e5f46a7b",
+    "level": "A2"
+  },
+  {
+    "grammar": "Some / Any / No",
+    "meaning": "some/any/no 的用法",
+    "usage": "some 用于肯定；any 用于否定/疑问；no 相当于 not any。",
+    "examples": [
+      "I have some time.",
+      "Do you have any questions?",
+      "There are no buses today."
+    ],
+    "mistakes": [
+      "否定句用 some（*I don't have some money*）",
+      "any 用于肯定但表任何"
+    ],
+    "compare": "some vs. any：基本按肯定/否定/疑问划分。",
+    "id": "0006faf0-ce9b-40f3-a6f2-711326c561fe",
+    "level": "A2"
+  },
+  {
+    "grammar": "Much / Many / A lot of",
+    "meaning": "数量词",
+    "usage": "much + 不可数，many + 可数，a lot of/lots of 两者皆可。",
+    "examples": [
+      "I don't have much money.",
+      "How many people are there?",
+      "There are a lot of books."
+    ],
+    "mistakes": [
+      "many 修饰不可数",
+      "疑问句用 much 但表可数"
+    ],
+    "compare": "much/many 多用于否定/疑问，a lot of 多用于肯定。",
+    "id": "50da5b32-d05f-4891-a864-b21ffa5f68de",
+    "level": "A2"
+  },
+  {
+    "grammar": "Should / Shouldn't",
+    "meaning": "应该/不应该",
+    "usage": "should + 动词原形。表建议、义务、预期。",
+    "examples": [
+      "You should exercise more.",
+      "She shouldn't eat so much sugar.",
+      "I should call my mother."
+    ],
+    "mistakes": [
+      "should 后加 to",
+      "should 后加 -ing"
+    ],
+    "compare": "should vs. must：should 表建议，must 表强制。",
+    "id": "2481b65d-9f76-480a-bfe0-ef4524234e0e",
+    "level": "A2"
+  },
+  {
+    "grammar": "Would like",
+    "meaning": "礼貌地想要",
+    "usage": "Would you like...? / I'd like... 表礼貌请求或意愿。",
+    "examples": [
+      "I'd like a cup of coffee.",
+      "Would you like to dance?",
+      "She would like to visit China."
+    ],
+    "mistakes": [
+      "I would like + 动词原形（*I'd like go* 应为 I'd like to go）",
+      "Would like 与 like 混淆"
+    ],
+    "compare": "would like 更礼貌、一次性，like 表爱好、习惯。",
+    "id": "aa6ded77-29a5-4358-94e4-a9f2a34707d2",
+    "level": "A2"
+  },
+  {
+    "grammar": "Reflexive pronouns",
+    "meaning": "反身代词",
+    "usage": "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。表动作回到主语自身。",
+    "examples": [
+      "I cut myself.",
+      "She taught herself Spanish.",
+      "We enjoyed ourselves."
+    ],
+    "mistakes": [
+      "人称与反身代词不一致（*He hurt herself*）",
+      "主语非动作对象时滥用反身代词"
+    ],
+    "compare": "each other 表互相，反身代词表自身。",
+    "id": "db64ae47-8e10-4693-bf25-3566e70c50e8",
+    "level": "A2"
+  },
+  {
+    "grammar": "Possessive pronouns",
+    "meaning": "名词性物主代词",
+    "usage": "mine, yours, his, hers, ours, theirs。单独使用，代替名词短语。",
+    "examples": [
+      "This book is mine.",
+      "Is that car yours?",
+      "The decision is hers."
+    ],
+    "mistakes": [
+      "名词性物主代词后加名词（*yours book*）",
+      "与形容词性物主代词混淆"
+    ],
+    "compare": "your + 名词 vs. yours（单独）。",
+    "id": "e03b3cc8-ab1b-416f-8acb-9ebaacdb44ea",
+    "level": "A2"
+  },
+  {
+    "grammar": "Object pronouns",
+    "meaning": "宾格代词",
+    "usage": "me, you, him, her, it, us, them。用于动词或介词后。",
+    "examples": [
+      "She saw me.",
+      "I gave him a book.",
+      "This is for them."
+    ],
+    "mistakes": [
+      "用主格代替宾格（*She saw I*）",
+      "介词后用主格"
+    ],
+    "compare": "主格 vs. 宾格：主格作主语，宾格作宾语。",
+    "id": "086ff051-3100-404b-9ba6-481687629c78",
+    "level": "A2"
+  },
+  {
+    "grammar": "Too / Enough",
+    "meaning": "too 与 enough",
+    "usage": "too + adj/adv（太……）；adj/adv + enough（足够……）；enough + noun。",
+    "examples": [
+      "It's too hot today.",
+      "She isn't tall enough.",
+      "We have enough time."
+    ],
+    "mistakes": [
+      "enough 位置错误（*enough tall*）",
+      "too 与 very 混淆（too 含负面含义）"
+    ],
+    "compare": "too + 形容词（过头） vs. enough（足够）。",
+    "id": "27ecca27-e0e8-4db9-b481-7a90d278648c",
+    "level": "A2"
+  }
+]
