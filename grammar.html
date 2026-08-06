@@ -15,7 +15,105 @@
 <title>English 语法学习</title>
     <link rel="stylesheet" href="css/common.css">
     <style>
-        /* 页面特有微调：保持公共样式已覆盖，此处留空备用 */
+        /* grammar.html 卡片背面样式美化 */
+        .grammar-back {
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary) transparent;
+        }
+        .grammar-back::-webkit-scrollbar { width: 6px; }
+        .grammar-back::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }
+
+        .grammar-back .section {
+            background: var(--surface-2);
+            border-radius: 14px;
+            padding: 14px 16px;
+            margin-bottom: 14px;
+            text-align: left;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+        }
+        .grammar-back .section:last-child { margin-bottom: 0; }
+
+        .grammar-back .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--primary-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .grammar-back .meaning-text {
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--text);
+        }
+
+        .grammar-back .pattern-box {
+            background: var(--warning-soft);
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-size: 15px;
+            color: var(--warning-text);
+            line-height: 1.6;
+        }
+
+        .grammar-back .example-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .grammar-back .example-list li {
+            background: var(--surface);
+            border-left: 3px solid var(--primary);
+            border-radius: 10px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            font-size: 15px;
+            line-height: 1.55;
+            color: var(--text);
+        }
+        .grammar-back .example-list li:last-child { margin-bottom: 0; }
+        .grammar-back .example-list .example-en {
+            font-size: 15px;
+            color: var(--text);
+            line-height: 1.55;
+        }
+        .grammar-back .example-list .example-meaning {
+            display: block;
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .grammar-back .mistake-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .grammar-back .mistake-list li {
+            background: var(--danger-soft);
+            border-radius: 10px;
+            padding: 9px 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: var(--danger-text);
+            line-height: 1.5;
+        }
+
+        .grammar-back .note-text,
+        .grammar-back .compare-text {
+            font-size: 14px;
+            line-height: 1.65;
+            color: var(--text);
+        }
+        .grammar-back .compare-text {
+            background: var(--info-soft);
+            border-radius: 12px;
+            padding: 12px 14px;
+        }
     </style>
 </head>
 <body>
@@ -91,38 +189,39 @@
                 .replace(/\*(.+?)\*/g, '<em>$1</em>');
         }
 
+        function section(title, icon, body) {
+            return `<div class="section"><div class="section-title">${icon} ${escapeHtml(title)}</div>${body}</div>`;
+        }
+
         function renderDescription(g) {
             let html = '';
+            // 标题放在顶部，不包在 section 里以突出层级
             if (g.grammar_cn) {
                 html += `<div class="grammar-title"><strong>${escapeHtml(g.grammar)}</strong>（${escapeHtml(g.grammar_cn)}）</div>`;
             } else {
                 html += `<div class="grammar-title"><strong>${escapeHtml(g.grammar)}</strong></div>`;
             }
             if (g.meaning) {
-                html += `<p><strong class="desc-label">含义：</strong>${renderMarkdownInline(g.meaning)}</p>`;
+                html += section('含义', '💡', `<div class="meaning-text">${renderMarkdownInline(g.meaning)}</div>`);
             }
             if (g.pattern) {
-                html += `<p><strong class="desc-label">结构 / 用法：</strong>${renderMarkdownInline(g.pattern)}</p>`;
+                html += section('结构 / 用法', '📐', `<div class="pattern-box">${renderMarkdownInline(g.pattern)}</div>`);
             }
             if (g.examples && g.examples.length) {
-                html += `<p><strong class="desc-label">例句：</strong></p><ul>`;
-                for (const ex of g.examples) {
-                    html += `<li>${renderMarkdownInline(ex.example)}<br><span class="example-meaning">${renderMarkdownInline(ex.example_meaning || '')}</span></li>`;
-                }
-                html += `</ul>`;
+                const exHtml = g.examples.map(ex =>
+                    `<li><span class="example-en">${renderMarkdownInline(ex.example)}</span><span class="example-meaning">${renderMarkdownInline(ex.example_meaning || '')}</span></li>`
+                ).join('');
+                html += section('例句', '📝', `<ul class="example-list">${exHtml}</ul>`);
             }
             if (g.common_mistakes && g.common_mistakes.length) {
-                html += `<p><strong class="desc-label">常见错误：</strong></p><ul>`;
-                for (const m of g.common_mistakes) {
-                    html += `<li>${renderMarkdownInline(m)}</li>`;
-                }
-                html += `</ul>`;
+                const mHtml = g.common_mistakes.map(m => `<li>${renderMarkdownInline(m)}</li>`).join('');
+                html += section('常见错误', '⚠️', `<ul class="mistake-list">${mHtml}</ul>`);
             }
             if (g.comparison) {
-                html += `<p><strong class="desc-label">辨析：</strong>${renderMarkdownInline(g.comparison)}</p>`;
+                html += section('辨析', '🔍', `<div class="compare-text">${renderMarkdownInline(g.comparison)}</div>`);
             }
             if (g.notes) {
-                html += `<p><strong class="desc-label">注意：</strong>${renderMarkdownInline(g.notes)}</p>`;
+                html += section('注意', '💬', `<div class="note-text">${renderMarkdownInline(g.notes)}</div>`);
             }
             return html;
         }

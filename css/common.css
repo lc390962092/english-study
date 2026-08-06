@@ -1133,6 +1133,49 @@ a {
   transition: color 0.25s ease;
 }
 
+        .grammar-title {
+  font-size: 24px;
+  color: var(--text);
+  margin-bottom: 22px;
+  line-height: 1.35;
+  transition: color 0.25s ease;
+}
+
+.grammar-title strong {
+  color: var(--primary-text);
+  display: block;
+  font-size: 34px;
+  margin-bottom: 6px;
+}
+
+.grammar-back {
+  font-size: 15px;
+  color: var(--text);
+  text-align: left;
+  line-height: 1.6;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 0 10px;
+}
+
+.grammar-back p {
+  margin: 0 0 12px 0;
+}
+
+.grammar-back ul {
+  margin: 0 0 16px 20px;
+  padding: 0;
+}
+
+.grammar-back li {
+  margin-bottom: 6px;
+}
+
+.grammar-back .desc-label {
+  font-weight: bold;
+  color: var(--primary-text);
+}
+
 .accent {
   font-size: 14px;
   color: var(--text-muted);
