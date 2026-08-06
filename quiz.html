@@ -15,7 +15,110 @@
 <title>English 测试</title>
     <link rel="stylesheet" href="css/common.css">
     <style>
-        /* 本页特有：无，公共样式已覆盖 */
+        /* quiz.html 解析区增强样式 */
+        .exp-sections {
+            margin-top: 12px;
+        }
+        .exp-section {
+            background: var(--surface-2);
+            border-radius: 14px;
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .exp-section:last-child { margin-bottom: 0; }
+        .exp-section-title {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--primary-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .exp-content {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text);
+        }
+        .exp-pattern {
+            background: var(--warning-soft);
+            border-radius: 10px;
+            padding: 10px 12px;
+            color: var(--warning-text);
+            font-size: 14px;
+            line-height: 1.55;
+        }
+        .exp-example-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .exp-example-list li {
+            background: var(--surface);
+            border-left: 3px solid var(--primary);
+            border-radius: 10px;
+            padding: 9px 11px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .exp-example-list li:last-child { margin-bottom: 0; }
+        .exp-example-en { color: var(--text); }
+        .exp-example-meaning { display: block; font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+        .exp-mistakes {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .exp-mistakes li {
+            background: var(--danger-soft);
+            border-radius: 10px;
+            padding: 8px 11px;
+            margin-bottom: 5px;
+            font-size: 13px;
+            color: var(--danger-text);
+            line-height: 1.45;
+        }
+        .exp-meta {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        .exp-word-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .exp-word-sub {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+        .review-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .review-tags {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+        .review-tag {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 20px;
+            background: var(--surface-3);
+            color: var(--text-secondary);
+        }
+        .review-tag.grammar { background: var(--primary-soft); color: var(--primary-text); }
+        .review-tag.word { background: var(--success-soft); color: var(--success-text); }
+        .review-tag.correct-tag { background: var(--success-soft); color: var(--success-text); }
+        .review-tag.wrong-tag { background: var(--danger-soft); color: var(--danger-text); }
     </style>
 </head>
 <body>
@@ -161,8 +264,7 @@
                     question: isWordToMeaning ? item.word : item.meaning,
                     sub: isWordToMeaning ? (phonetic ? `音标：${phonetic}` : '') : (phonetic ? `选出对应的英文词` : ''),
                     options,
-                    answerIndex: options.indexOf(correctText),
-                    explanation: `${item.word}（${phonetic}）→ ${item.meaning}`
+                    answerIndex: options.indexOf(correctText)
                 };
             });
         }
@@ -196,8 +298,7 @@
                 return {
                     type, key: item.id, data: item,
                     question, sub, options,
-                    answerIndex: options.indexOf(correctText),
-                    explanation: `${escapeHtml(item.grammar)}：${escapeHtml(meaningSnippet)}`
+                    answerIndex: options.indexOf(correctText)
                 };
             });
         }
@@ -415,6 +516,69 @@
             document.getElementById('nextBtn').addEventListener('click', nextQuestion);
         }
 
+        function renderMarkdownInline(text) {
+            if (text === null || text === undefined) return '';
+            return escapeHtml(text)
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>');
+        }
+
+        function expSection(title, icon, body) {
+            return `<div class="exp-section"><div class="exp-section-title">${icon} ${escapeHtml(title)}</div>${body}</div>`;
+        }
+
+        function renderWordExplanation(item) {
+            const phonetic = item.phonetic_us || item.phonetic_uk || '';
+            let html = '';
+            html += `<div class="exp-word-title">${escapeHtml(item.word)}</div>`;
+            html += `<div class="exp-word-sub">${item.pos || ''} ${phonetic ? ' / ' + escapeHtml(phonetic) : ''}</div>`;
+            html += expSection('释义', '💡', `<div class="exp-content">${renderMarkdownInline(item.meaning)}</div>`);
+            if (item.example) {
+                html += expSection('例句', '📝', `<div class="exp-content"><div>${renderMarkdownInline(item.example)}</div><div class="exp-example-meaning">${renderMarkdownInline(item.example_meaning || '')}</div></div>`);
+            }
+            return `<div class="exp-sections">${html}</div>`;
+        }
+
+        function renderGrammarExplanation(item) {
+            let html = '';
+            if (item.grammar_cn) {
+                html += `<div class="exp-word-title">${escapeHtml(item.grammar)}</div>`;
+                html += `<div class="exp-word-sub">${escapeHtml(item.grammar_cn)}</div>`;
+            } else {
+                html += `<div class="exp-word-title">${escapeHtml(item.grammar)}</div>`;
+            }
+            if (item.meaning) {
+                html += expSection('含义', '💡', `<div class="exp-content">${renderMarkdownInline(item.meaning)}</div>`);
+            }
+            if (item.pattern) {
+                html += expSection('结构 / 用法', '📐', `<div class="exp-pattern">${renderMarkdownInline(item.pattern)}</div>`);
+            }
+            if (item.examples && item.examples.length) {
+                const exHtml = item.examples.map(ex =>
+                    `<li><span class="exp-example-en">${renderMarkdownInline(ex.example)}</span><span class="exp-example-meaning">${renderMarkdownInline(ex.example_meaning || '')}</span></li>`
+                ).join('');
+                html += expSection('例句', '📝', `<ul class="exp-example-list">${exHtml}</ul>`);
+            }
+            if (item.common_mistakes && item.common_mistakes.length) {
+                const mHtml = item.common_mistakes.map(m => `<li>${renderMarkdownInline(m)}</li>`).join('');
+                html += expSection('常见错误', '⚠️', `<ul class="exp-mistakes">${mHtml}</ul>`);
+            }
+            if (item.comparison) {
+                html += expSection('辨析', '🔍', `<div class="exp-content">${renderMarkdownInline(item.comparison)}</div>`);
+            }
+            if (item.notes) {
+                html += expSection('注意', '💬', `<div class="exp-content">${renderMarkdownInline(item.notes)}</div>`);
+            }
+            return `<div class="exp-sections">${html}</div>`;
+        }
+
+        function renderExplanation(q) {
+            if (!q.data) return '';
+            if (q.type.startsWith('word_')) return renderWordExplanation(q.data);
+            if (q.type.startsWith('grammar_')) return renderGrammarExplanation(q.data);
+            return '';
+        }
+
         function typeLabel(type) {
             const map = {
                 word_meaning: '词义选择', word_recognition: '看义选词',
@@ -447,9 +611,9 @@
                 <div class="feedback ${correct ? 'correct' : 'wrong'}">
                     <div class="feedback-title">${correct ? '回答正确！' : '回答错误'}</div>
                     <div class="feedback-detail">
-                        正确答案：${escapeHtml(q.options[q.answerIndex])}<br>
-                        ${escapeHtml(q.explanation)}
+                        正确答案：${escapeHtml(q.options[q.answerIndex])}
                     </div>
+                    ${renderExplanation(q)}
                 </div>
             `;
             document.getElementById('nextBtn').classList.remove('hidden');
@@ -499,6 +663,18 @@
                 .slice(0, 3)
                 .map(([name, count]) => `${name}（${count} 次）`);
 
+            // 分题型统计
+            const typeStatsHtml = Object.entries(typeStats).map(([t, s]) => {
+                const p = s.total ? Math.round((s.correct / s.total) * 100) : 0;
+                return `
+                    <div class="section-bar">
+                        <div class="name">${typeLabel(t)}</div>
+                        <div class="track"><div class="fill" style="width:${p}%"></div></div>
+                        <div class="pct">${p}%</div>
+                    </div>
+                `;
+            }).join('');
+
             stageEl.innerHTML = `
                 <div class="panel">
                     <div class="result-score">
@@ -514,6 +690,11 @@
                         <div class="stat"><div class="num">${correctCount}</div><div class="label">正确</div></div>
                         <div class="stat"><div class="num">${total - correctCount}</div><div class="label">错误</div></div>
                     </div>
+                    ${typeStatsHtml ? `
+                    <div class="section-stat">
+                        <h3>分题型正确率</h3>
+                        ${typeStatsHtml}
+                    </div>` : ''}
                     ${topWeak.length ? `
                     <div class="weak-point">
                         <h4>薄弱语法点 TOP3</h4>
@@ -541,9 +722,13 @@
                     <div class="sub">共 ${mistakes.length} 题</div>
                     ${mistakes.map(a => `
                         <div class="review-item">
+                            <div class="review-tags">
+                                <span class="review-tag ${a.q.type.startsWith('word_') ? 'word' : 'grammar'}">${typeLabel(a.q.type)}</span>
+                                <span class="review-tag ${a.correct ? 'correct-tag' : 'wrong-tag'}">${a.correct ? '✓ 正确' : '✗ 错误'}</span>
+                            </div>
                             <div class="rev-q">${escapeHtml(a.q.question)}</div>
                             <div class="rev-ans">正确答案：<span class="right">${escapeHtml(a.q.options[a.q.answerIndex])}</span> · 你的答案：<span class="wrong">${escapeHtml(a.q.options[a.selected])}</span></div>
-                            <div class="rev-exp">${escapeHtml(a.q.explanation)}</div>
+                            ${renderExplanation(a.q)}
                         </div>
                     `).join('')}
                     <button class="start-btn" id="backBtn">返回</button>
