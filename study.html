@@ -15,7 +15,100 @@
 <title>English 词汇学习</title>
     <link rel="stylesheet" href="css/common.css">
     <style>
-        /* 页面特有微调：保持公共样式已覆盖，此处留空备用 */
+        /* 跳转弹窗（复用 grammar 页样式） */
+        .jump-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--overlay);
+            z-index: 1000;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+        .jump-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .jump-modal {
+            background: var(--surface);
+            width: 100%;
+            max-width: 480px;
+            border-radius: 24px 24px 0 0;
+            padding: 22px 24px 30px;
+            box-shadow: var(--shadow-lg);
+            transform: translateY(100%);
+            transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .jump-overlay.active .jump-modal {
+            transform: translateY(0);
+        }
+        .jump-modal h3 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .jump-modal p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+        .jump-input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            background: var(--surface-2);
+            color: var(--text);
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s, background-color 0.25s, color 0.25s;
+            margin-bottom: 8px;
+        }
+        .jump-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px var(--ring);
+        }
+        .jump-hint {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            min-height: 18px;
+        }
+        .jump-actions {
+            display: flex;
+            gap: 12px;
+        }
+        .jump-actions button {
+            flex: 1;
+            padding: 14px;
+            border-radius: 14px;
+            border: none;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.1s;
+        }
+        .jump-actions button:active {
+            transform: scale(0.97);
+        }
+        .jump-btn-primary {
+            background: var(--primary-grad);
+            color: white;
+        }
+        .jump-btn-secondary {
+            background: var(--surface-3);
+            color: var(--text);
+            border: 1px solid var(--border) !important;
+        }
+        .btn-jump {
+            background: var(--accent-5);
+        }
     </style>
 </head>
 <body>
@@ -26,6 +119,19 @@
     </div>
     <div class="stage" id="stage">
         <div class="msg">加载中...</div>
+    </div>
+
+    <div class="jump-overlay" id="jumpOverlay" onclick="if(event.target===this) closeJump()">
+        <div class="jump-modal">
+            <h3>🔍 跳转到单词</h3>
+            <p>输入序号（1~<span id="jumpTotal">0</span>）或关键词</p>
+            <input type="text" class="jump-input" id="jumpInput" placeholder="例如：50 或 apple" autocomplete="off">
+            <div class="jump-hint" id="jumpHint"></div>
+            <div class="jump-actions">
+                <button class="jump-btn-secondary" onclick="closeJump()">取消</button>
+                <button class="jump-btn-primary" onclick="doJump()">跳转</button>
+            </div>
+        </div>
     </div>
 
     <script src="js/common.js"></script>
@@ -142,6 +248,7 @@
                 <div class="btn-group">
                     <button class="btn btn-word" onclick="event.stopPropagation(); speakWord()">🔊 读音</button>
                     ${w.example ? `<button class="btn btn-sentence" onclick="event.stopPropagation(); speakSentence()">📝 例句</button>` : ''}
+                    <button class="btn btn-jump" onclick="event.stopPropagation(); showJump()">🔍 跳转</button>
                     <button class="btn ${isKnown ? 'btn-unknown' : 'btn-known'}" onclick="event.stopPropagation(); toggleKnown()">${isKnown ? '取消掌握' : '✓ 掌握'}</button>
                 </div>
                 <div class="controls">
@@ -260,6 +367,97 @@
 
         function restart() {
             index = 0;
+            render();
+        }
+
+        function showJump() {
+            const overlay = document.getElementById('jumpOverlay');
+            const totalEl = document.getElementById('jumpTotal');
+            const input = document.getElementById('jumpInput');
+            const hint = document.getElementById('jumpHint');
+            if (totalEl) totalEl.textContent = words.length;
+            if (hint) hint.textContent = '';
+            if (input) {
+                input.value = '';
+                input.addEventListener('input', updateJumpHint);
+                input.addEventListener('keydown', onJumpKey);
+            }
+            overlay.classList.add('active');
+            setTimeout(() => input && input.focus(), 50);
+        }
+
+        function closeJump() {
+            const overlay = document.getElementById('jumpOverlay');
+            const input = document.getElementById('jumpInput');
+            overlay.classList.remove('active');
+            if (input) {
+                input.removeEventListener('input', updateJumpHint);
+                input.removeEventListener('keydown', onJumpKey);
+            }
+        }
+
+        function updateJumpHint() {
+            const input = document.getElementById('jumpInput');
+            const hint = document.getElementById('jumpHint');
+            const raw = input.value.trim();
+            if (!raw) {
+                hint.textContent = '';
+                return;
+            }
+            if (/^\d+$/.test(raw)) {
+                const n = parseInt(raw, 10);
+                if (n >= 1 && n <= words.length) {
+                    hint.textContent = `将跳转到第 ${n} 条：${words[n - 1].word}`;
+                    hint.style.color = 'var(--text-secondary)';
+                } else {
+                    hint.textContent = `请输入 1~${words.length} 之间的序号`;
+                    hint.style.color = 'var(--danger-text)';
+                }
+                return;
+            }
+            const term = raw.toLowerCase();
+            const matches = words.filter(w =>
+                (w.word && w.word.toLowerCase().includes(term)) ||
+                (w.meaning && w.meaning.toLowerCase().includes(term))
+            );
+            if (matches.length === 0) {
+                hint.textContent = '未找到匹配的单词';
+                hint.style.color = 'var(--danger-text)';
+            } else {
+                hint.textContent = `找到 ${matches.length} 条匹配，将跳转到第一条：${matches[0].word}`;
+                hint.style.color = 'var(--text-secondary)';
+            }
+        }
+
+        function onJumpKey(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                doJump();
+            }
+            if (e.key === 'Escape') {
+                closeJump();
+            }
+        }
+
+        function doJump() {
+            const input = document.getElementById('jumpInput');
+            const raw = input.value.trim();
+            if (!raw) return;
+            let target = -1;
+            if (/^\d+$/.test(raw)) {
+                const n = parseInt(raw, 10);
+                if (n >= 1 && n <= words.length) target = n - 1;
+            } else {
+                const term = raw.toLowerCase();
+                target = words.findIndex(w =>
+                    (w.word && w.word.toLowerCase().includes(term)) ||
+                    (w.meaning && w.meaning.toLowerCase().includes(term))
+                );
+            }
+            if (target === -1) return;
+            if (synth) synth.cancel();
+            index = target;
+            closeJump();
             render();
         }
 
