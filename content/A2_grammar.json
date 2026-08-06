@@ -3,390 +3,1881 @@
     "id": "f1211c4e-ef24-404e-b18c-400d7995128e",
     "level": "A2",
     "grammar": "Past simple (all forms)",
-    "description": "**Past simple (all forms)**（一般过去时综合）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**用法**：规则 + 不规则动词。过去具体时间用过去式。\n\n**例句**：\n- I went home early.\n- Did she call you?\n- They didn't watch TV.\n\n**常见错误**：\n- 过去式与现在完成时混用\n- 否定句/疑问句 did 后没用原形\n\n**辨析**：过去式 vs. 现在完成时：yesterday vs. ever/never/just。"
+    "description": "**Past simple (all forms)**（一般过去时综合）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**用法**：规则 + 不规则动词。过去具体时间用过去式。\n\n**例句**：\n- I went home early.\n- Did she call you?\n- They didn't watch TV.\n\n**常见错误**：\n- 过去式与现在完成时混用\n- 否定句/疑问句 did 后没用原形\n\n**辨析**：过去式 vs. 现在完成时：yesterday vs. ever/never/just。",
+    "grammar_cn": "一般过去时综合",
+    "meaning": "表示过去某个时间发生的动作或状态。",
+    "pattern": "规则 + 不规则动词。过去具体时间用过去式。",
+    "common_mistakes": [
+      "过去式与现在完成时混用",
+      "否定句/疑问句 did 后没用原形"
+    ],
+    "comparison": "过去式 vs. 现在完成时：yesterday vs. ever/never/just。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I went home early.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Did she call you?",
+        "example_meaning": ""
+      },
+      {
+        "example": "They didn't watch TV.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "b246cef3-a269-4b74-a08d-2dfcb261a553",
     "level": "A2",
     "grammar": "Past continuous",
-    "description": "**Past continuous**（过去进行时）\n\n**含义**：表示过去某一时刻正在进行的动作。\n\n**结构**：was/were + V-ing\n\n**用法说明**：描述过去某时正在进行的动作\n\n**例句**：\n- I was reading when she called.\n- They were having dinner at 8 p.m.\n- It was raining all night.\n\n**常见错误**：\n- was/were 后加原形（*was rain*）\n- 注意：漏掉 was/were\n\n**辨析**：过去进行时 vs. 一般过去时：背景动作 vs. 打断动作。"
+    "description": "**Past continuous**（过去进行时）\n\n**含义**：表示过去某一时刻正在进行的动作。\n\n**结构**：was/were + V-ing\n\n**用法说明**：描述过去某时正在进行的动作\n\n**例句**：\n- I was reading when she called.\n- They were having dinner at 8 p.m.\n- It was raining all night.\n\n**常见错误**：\n- was/were 后加原形（*was rain*）\n- 注意：漏掉 was/were\n\n**辨析**：过去进行时 vs. 一般过去时：背景动作 vs. 打断动作。",
+    "grammar_cn": "过去进行时",
+    "meaning": "表示过去某一时刻正在进行的动作。",
+    "pattern": "was/were + V-ing",
+    "common_mistakes": [
+      "was/were 后加原形（*was rain*）",
+      "注意：漏掉 was/were"
+    ],
+    "comparison": "过去进行时 vs. 一般过去时：背景动作 vs. 打断动作。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I was reading when she called.",
+        "example_meaning": ""
+      },
+      {
+        "example": "They were having dinner at 8 p.m.",
+        "example_meaning": ""
+      },
+      {
+        "example": "It was raining all night.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "554800a9-e37e-46e3-ad0d-07ee2cae4b99",
     "level": "A2",
     "grammar": "Present perfect (experiences)",
-    "description": "**Present perfect (experiences)**（现在完成时（经历）\n\n**含义**：表示过去发生但与现在有联系的动作或经历。\n\n**结构**：have/has + 过去分词\n\n**用法说明**：表示过去经历与现在有关\n\n**例句**：\n- I have visited Paris.\n- Have you ever been to Japan?\n- She has never eaten sushi.\n\n**常见错误**：\n- 与过去时间连用（*I have visited yesterday*）\n- have 后加过去式而非过去分词\n\n**辨析**：现在完成时 vs. 一般过去时：无具体过去时间 vs. 有具体过去时间。"
+    "description": "**Present perfect (experiences)**（现在完成时（经历）\n\n**含义**：表示过去发生但与现在有联系的动作或经历。\n\n**结构**：have/has + 过去分词\n\n**用法说明**：表示过去经历与现在有关\n\n**例句**：\n- I have visited Paris.\n- Have you ever been to Japan?\n- She has never eaten sushi.\n\n**常见错误**：\n- 与过去时间连用（*I have visited yesterday*）\n- have 后加过去式而非过去分词\n\n**辨析**：现在完成时 vs. 一般过去时：无具体过去时间 vs. 有具体过去时间。",
+    "grammar_cn": "现在完成时（经历",
+    "meaning": "表示过去发生但与现在有联系的动作或经历。",
+    "pattern": "have/has + 过去分词",
+    "common_mistakes": [
+      "与过去时间连用（*I have visited yesterday*）",
+      "have 后加过去式而非过去分词"
+    ],
+    "comparison": "现在完成时 vs. 一般过去时：无具体过去时间 vs. 有具体过去时间。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have visited Paris.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Have you ever been to Japan?",
+        "example_meaning": ""
+      },
+      {
+        "example": "She has never eaten sushi.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "8d68e505-963b-4966-9db5-1a911d272724",
     "level": "A2",
     "grammar": "Present perfect with just/already/yet",
-    "description": "**Present perfect with just/already/yet**（just/already/yet）\n\n**含义**：表示过去发生但与现在有联系的动作或经历。\n\n**用法**：just（刚刚）, already（已经）, yet（还）常与现在完成时连用。\n\n**例句**：\n- I've just finished.\n- She has already left.\n- Have you eaten yet?\n\n**常见错误**：\n- yet 用于肯定句\n- already 用于疑问句时位置错\n\n**注意**：already 用于肯定/疑问，yet 用于否定/疑问句末。"
+    "description": "**Present perfect with just/already/yet**（just/already/yet）\n\n**含义**：表示过去发生但与现在有联系的动作或经历。\n\n**用法**：just（刚刚）, already（已经）, yet（还）常与现在完成时连用。\n\n**例句**：\n- I've just finished.\n- She has already left.\n- Have you eaten yet?\n\n**常见错误**：\n- yet 用于肯定句\n- already 用于疑问句时位置错\n\n**注意**：already 用于肯定/疑问，yet 用于否定/疑问句末。",
+    "grammar_cn": "just/already/yet",
+    "meaning": "表示过去发生但与现在有联系的动作或经历。",
+    "pattern": "just（刚刚）, already（已经）, yet（还）常与现在完成时连用。",
+    "common_mistakes": [
+      "yet 用于肯定句",
+      "already 用于疑问句时位置错"
+    ],
+    "comparison": "",
+    "notes": "already 用于肯定/疑问，yet 用于否定/疑问句末。",
+    "examples": [
+      {
+        "example": "I've just finished.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She has already left.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Have you eaten yet?",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "4b6f268b-9d66-4d5d-ae49-0df5da31506f",
     "level": "A2",
     "grammar": "For / since",
-    "description": "**For / since**（for / since）\n\n**含义**：for / since。\n\n**结构**：for + 一段时间；since + 时间点\n\n**用法说明**：常搭配现在完成时\n\n**例句**：\n- I have lived here for ten years.\n- She has worked here since 2020.\n- We haven't eaten for hours.\n\n**常见错误**：\n- for 后接时间点\n- since 后接一段时间\n\n**注意**：for 是 duration，since 是 starting point。"
+    "description": "**For / since**（for / since）\n\n**含义**：for / since。\n\n**结构**：for + 一段时间；since + 时间点\n\n**用法说明**：常搭配现在完成时\n\n**例句**：\n- I have lived here for ten years.\n- She has worked here since 2020.\n- We haven't eaten for hours.\n\n**常见错误**：\n- for 后接时间点\n- since 后接一段时间\n\n**注意**：for 是 duration，since 是 starting point。",
+    "grammar_cn": "for / since",
+    "meaning": "for / since。",
+    "pattern": "for + 一段时间；since + 时间点",
+    "common_mistakes": [
+      "for 后接时间点",
+      "since 后接一段时间"
+    ],
+    "comparison": "",
+    "notes": "for 是 duration，since 是 starting point。",
+    "examples": [
+      {
+        "example": "I have lived here for ten years.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She has worked here since 2020.",
+        "example_meaning": ""
+      },
+      {
+        "example": "We haven't eaten for hours.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "e6095e39-298a-4b15-a102-40bf49c0ad9f",
     "level": "A2",
     "grammar": "Been / gone",
-    "description": "**Been / gone**（been / gone）\n\n**含义**：been / gone。\n\n**结构**：have been to 表示去过（已回）；have gone to 表示去了（未回）\n\n**例句**：\n- He has been to Paris. (回来了)\n- He has gone to Paris. (还在那儿)\n- I've been there twice.\n\n**常见错误**：\n- been 与 gone 混用\n- been to 漏 to\n\n**注意**：been 表经历，gone 表不在此地。"
+    "description": "**Been / gone**（been / gone）\n\n**含义**：been / gone。\n\n**结构**：have been to 表示去过（已回）；have gone to 表示去了（未回）\n\n**例句**：\n- He has been to Paris. (回来了)\n- He has gone to Paris. (还在那儿)\n- I've been there twice.\n\n**常见错误**：\n- been 与 gone 混用\n- been to 漏 to\n\n**注意**：been 表经历，gone 表不在此地。",
+    "grammar_cn": "been / gone",
+    "meaning": "been / gone。",
+    "pattern": "have been to 表示去过（已回）；have gone to 表示去了（未回）",
+    "common_mistakes": [
+      "been 与 gone 混用",
+      "been to 漏 to"
+    ],
+    "comparison": "",
+    "notes": "been 表经历，gone 表不在此地。",
+    "examples": [
+      {
+        "example": "He has been to Paris. (",
+        "example_meaning": "回来了)"
+      },
+      {
+        "example": "He has gone to Paris. (",
+        "example_meaning": "还在那儿)"
+      },
+      {
+        "example": "I've been there twice.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "c94cc32f-7416-48c9-a251-b2b3ca6ec27f",
     "level": "A2",
     "grammar": "Future: will / going to / present continuous",
-    "description": "**Future: will / going to / present continuous**（将来时比较）\n\n**含义**：表示此刻正在进行的动作或近期临时安排。\n\n**结构**：will 表临时决定/承诺；be going to 表计划/迹象\n\n**用法说明**：现在进行时表已安排\n\n**例句**：\n- I'll get it. (临时)\n- I'm going to buy a car. (计划)\n- I'm meeting her at 6. (已安排)\n\n**常见错误**：\n- 错误：将 will 和 be going to 当作完全相同。\n- 现在进行时表未来时漏时间状语\n\n**注意**：will 临时，be going to 计划/迹象，现在进行已安排。"
+    "description": "**Future: will / going to / present continuous**（将来时比较）\n\n**含义**：表示此刻正在进行的动作或近期临时安排。\n\n**结构**：will 表临时决定/承诺；be going to 表计划/迹象\n\n**用法说明**：现在进行时表已安排\n\n**例句**：\n- I'll get it. (临时)\n- I'm going to buy a car. (计划)\n- I'm meeting her at 6. (已安排)\n\n**常见错误**：\n- 错误：将 will 和 be going to 当作完全相同。\n- 现在进行时表未来时漏时间状语\n\n**注意**：will 临时，be going to 计划/迹象，现在进行已安排。",
+    "grammar_cn": "将来时比较",
+    "meaning": "表示此刻正在进行的动作或近期临时安排。",
+    "pattern": "will 表临时决定/承诺；be going to 表计划/迹象",
+    "common_mistakes": [
+      "错误：将 will 和 be going to 当作完全相同。",
+      "现在进行时表未来时漏时间状语"
+    ],
+    "comparison": "",
+    "notes": "will 临时，be going to 计划/迹象，现在进行已安排。",
+    "examples": [
+      {
+        "example": "I'll get it. (",
+        "example_meaning": "临时)"
+      },
+      {
+        "example": "I'm going to buy a car. (",
+        "example_meaning": "计划)"
+      },
+      {
+        "example": "I'm meeting her at 6. (",
+        "example_meaning": "已安排)"
+      }
+    ]
   },
   {
     "id": "4dc9f3ba-fe92-427f-be67-079f8baa1b2d",
     "level": "A2",
     "grammar": "Future time clauses",
-    "description": "**Future time clauses**（将来时间状语从句）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**用法**：时间状语从句中用一般现在时表将来。\n\n**例句**：\n- When I arrive, I'll call you.\n- I'll tell him as soon as I see him.\n- After she finishes, we'll go.\n\n**常见错误**：\n- 时间状语从句中用 will（*When I will arrive*）\n- 主句用一般现在时表将来\n\n**注意**：主将从现：主句将来，从句现在。"
+    "description": "**Future time clauses**（将来时间状语从句）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**用法**：时间状语从句中用一般现在时表将来。\n\n**例句**：\n- When I arrive, I'll call you.\n- I'll tell him as soon as I see him.\n- After she finishes, we'll go.\n\n**常见错误**：\n- 时间状语从句中用 will（*When I will arrive*）\n- 主句用一般现在时表将来\n\n**注意**：主将从现：主句将来，从句现在。",
+    "grammar_cn": "将来时间状语从句",
+    "meaning": "表示将来发生的动作、计划或预测。",
+    "pattern": "时间状语从句中用一般现在时表将来。",
+    "common_mistakes": [
+      "时间状语从句中用 will（*When I will arrive*）",
+      "主句用一般现在时表将来"
+    ],
+    "comparison": "",
+    "notes": "主将从现：主句将来，从句现在。",
+    "examples": [
+      {
+        "example": "When I arrive, I'll call you.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll tell him as soon as I see him.",
+        "example_meaning": ""
+      },
+      {
+        "example": "After she finishes, we'll go.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "dd1441cc-c62b-4252-bc87-2eac8f7a7639",
     "level": "A2",
     "grammar": "Modal verbs: can/could/may/might",
-    "description": "**Modal verbs: can/could/may/might**（情态动词（可能性/许可）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：can/could 能力/请求；may/might 许可/可能（might 更不确定）\n\n**例句**：\n- You may leave now.\n- It might rain tomorrow.\n- Could you help me? 你能帮我吗？\n\n**常见错误**：\n- 情态动词后加 to 或 -s\n- may/might 语气不分\n\n**注意**：might 比 may 可能性更小。"
+    "description": "**Modal verbs: can/could/may/might**（情态动词（可能性/许可）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：can/could 能力/请求；may/might 许可/可能（might 更不确定）\n\n**例句**：\n- You may leave now.\n- It might rain tomorrow.\n- Could you help me? 你能帮我吗？\n\n**常见错误**：\n- 情态动词后加 to 或 -s\n- may/might 语气不分\n\n**注意**：might 比 may 可能性更小。",
+    "grammar_cn": "情态动词（可能性/许可",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "can/could 能力/请求；may/might 许可/可能（might 更不确定）",
+    "common_mistakes": [
+      "情态动词后加 to 或 -s",
+      "may/might 语气不分"
+    ],
+    "comparison": "",
+    "notes": "might 比 may 可能性更小。",
+    "examples": [
+      {
+        "example": "You may leave now.",
+        "example_meaning": ""
+      },
+      {
+        "example": "It might rain tomorrow.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Could you help me?",
+        "example_meaning": "你能帮我吗？"
+      }
+    ]
   },
   {
     "id": "fcf3712c-ba4d-467f-8352-362196619694",
     "level": "A2",
     "grammar": "Must / have to / should / need to",
-    "description": "**Must / have to / should / need to**（情态动词（义务）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：must 强烈/主观；have to 客观；should 建议\n\n**用法说明**：need to 需要\n\n**例句**：\n- You must wear a helmet.\n- I have to leave now.\n- You should apologize.\n\n**常见错误**：\n- 错误：将 must 和 have to 当作完全相同。\n- should 后加 to\n\n**辨析**：mustn't（禁止） vs. don't have to（不必）。"
+    "description": "**Must / have to / should / need to**（情态动词（义务）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：must 强烈/主观；have to 客观；should 建议\n\n**用法说明**：need to 需要\n\n**例句**：\n- You must wear a helmet.\n- I have to leave now.\n- You should apologize.\n\n**常见错误**：\n- 错误：将 must 和 have to 当作完全相同。\n- should 后加 to\n\n**辨析**：mustn't（禁止） vs. don't have to（不必）。",
+    "grammar_cn": "情态动词（义务",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "must 强烈/主观；have to 客观；should 建议",
+    "common_mistakes": [
+      "错误：将 must 和 have to 当作完全相同。",
+      "should 后加 to"
+    ],
+    "comparison": "mustn't（禁止） vs. don't have to（不必）。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "You must wear a helmet.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I have to leave now.",
+        "example_meaning": ""
+      },
+      {
+        "example": "You should apologize.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "407f3462-65c5-4236-a62e-5a2995678b5c",
     "level": "A2",
     "grammar": "Reflexive pronouns",
-    "description": "**Reflexive pronouns**（反身代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。\n\n**例句**：\n- I did it myself.\n- She taught herself Spanish.\n- We enjoyed ourselves.\n\n**常见错误**：\n- 主语与反身代词不一致（*He did it myself*）\n- enjoy 后漏反身代词\n\n**注意**：enjoy yourself, by yourself, teach yourself。"
+    "description": "**Reflexive pronouns**（反身代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。\n\n**例句**：\n- I did it myself.\n- She taught herself Spanish.\n- We enjoyed ourselves.\n\n**常见错误**：\n- 主语与反身代词不一致（*He did it myself*）\n- enjoy 后漏反身代词\n\n**注意**：enjoy yourself, by yourself, teach yourself。",
+    "grammar_cn": "反身代词",
+    "meaning": "用来代替或限定名词，避免重复。",
+    "pattern": "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。",
+    "common_mistakes": [
+      "主语与反身代词不一致（*He did it myself*）",
+      "enjoy 后漏反身代词"
+    ],
+    "comparison": "",
+    "notes": "enjoy yourself, by yourself, teach yourself。",
+    "examples": [
+      {
+        "example": "I did it myself.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She taught herself Spanish.",
+        "example_meaning": ""
+      },
+      {
+        "example": "We enjoyed ourselves.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "d0186f63-2cc2-44dc-b3d4-c0687aa3e1a6",
     "level": "A2",
     "grammar": "Something / anything / nothing / everything",
-    "description": "**Something / anything / nothing / everything**（不定代词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：any- 用于否定/疑问\n\n**用法说明**：some- 用于肯定；no- 本身否定；every- 表单数\n\n**例句**：\n- I have something to tell you.\n- Did you see anything?\n- Nothing is impossible.\n\n**常见错误**：\n- anything 用于肯定句（需特定语境）\n- everyone 后接复数动词\n\n**注意**：everyone/everything + 单数动词。"
+    "description": "**Something / anything / nothing / everything**（不定代词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：any- 用于否定/疑问\n\n**用法说明**：some- 用于肯定；no- 本身否定；every- 表单数\n\n**例句**：\n- I have something to tell you.\n- Did you see anything?\n- Nothing is impossible.\n\n**常见错误**：\n- anything 用于肯定句（需特定语境）\n- everyone 后接复数动词\n\n**注意**：everyone/everything + 单数动词。",
+    "grammar_cn": "不定代词",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "any- 用于否定/疑问",
+    "common_mistakes": [
+      "anything 用于肯定句（需特定语境）",
+      "everyone 后接复数动词"
+    ],
+    "comparison": "",
+    "notes": "everyone/everything + 单数动词。",
+    "examples": [
+      {
+        "example": "I have something to tell you.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Did you see anything?",
+        "example_meaning": ""
+      },
+      {
+        "example": "Nothing is impossible.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "2c34ff24-c239-4c3e-8e06-9021d4272d7a",
     "level": "A2",
     "grammar": "Somebody / anybody / nobody / everybody",
-    "description": "**Somebody / anybody / nobody / everybody**（不定代词（人）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：somebody 某人，anybody 任何人，nobody 没人，everybody 每人。\n\n**例句**：\n- Somebody is at the door.\n- I didn't see anybody.\n- Everybody knows that.\n\n**常见错误**：\n- everybody 后接复数动词\n- 混淆：nobody  vs.  not anybody \n\n**注意**：nobody = not anybody；everybody 接单数动词。"
+    "description": "**Somebody / anybody / nobody / everybody**（不定代词（人）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：somebody 某人，anybody 任何人，nobody 没人，everybody 每人。\n\n**例句**：\n- Somebody is at the door.\n- I didn't see anybody.\n- Everybody knows that.\n\n**常见错误**：\n- everybody 后接复数动词\n- 混淆：nobody  vs.  not anybody \n\n**注意**：nobody = not anybody；everybody 接单数动词。",
+    "grammar_cn": "不定代词（人",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "somebody 某人，anybody 任何人，nobody 没人，everybody 每人。",
+    "common_mistakes": [
+      "everybody 后接复数动词",
+      "混淆：nobody  vs.  not anybody"
+    ],
+    "comparison": "",
+    "notes": "nobody = not anybody；everybody 接单数动词。",
+    "examples": [
+      {
+        "example": "Somebody is at the door.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I didn't see anybody.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Everybody knows that.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "10b727eb-9a0e-4509-995e-25424257b247",
     "level": "A2",
     "grammar": "Adverbs of manner",
-    "description": "**Adverbs of manner**（方式副词）\n\n**含义**：方式副词。\n\n**用法**：形容词 + -ly → 副词。well, fast, hard 例外。\n\n**例句**：\n- She sings beautifully.\n- He runs fast.\n- They worked hard.\n\n**常见错误**：\n- good 与 well 混用\n- 形容词当副词用（*He runs quick*）\n\n**注意**：good 形容词，well 副词；hard 形容词/副词同形。"
+    "description": "**Adverbs of manner**（方式副词）\n\n**含义**：方式副词。\n\n**用法**：形容词 + -ly → 副词。well, fast, hard 例外。\n\n**例句**：\n- She sings beautifully.\n- He runs fast.\n- They worked hard.\n\n**常见错误**：\n- good 与 well 混用\n- 形容词当副词用（*He runs quick*）\n\n**注意**：good 形容词，well 副词；hard 形容词/副词同形。",
+    "grammar_cn": "方式副词",
+    "meaning": "方式副词。",
+    "pattern": "形容词 + -ly → 副词。well, fast, hard 例外。",
+    "common_mistakes": [
+      "good 与 well 混用",
+      "形容词当副词用（*He runs quick*）"
+    ],
+    "comparison": "",
+    "notes": "good 形容词，well 副词；hard 形容词/副词同形。",
+    "examples": [
+      {
+        "example": "She sings beautifully.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He runs fast.",
+        "example_meaning": ""
+      },
+      {
+        "example": "They worked hard.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "e3ed2110-f58a-4b91-a564-60899a024ae9",
     "level": "A2",
     "grammar": "Comparative and superlative adverbs",
-    "description": "**Comparative and superlative adverbs**（副词比较级和最高级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**结构**：more/most + 副词，部分副词有 -er/-est\n\n**例句**：\n- He runs faster than me.\n- She speaks more fluently.\n- Who works the hardest?\n\n**常见错误**：\n- 副词比较级加 more 又加 -er\n- 最高级前漏 the\n\n**注意**：fast→faster→fastest；fluently→more fluently→most fluently。"
+    "description": "**Comparative and superlative adverbs**（副词比较级和最高级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**结构**：more/most + 副词，部分副词有 -er/-est\n\n**例句**：\n- He runs faster than me.\n- She speaks more fluently.\n- Who works the hardest?\n\n**常见错误**：\n- 副词比较级加 more 又加 -er\n- 最高级前漏 the\n\n**注意**：fast→faster→fastest；fluently→more fluently→most fluently。",
+    "grammar_cn": "副词比较级和最高级",
+    "meaning": "表示两者或多者之间的比较关系。",
+    "pattern": "more/most + 副词，部分副词有 -er/-est",
+    "common_mistakes": [
+      "副词比较级加 more 又加 -er",
+      "最高级前漏 the"
+    ],
+    "comparison": "",
+    "notes": "fast→faster→fastest；fluently→more fluently→most fluently。",
+    "examples": [
+      {
+        "example": "He runs faster than me.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She speaks more fluently.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Who works the hardest?",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "653458c6-aa94-4edf-8e8b-559e080820c4",
     "level": "A2",
     "grammar": "So / such",
-    "description": "**So / such**（so / such）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：so + 形容词/副词；such + a/an + 形容词 + 名词\n\n**例句**：\n- It's so hot.\n- She is such a kind person.\n- The movie was so boring.\n\n**常见错误**：\n- such 后漏 a/an\n- so + 名词（*so nice weather*，应为 such nice weather）\n\n**注意**：so + adj/adv；such + a/an + adj + noun。"
+    "description": "**So / such**（so / such）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：so + 形容词/副词；such + a/an + 形容词 + 名词\n\n**例句**：\n- It's so hot.\n- She is such a kind person.\n- The movie was so boring.\n\n**常见错误**：\n- such 后漏 a/an\n- so + 名词（*so nice weather*，应为 such nice weather）\n\n**注意**：so + adj/adv；such + a/an + adj + noun。",
+    "grammar_cn": "so / such",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "so + 形容词/副词；such + a/an + 形容词 + 名词",
+    "common_mistakes": [
+      "such 后漏 a/an",
+      "so + 名词（*so nice weather*，应为 such nice weather）"
+    ],
+    "comparison": "",
+    "notes": "so + adj/adv；such + a/an + adj + noun。",
+    "examples": [
+      {
+        "example": "It's so hot.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She is such a kind person.",
+        "example_meaning": ""
+      },
+      {
+        "example": "The movie was so boring.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "f1649cfe-4da4-4cdc-93b5-586607b3ad4c",
     "level": "A2",
     "grammar": "Very / too / enough",
-    "description": "**Very / too / enough**（very / too / enough）\n\n**含义**：very / too / enough。\n\n**结构**：enough 表足够（形容词/副词后）\n\n**用法说明**：very 表程度；too 表过度（负面）\n\n**例句**：\n- It's very cold.\n- It's too expensive for me.\n- He isn't old enough to drive.\n\n**常见错误**：\n- enough 放在形容词前\n- 混淆：very  vs.  too 语气\n\n**注意**：too...to 结构表太……而不能。"
+    "description": "**Very / too / enough**（very / too / enough）\n\n**含义**：very / too / enough。\n\n**结构**：enough 表足够（形容词/副词后）\n\n**用法说明**：very 表程度；too 表过度（负面）\n\n**例句**：\n- It's very cold.\n- It's too expensive for me.\n- He isn't old enough to drive.\n\n**常见错误**：\n- enough 放在形容词前\n- 混淆：very  vs.  too 语气\n\n**注意**：too...to 结构表太……而不能。",
+    "grammar_cn": "very / too / enough",
+    "meaning": "very / too / enough。",
+    "pattern": "enough 表足够（形容词/副词后）",
+    "common_mistakes": [
+      "enough 放在形容词前",
+      "混淆：very  vs.  too 语气"
+    ],
+    "comparison": "",
+    "notes": "too...to 结构表太……而不能。",
+    "examples": [
+      {
+        "example": "It's very cold.",
+        "example_meaning": ""
+      },
+      {
+        "example": "It's too expensive for me.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He isn't old enough to drive.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "fc8a55c9-431c-4160-8b96-79ac9bd343b0",
     "level": "A2",
     "grammar": "Adjective + preposition",
-    "description": "**Adjective + preposition**（形容词 + 介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：be good at, be interested in, be afraid of, be worried about。\n\n**例句**：\n- She is good at math.\n- I'm interested in music.\n- He's afraid of dogs.\n\n**常见错误**：\n- 介词搭配错误（*good in*）\n- be 动词后接动词原形\n\n**注意**：形容词后的介词多为固定搭配，需记忆。"
+    "description": "**Adjective + preposition**（形容词 + 介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：be good at, be interested in, be afraid of, be worried about。\n\n**例句**：\n- She is good at math.\n- I'm interested in music.\n- He's afraid of dogs.\n\n**常见错误**：\n- 介词搭配错误（*good in*）\n- be 动词后接动词原形\n\n**注意**：形容词后的介词多为固定搭配，需记忆。",
+    "grammar_cn": "形容词 + 介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "be good at, be interested in, be afraid of, be worried about。",
+    "common_mistakes": [
+      "介词搭配错误（*good in*）",
+      "be 动词后接动词原形"
+    ],
+    "comparison": "",
+    "notes": "形容词后的介词多为固定搭配，需记忆。",
+    "examples": [
+      {
+        "example": "She is good at math.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'm interested in music.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He's afraid of dogs.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "607f3368-85c3-49ae-b8a0-a2734d35dafb",
     "level": "A2",
     "grammar": "Verb + preposition",
-    "description": "**Verb + preposition**（动词 + 介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：look for, listen to, wait for, talk about, ask for。\n\n**例句**：\n- I'm looking for my keys.\n- Listen to me.\n- She asked for help.\n\n**常见错误**：\n- 介词漏掉（*look my keys*）\n- 介词搭配错误\n\n**注意**：动词短语中介词常改变意义。"
+    "description": "**Verb + preposition**（动词 + 介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：look for, listen to, wait for, talk about, ask for。\n\n**例句**：\n- I'm looking for my keys.\n- Listen to me.\n- She asked for help.\n\n**常见错误**：\n- 介词漏掉（*look my keys*）\n- 介词搭配错误\n\n**注意**：动词短语中介词常改变意义。",
+    "grammar_cn": "动词 + 介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "look for, listen to, wait for, talk about, ask for。",
+    "common_mistakes": [
+      "介词漏掉（*look my keys*）",
+      "介词搭配错误"
+    ],
+    "comparison": "",
+    "notes": "动词短语中介词常改变意义。",
+    "examples": [
+      {
+        "example": "I'm looking for my keys.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Listen to me.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She asked for help.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "341e408b-b693-4c39-ab01-b66e9a0cfa99",
     "level": "A2",
     "grammar": "Phrasal verbs (separable)",
-    "description": "**Phrasal verbs (separable)**（可分短语动词）\n\n**含义**：可分短语动词。\n\n**用法**：put on, take off, turn on, turn off。名词可放中间或后面，代词必须放中间。\n\n**例句**：\n- Put on your jacket. / Put your jacket on.\n- Turn it off. (不能 turn off it)\n- Take off your shoes.\n\n**常见错误**：\n- 代词放短语动词后（*turn off it*）\n- 名词位置死板\n\n**注意**：代词必须放中间：turn it on, pick it up。"
+    "description": "**Phrasal verbs (separable)**（可分短语动词）\n\n**含义**：可分短语动词。\n\n**用法**：put on, take off, turn on, turn off。名词可放中间或后面，代词必须放中间。\n\n**例句**：\n- Put on your jacket. / Put your jacket on.\n- Turn it off. (不能 turn off it)\n- Take off your shoes.\n\n**常见错误**：\n- 代词放短语动词后（*turn off it*）\n- 名词位置死板\n\n**注意**：代词必须放中间：turn it on, pick it up。",
+    "grammar_cn": "可分短语动词",
+    "meaning": "可分短语动词。",
+    "pattern": "put on, take off, turn on, turn off。名词可放中间或后面，代词必须放中间。",
+    "common_mistakes": [
+      "代词放短语动词后（*turn off it*）",
+      "名词位置死板"
+    ],
+    "comparison": "",
+    "notes": "代词必须放中间：turn it on, pick it up。",
+    "examples": [
+      {
+        "example": "Put on your jacket. / Put your jacket on.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Turn it off. (",
+        "example_meaning": "不能 turn off it)"
+      },
+      {
+        "example": "Take off your shoes.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "7940d54b-a946-4ce0-b7d7-61d75652fd2d",
     "level": "A2",
     "grammar": "Phrasal verbs (inseparable)",
-    "description": "**Phrasal verbs (inseparable)**（不可分短语动词）\n\n**含义**：不可分短语动词。\n\n**用法**：look after, run out of, look forward to。宾语不能放中间。\n\n**例句**：\n- Look after your sister.\n- We ran out of milk.\n- I look forward to meeting you.\n\n**常见错误**：\n- 宾语放中间（*look your sister after*）\n- look forward to 后接动词原形\n\n**注意**：look forward to + doing/noun。"
+    "description": "**Phrasal verbs (inseparable)**（不可分短语动词）\n\n**含义**：不可分短语动词。\n\n**用法**：look after, run out of, look forward to。宾语不能放中间。\n\n**例句**：\n- Look after your sister.\n- We ran out of milk.\n- I look forward to meeting you.\n\n**常见错误**：\n- 宾语放中间（*look your sister after*）\n- look forward to 后接动词原形\n\n**注意**：look forward to + doing/noun。",
+    "grammar_cn": "不可分短语动词",
+    "meaning": "不可分短语动词。",
+    "pattern": "look after, run out of, look forward to。宾语不能放中间。",
+    "common_mistakes": [
+      "宾语放中间（*look your sister after*）",
+      "look forward to 后接动词原形"
+    ],
+    "comparison": "",
+    "notes": "look forward to + doing/noun。",
+    "examples": [
+      {
+        "example": "Look after your sister.",
+        "example_meaning": ""
+      },
+      {
+        "example": "We ran out of milk.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I look forward to meeting you.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "71b9af5c-5e8b-46aa-8a5c-7b4a7413c305",
     "level": "A2",
     "grammar": "Questions tags",
-    "description": "**Questions tags**（反义疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：前肯定后否定，前否定后肯定。动词与主句一致。\n\n**例句**：\n- You're coming, aren't you?\n- He likes coffee, doesn't he?\n- She didn't go, did she?\n\n**常见错误**：\n- 反义疑问句助动词与主句不一致\n- 前否定后也用否定\n\n**注意**：Let's... 用 shall we?；I'm... 用 aren't I?。"
+    "description": "**Questions tags**（反义疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：前肯定后否定，前否定后肯定。动词与主句一致。\n\n**例句**：\n- You're coming, aren't you?\n- He likes coffee, doesn't he?\n- She didn't go, did she?\n\n**常见错误**：\n- 反义疑问句助动词与主句不一致\n- 前否定后也用否定\n\n**注意**：Let's... 用 shall we?；I'm... 用 aren't I?。",
+    "grammar_cn": "反义疑问句",
+    "meaning": "用来提出问题或确认信息。",
+    "pattern": "前肯定后否定，前否定后肯定。动词与主句一致。",
+    "common_mistakes": [
+      "反义疑问句助动词与主句不一致",
+      "前否定后也用否定"
+    ],
+    "comparison": "",
+    "notes": "Let's... 用 shall we?；I'm... 用 aren't I?。",
+    "examples": [
+      {
+        "example": "You're coming, aren't you?",
+        "example_meaning": ""
+      },
+      {
+        "example": "He likes coffee, doesn't he?",
+        "example_meaning": ""
+      },
+      {
+        "example": "She didn't go, did she?",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "d6d60f40-e564-40d9-827c-0c0dfe646bff",
     "level": "A2",
     "grammar": "Indirect questions",
-    "description": "**Indirect questions**（间接疑问句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：Could you tell me + 陈述语序？Do you know + if/whether？\n\n**例句**：\n- Could you tell me where the station is?\n- Do you know if he is coming?\n- I wonder what happened.\n\n**常见错误**：\n- 间接疑问句仍用疑问语序（*where is the station*）\n- 错误：将 if 和 whether 用法 当作完全相同。\n\n**注意**：间接疑问句用陈述语序。"
+    "description": "**Indirect questions**（间接疑问句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：Could you tell me + 陈述语序？Do you know + if/whether？\n\n**例句**：\n- Could you tell me where the station is?\n- Do you know if he is coming?\n- I wonder what happened.\n\n**常见错误**：\n- 间接疑问句仍用疑问语序（*where is the station*）\n- 错误：将 if 和 whether 用法 当作完全相同。\n\n**注意**：间接疑问句用陈述语序。",
+    "grammar_cn": "间接疑问句",
+    "meaning": "用来转述他人的话，而不是直接引用。",
+    "pattern": "Could you tell me + 陈述语序？Do you know + if/whether？",
+    "common_mistakes": [
+      "间接疑问句仍用疑问语序（*where is the station*）",
+      "错误：将 if 和 whether 用法 当作完全相同。"
+    ],
+    "comparison": "",
+    "notes": "间接疑问句用陈述语序。",
+    "examples": [
+      {
+        "example": "Could you tell me where the station is?",
+        "example_meaning": ""
+      },
+      {
+        "example": "Do you know if he is coming?",
+        "example_meaning": ""
+      },
+      {
+        "example": "I wonder what happened.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "92689bc5-94c9-43e1-8b3f-1dc708e44400",
     "level": "A2",
     "grammar": "Used to",
-    "description": "**Used to**（used to 过去习惯）\n\n**含义**：used to 过去习惯。\n\n**结构**：used to + 动词原形，表过去习惯或状态（现在已不同）\n\n**例句**：\n- I used to play football.\n- She used to be shy.\n- Did you use to live here?\n\n**常见错误**：\n- used to 后加 -ing\n- 混淆：used to  vs.  be used to \n\n**辨析**：used to（过去习惯） vs. be used to（习惯于）+ doing。"
+    "description": "**Used to**（used to 过去习惯）\n\n**含义**：used to 过去习惯。\n\n**结构**：used to + 动词原形，表过去习惯或状态（现在已不同）\n\n**例句**：\n- I used to play football.\n- She used to be shy.\n- Did you use to live here?\n\n**常见错误**：\n- used to 后加 -ing\n- 混淆：used to  vs.  be used to \n\n**辨析**：used to（过去习惯） vs. be used to（习惯于）+ doing。",
+    "grammar_cn": "used to 过去习惯",
+    "meaning": "used to 过去习惯。",
+    "pattern": "used to + 动词原形，表过去习惯或状态（现在已不同）",
+    "common_mistakes": [
+      "used to 后加 -ing",
+      "混淆：used to  vs.  be used to"
+    ],
+    "comparison": "used to（过去习惯） vs. be used to（习惯于）+ doing。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I used to play football.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She used to be shy.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Did you use to live here?",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "51a136b1-43e8-454a-afc6-d70d6ad01a9c",
     "level": "A2",
     "grammar": "Be used to / get used to",
-    "description": "**Be used to / get used to**（习惯于）\n\n**含义**：习惯于。\n\n**结构**：be used to + doing/noun 表习惯\n\n**用法说明**：get used to 表逐渐习惯\n\n**例句**：\n- I'm used to getting up early.\n- You'll get used to the noise.\n- She isn't used to spicy food.\n\n**常见错误**：\n- be used to 后接动词原形\n- get used to 与 used to 混用\n\n**注意**：used to + do（过去）；be used to + doing（习惯）。"
+    "description": "**Be used to / get used to**（习惯于）\n\n**含义**：习惯于。\n\n**结构**：be used to + doing/noun 表习惯\n\n**用法说明**：get used to 表逐渐习惯\n\n**例句**：\n- I'm used to getting up early.\n- You'll get used to the noise.\n- She isn't used to spicy food.\n\n**常见错误**：\n- be used to 后接动词原形\n- get used to 与 used to 混用\n\n**注意**：used to + do（过去）；be used to + doing（习惯）。",
+    "grammar_cn": "习惯于",
+    "meaning": "习惯于。",
+    "pattern": "be used to + doing/noun 表习惯",
+    "common_mistakes": [
+      "be used to 后接动词原形",
+      "get used to 与 used to 混用"
+    ],
+    "comparison": "",
+    "notes": "used to + do（过去）；be used to + doing（习惯）。",
+    "examples": [
+      {
+        "example": "I'm used to getting up early.",
+        "example_meaning": ""
+      },
+      {
+        "example": "You'll get used to the noise.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She isn't used to spicy food.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "84c074f7-d181-4801-a93b-bec28138e95a",
     "level": "A2",
     "grammar": "Would (past habits)",
-    "description": "**Would (past habits)**（would 过去习惯）\n\n**含义**：would 过去习惯。\n\n**结构**：would + 动词原形，表过去反复动作\n\n**例句**：\n- When I was young, I would play outside.\n- He would always bring flowers.\n- We would often go to the beach.\n\n**常见错误**：\n- would 后加过去式\n- 错误：将 would 和 used to 当作完全相同。\n\n**注意**：would 只表动作习惯，used to 可表状态。"
+    "description": "**Would (past habits)**（would 过去习惯）\n\n**含义**：would 过去习惯。\n\n**结构**：would + 动词原形，表过去反复动作\n\n**例句**：\n- When I was young, I would play outside.\n- He would always bring flowers.\n- We would often go to the beach.\n\n**常见错误**：\n- would 后加过去式\n- 错误：将 would 和 used to 当作完全相同。\n\n**注意**：would 只表动作习惯，used to 可表状态。",
+    "grammar_cn": "would 过去习惯",
+    "meaning": "would 过去习惯。",
+    "pattern": "would + 动词原形，表过去反复动作",
+    "common_mistakes": [
+      "would 后加过去式",
+      "错误：将 would 和 used to 当作完全相同。"
+    ],
+    "comparison": "",
+    "notes": "would 只表动作习惯，used to 可表状态。",
+    "examples": [
+      {
+        "example": "When I was young, I would play outside.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He would always bring flowers.",
+        "example_meaning": ""
+      },
+      {
+        "example": "We would often go to the beach.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "b18e6070-0b8c-42d0-8380-c4f528acbde5",
     "level": "A2",
     "grammar": "First conditional",
-    "description": "**First conditional**（第一条件句）\n\n**含义**：表示假设条件及其结果。\n\n**结构**：If + 一般现在时，will + 动词\n\n**用法说明**：表示真实可能\n\n**例句**：\n- If it rains, I'll stay home.\n- If you study, you'll pass.\n- I'll call you if I arrive late.\n\n**常见错误**：\n- if 从句用 will（*If it will rain*）\n- 主句用一般现在时\n\n**注意**：第一条件句：主将从现。"
+    "description": "**First conditional**（第一条件句）\n\n**含义**：表示假设条件及其结果。\n\n**结构**：If + 一般现在时，will + 动词\n\n**用法说明**：表示真实可能\n\n**例句**：\n- If it rains, I'll stay home.\n- If you study, you'll pass.\n- I'll call you if I arrive late.\n\n**常见错误**：\n- if 从句用 will（*If it will rain*）\n- 主句用一般现在时\n\n**注意**：第一条件句：主将从现。",
+    "grammar_cn": "第一条件句",
+    "meaning": "表示假设条件及其结果。",
+    "pattern": "If + 一般现在时，will + 动词",
+    "common_mistakes": [
+      "if 从句用 will（*If it will rain*）",
+      "主句用一般现在时"
+    ],
+    "comparison": "",
+    "notes": "第一条件句：主将从现。",
+    "examples": [
+      {
+        "example": "If it rains, I'll stay home.",
+        "example_meaning": ""
+      },
+      {
+        "example": "If you study, you'll pass.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll call you if I arrive late.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "7227e044-86de-4f74-9c16-bdb4658cb84a",
     "level": "A2",
     "grammar": "Second conditional",
-    "description": "**Second conditional**（第二条件句）\n\n**含义**：表示假设条件及其结果。\n\n**结构**：If + 过去式，would + 动词；表虚拟/不太可能\n\n**例句**：\n- If I had money, I would buy a car.\n- If she knew, she would tell us.\n- If I were you, I'd apologize.\n\n**常见错误**：\n- if 从句用 would\n- I were you 写成 I was you（非正式可接受）\n\n**注意**：第二条件句：与现在事实相反或不太可能。"
+    "description": "**Second conditional**（第二条件句）\n\n**含义**：表示假设条件及其结果。\n\n**结构**：If + 过去式，would + 动词；表虚拟/不太可能\n\n**例句**：\n- If I had money, I would buy a car.\n- If she knew, she would tell us.\n- If I were you, I'd apologize.\n\n**常见错误**：\n- if 从句用 would\n- I were you 写成 I was you（非正式可接受）\n\n**注意**：第二条件句：与现在事实相反或不太可能。",
+    "grammar_cn": "第二条件句",
+    "meaning": "表示假设条件及其结果。",
+    "pattern": "If + 过去式，would + 动词；表虚拟/不太可能",
+    "common_mistakes": [
+      "if 从句用 would",
+      "I were you 写成 I was you（非正式可接受）"
+    ],
+    "comparison": "",
+    "notes": "第二条件句：与现在事实相反或不太可能。",
+    "examples": [
+      {
+        "example": "If I had money, I would buy a car.",
+        "example_meaning": ""
+      },
+      {
+        "example": "If she knew, she would tell us.",
+        "example_meaning": ""
+      },
+      {
+        "example": "If I were you, I'd apologize.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "a2a513db-6757-4875-8912-8799606b3146",
     "level": "A2",
     "grammar": "Wish / If only",
-    "description": "**Wish / If only**（wish / if only）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：wish + 过去式（现在）；wish + had + 过去分词（过去）\n\n**例句**：\n- I wish I knew the answer.\n- If only I had studied harder.\n- I wish it would stop raining.\n\n**常见错误**：\n- wish 后接动词原形\n- wish 与 hope 混用\n\n**注意**：wish 表遗憾；hope 表真实希望。"
+    "description": "**Wish / If only**（wish / if only）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：wish + 过去式（现在）；wish + had + 过去分词（过去）\n\n**例句**：\n- I wish I knew the answer.\n- If only I had studied harder.\n- I wish it would stop raining.\n\n**常见错误**：\n- wish 后接动词原形\n- wish 与 hope 混用\n\n**注意**：wish 表遗憾；hope 表真实希望。",
+    "grammar_cn": "wish / if only",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "wish + 过去式（现在）；wish + had + 过去分词（过去）",
+    "common_mistakes": [
+      "wish 后接动词原形",
+      "wish 与 hope 混用"
+    ],
+    "comparison": "",
+    "notes": "wish 表遗憾；hope 表真实希望。",
+    "examples": [
+      {
+        "example": "I wish I knew the answer.",
+        "example_meaning": ""
+      },
+      {
+        "example": "If only I had studied harder.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I wish it would stop raining.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "e9f74703-b958-4cac-b14e-dfb99c5f20d9",
     "level": "A2",
     "grammar": "Relative clauses (who/which/that)",
-    "description": "**Relative clauses (who/which/that)**（定语从句）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：who 指人，which 指物，that 可指人或物。\n\n**例句**：\n- The man who lives here is my uncle.\n- This is the book which I bought.\n- I know a place that sells good coffee.\n\n**常见错误**：\n- which 指人\n- that 后谓语单复数错误\n\n**注意**：限制性定语从句不用逗号隔开。"
+    "description": "**Relative clauses (who/which/that)**（定语从句）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：who 指人，which 指物，that 可指人或物。\n\n**例句**：\n- The man who lives here is my uncle.\n- This is the book which I bought.\n- I know a place that sells good coffee.\n\n**常见错误**：\n- which 指人\n- that 后谓语单复数错误\n\n**注意**：限制性定语从句不用逗号隔开。",
+    "grammar_cn": "定语从句",
+    "meaning": "用来修饰名词，提供额外信息。",
+    "pattern": "who 指人，which 指物，that 可指人或物。",
+    "common_mistakes": [
+      "which 指人",
+      "that 后谓语单复数错误"
+    ],
+    "comparison": "",
+    "notes": "限制性定语从句不用逗号隔开。",
+    "examples": [
+      {
+        "example": "The man who lives here is my uncle.",
+        "example_meaning": ""
+      },
+      {
+        "example": "This is the book which I bought.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I know a place that sells good coffee.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "5df70581-cc07-43ca-a11f-bafbfd05baaa",
     "level": "A2",
     "grammar": "Relative clauses with prepositions",
-    "description": "**Relative clauses with prepositions**（介词 + 关系代词）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：介词可放从句末尾或 whom/which 前（正式）。\n\n**例句**：\n- The man who I spoke to is here.\n- The house in which I lived is old. (正式)\n- This is the book I told you about.\n\n**常见错误**：\n- 介词前置时用 who/that（应为 whom/which）\n- 介词后接 that\n\n**注意**：口语中介词常放句末；正式文体放 whom/which 前。"
+    "description": "**Relative clauses with prepositions**（介词 + 关系代词）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：介词可放从句末尾或 whom/which 前（正式）。\n\n**例句**：\n- The man who I spoke to is here.\n- The house in which I lived is old. (正式)\n- This is the book I told you about.\n\n**常见错误**：\n- 介词前置时用 who/that（应为 whom/which）\n- 介词后接 that\n\n**注意**：口语中介词常放句末；正式文体放 whom/which 前。",
+    "grammar_cn": "介词 + 关系代词",
+    "meaning": "用来修饰名词，提供额外信息。",
+    "pattern": "介词可放从句末尾或 whom/which 前（正式）。",
+    "common_mistakes": [
+      "介词前置时用 who/that（应为 whom/which）",
+      "介词后接 that"
+    ],
+    "comparison": "",
+    "notes": "口语中介词常放句末；正式文体放 whom/which 前。",
+    "examples": [
+      {
+        "example": "The man who I spoke to is here.",
+        "example_meaning": ""
+      },
+      {
+        "example": "The house in which I lived is old. (",
+        "example_meaning": "正式)"
+      },
+      {
+        "example": "This is the book I told you about.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "4bd4d16c-7a8a-4f1e-ac49-6249273e123a",
     "level": "A2",
     "grammar": "Defining vs. non-defining relative clauses",
-    "description": "**Defining vs. non-defining relative clauses**（限定 vs. 非限定定语从句）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：非限定从句用逗号隔开，提供额外信息，不可用 that。\n\n**例句**：\n- My brother, who lives in London, is a doctor. (非限定)\n- The car that is parked outside is mine. (限定)\n- Paris, which is the capital of France, is beautiful.\n\n**常见错误**：\n- 非限定从句用 that\n- 限定从句逗号错误\n\n**注意**：非限定从句中 who/which 不能省略。"
+    "description": "**Defining vs. non-defining relative clauses**（限定 vs. 非限定定语从句）\n\n**含义**：用来修饰名词，提供额外信息。\n\n**用法**：非限定从句用逗号隔开，提供额外信息，不可用 that。\n\n**例句**：\n- My brother, who lives in London, is a doctor. (非限定)\n- The car that is parked outside is mine. (限定)\n- Paris, which is the capital of France, is beautiful.\n\n**常见错误**：\n- 非限定从句用 that\n- 限定从句逗号错误\n\n**注意**：非限定从句中 who/which 不能省略。",
+    "grammar_cn": "限定 vs. 非限定定语从句",
+    "meaning": "用来修饰名词，提供额外信息。",
+    "pattern": "非限定从句用逗号隔开，提供额外信息，不可用 that。",
+    "common_mistakes": [
+      "非限定从句用 that",
+      "限定从句逗号错误"
+    ],
+    "comparison": "",
+    "notes": "非限定从句中 who/which 不能省略。",
+    "examples": [
+      {
+        "example": "My brother, who lives in London, is a doctor. (",
+        "example_meaning": "非限定)"
+      },
+      {
+        "example": "The car that is parked outside is mine. (",
+        "example_meaning": "限定)"
+      },
+      {
+        "example": "Paris, which is the capital of France, is beautiful.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "c0dd04f2-e1ca-47f0-a92f-37720488ea26",
     "level": "A2",
     "grammar": "Gerunds",
-    "description": "**Gerunds**（动名词）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**用法**：动词 + -ing 作名词用。作主语、宾语、介词宾语。\n\n**例句**：\n- Swimming is good for you.\n- I enjoy reading.\n- She is interested in learning.\n\n**常见错误**：\n- enjoy 后接 to do\n- 介词后接动词原形\n\n**辨析**：动名词 vs. 不定式：动名词偏习惯/抽象，不定式偏目的/具体。"
+    "description": "**Gerunds**（动名词）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**用法**：动词 + -ing 作名词用。作主语、宾语、介词宾语。\n\n**例句**：\n- Swimming is good for you.\n- I enjoy reading.\n- She is interested in learning.\n\n**常见错误**：\n- enjoy 后接 to do\n- 介词后接动词原形\n\n**辨析**：动名词 vs. 不定式：动名词偏习惯/抽象，不定式偏目的/具体。",
+    "grammar_cn": "动名词",
+    "meaning": "表示动词以名词形式或目的形式出现。",
+    "pattern": "动词 + -ing 作名词用。作主语、宾语、介词宾语。",
+    "common_mistakes": [
+      "enjoy 后接 to do",
+      "介词后接动词原形"
+    ],
+    "comparison": "动名词 vs. 不定式：动名词偏习惯/抽象，不定式偏目的/具体。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Swimming is good for you.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I enjoy reading.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She is interested in learning.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "ac5f0005-d29a-496d-a835-bd99548557a6",
     "level": "A2",
     "grammar": "Infinitives of purpose",
-    "description": "**Infinitives of purpose**（不定式表目的）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**结构**：to + 动词原形，表目的\n\n**例句**：\n- I went to the shop to buy milk.\n- She studied hard to pass the exam.\n- He came here to see you.\n\n**常见错误**：\n- 表目的用 for + 动词原形（*for buy*）\n- to 后接 -ing\n\n**注意**：in order to / so as to 更正式。"
+    "description": "**Infinitives of purpose**（不定式表目的）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**结构**：to + 动词原形，表目的\n\n**例句**：\n- I went to the shop to buy milk.\n- She studied hard to pass the exam.\n- He came here to see you.\n\n**常见错误**：\n- 表目的用 for + 动词原形（*for buy*）\n- to 后接 -ing\n\n**注意**：in order to / so as to 更正式。",
+    "grammar_cn": "不定式表目的",
+    "meaning": "表示动词以名词形式或目的形式出现。",
+    "pattern": "to + 动词原形，表目的",
+    "common_mistakes": [
+      "表目的用 for + 动词原形（*for buy*）",
+      "to 后接 -ing"
+    ],
+    "comparison": "",
+    "notes": "in order to / so as to 更正式。",
+    "examples": [
+      {
+        "example": "I went to the shop to buy milk.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She studied hard to pass the exam.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He came here to see you.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "1d5b1941-a206-4ca2-aaec-27bc094c66b5",
     "level": "A2",
     "grammar": "Verb + gerund or infinitive",
-    "description": "**Verb + gerund or infinitive**（动词 + 动名词/不定式）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**用法**：有些动词后接 doing（enjoy, finish），有些接 to do（want, decide），有些两者皆可。\n\n**例句**：\n- I want to leave. (to do)\n- I enjoy swimming. (doing)\n- I stopped smoking. (doing) / I stopped to smoke. (to do)\n\n**常见错误**：\n- 混淆：stop 后接 to do  vs.  doing 意义\n- want 后接 doing\n\n**辨析**：stop doing（停止做） vs. stop to do（停下来去做）。"
+    "description": "**Verb + gerund or infinitive**（动词 + 动名词/不定式）\n\n**含义**：表示动词以名词形式或目的形式出现。\n\n**用法**：有些动词后接 doing（enjoy, finish），有些接 to do（want, decide），有些两者皆可。\n\n**例句**：\n- I want to leave. (to do)\n- I enjoy swimming. (doing)\n- I stopped smoking. (doing) / I stopped to smoke. (to do)\n\n**常见错误**：\n- 混淆：stop 后接 to do  vs.  doing 意义\n- want 后接 doing\n\n**辨析**：stop doing（停止做） vs. stop to do（停下来去做）。",
+    "grammar_cn": "动词 + 动名词/不定式",
+    "meaning": "表示动词以名词形式或目的形式出现。",
+    "pattern": "有些动词后接 doing（enjoy, finish），有些接 to do（want, decide），有些两者皆可。",
+    "common_mistakes": [
+      "混淆：stop 后接 to do  vs.  doing 意义",
+      "want 后接 doing"
+    ],
+    "comparison": "stop doing（停止做） vs. stop to do（停下来去做）。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I want to leave. (to do)",
+        "example_meaning": ""
+      },
+      {
+        "example": "I enjoy swimming. (doing)",
+        "example_meaning": ""
+      },
+      {
+        "example": "I stopped smoking. (doing) / I stopped to smoke. (to do)",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "c4c871bc-7bd4-4753-a9a6-98677fa774ff",
     "level": "A2",
     "grammar": "Passive voice (present simple)",
-    "description": "**Passive voice (present simple)**（一般现在时被动语态）\n\n**含义**：表示现在的习惯、事实或固定安排。\n\n**结构**：am/is/are + 过去分词\n\n**用法说明**：主语是动作承受者\n\n**例句**：\n- The report is written every week.\n- Coffee is grown in Brazil.\n- The window is cleaned by him.\n\n**常见错误**：\n- 被动语态漏掉 be 动词\n- 过去分词用成过去式\n\n**辨析**：被动语态 vs. 主动语态：主语是动作承受者。"
+    "description": "**Passive voice (present simple)**（一般现在时被动语态）\n\n**含义**：表示现在的习惯、事实或固定安排。\n\n**结构**：am/is/are + 过去分词\n\n**用法说明**：主语是动作承受者\n\n**例句**：\n- The report is written every week.\n- Coffee is grown in Brazil.\n- The window is cleaned by him.\n\n**常见错误**：\n- 被动语态漏掉 be 动词\n- 过去分词用成过去式\n\n**辨析**：被动语态 vs. 主动语态：主语是动作承受者。",
+    "grammar_cn": "一般现在时被动语态",
+    "meaning": "表示现在的习惯、事实或固定安排。",
+    "pattern": "am/is/are + 过去分词",
+    "common_mistakes": [
+      "被动语态漏掉 be 动词",
+      "过去分词用成过去式"
+    ],
+    "comparison": "被动语态 vs. 主动语态：主语是动作承受者。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "The report is written every week.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Coffee is grown in Brazil.",
+        "example_meaning": ""
+      },
+      {
+        "example": "The window is cleaned by him.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "1f126186-c98c-45f0-a484-f53d3d2cd17d",
     "level": "A2",
     "grammar": "Passive voice (past simple)",
-    "description": "**Passive voice (past simple)**（一般过去时被动语态）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**结构**：was/were + 过去分词\n\n**例句**：\n- The car was repaired yesterday.\n- The letter was sent this morning.\n- They were invited to the party.\n\n**常见错误**：\n- by 后接主语（应为宾语）\n- was/were 与 did 混用\n\n**注意**：by + 动作执行者（可省略）。"
+    "description": "**Passive voice (past simple)**（一般过去时被动语态）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**结构**：was/were + 过去分词\n\n**例句**：\n- The car was repaired yesterday.\n- The letter was sent this morning.\n- They were invited to the party.\n\n**常见错误**：\n- by 后接主语（应为宾语）\n- was/were 与 did 混用\n\n**注意**：by + 动作执行者（可省略）。",
+    "grammar_cn": "一般过去时被动语态",
+    "meaning": "表示过去某个时间发生的动作或状态。",
+    "pattern": "was/were + 过去分词",
+    "common_mistakes": [
+      "by 后接主语（应为宾语）",
+      "was/were 与 did 混用"
+    ],
+    "comparison": "",
+    "notes": "by + 动作执行者（可省略）。",
+    "examples": [
+      {
+        "example": "The car was repaired yesterday.",
+        "example_meaning": ""
+      },
+      {
+        "example": "The letter was sent this morning.",
+        "example_meaning": ""
+      },
+      {
+        "example": "They were invited to the party.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "3832cd52-993b-4ea3-9749-6f69096b94bc",
     "level": "A2",
     "grammar": "Passive voice with modal verbs",
-    "description": "**Passive voice with modal verbs**（情态动词被动语态）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：modal + be + 过去分词\n\n**例句**：\n- It can be done.\n- The work must be finished today.\n- This should be changed.\n\n**常见错误**：\n- 情态动词后接过去分词（*can done*）\n- 注意：漏掉 be 动词\n\n**注意**：modal + be + done。"
+    "description": "**Passive voice with modal verbs**（情态动词被动语态）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：modal + be + 过去分词\n\n**例句**：\n- It can be done.\n- The work must be finished today.\n- This should be changed.\n\n**常见错误**：\n- 情态动词后接过去分词（*can done*）\n- 注意：漏掉 be 动词\n\n**注意**：modal + be + done。",
+    "grammar_cn": "情态动词被动语态",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "modal + be + 过去分词",
+    "common_mistakes": [
+      "情态动词后接过去分词（*can done*）",
+      "注意：漏掉 be 动词"
+    ],
+    "comparison": "",
+    "notes": "modal + be + done。",
+    "examples": [
+      {
+        "example": "It can be done.",
+        "example_meaning": ""
+      },
+      {
+        "example": "The work must be finished today.",
+        "example_meaning": ""
+      },
+      {
+        "example": "This should be changed.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "a384fbb3-8e84-448c-bcc0-7fa02934def7",
     "level": "A2",
     "grammar": "Causative: have/get something done",
-    "description": "**Causative: have/get something done**（have/get something done）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：have/get + 宾语 + 过去分词，表让别人做某事\n\n**例句**：\n- I had my hair cut.\n- We need to get the car repaired.\n- She got the house painted.\n\n**常见错误**：\n- have/get 后接动词原形\n- 宾语后接现在分词\n\n**注意**：have sth done 与 get sth done 同义。"
+    "description": "**Causative: have/get something done**（have/get something done）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：have/get + 宾语 + 过去分词，表让别人做某事\n\n**例句**：\n- I had my hair cut.\n- We need to get the car repaired.\n- She got the house painted.\n\n**常见错误**：\n- have/get 后接动词原形\n- 宾语后接现在分词\n\n**注意**：have sth done 与 get sth done 同义。",
+    "grammar_cn": "have/get something done",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "have/get + 宾语 + 过去分词，表让别人做某事",
+    "common_mistakes": [
+      "have/get 后接动词原形",
+      "宾语后接现在分词"
+    ],
+    "comparison": "",
+    "notes": "have sth done 与 get sth done 同义。",
+    "examples": [
+      {
+        "example": "I had my hair cut.",
+        "example_meaning": ""
+      },
+      {
+        "example": "We need to get the car repaired.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She got the house painted.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "bce848f2-254e-4a10-98bd-4bf2943a58ba",
     "level": "A2",
     "grammar": "Reported speech (statements)",
-    "description": "**Reported speech (statements)**（间接引语（陈述句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：主句过去时，从句动词通常后退：现在→过去，过去→过去完成。\n\n**例句**：\n- 'I am tired,' he said. → He said (that) he was tired.\n- 'I saw her,' she said. → She said (that) she had seen her.\n- 'I will call,' he said. → He said (that) he would call.\n\n**常见错误**：\n- 间接引语仍用直接引语动词形式\n- that 不能省略（口语可省）\n\n**注意**：say → said；tell + 宾语。"
+    "description": "**Reported speech (statements)**（间接引语（陈述句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：主句过去时，从句动词通常后退：现在→过去，过去→过去完成。\n\n**例句**：\n- 'I am tired,' he said. → He said (that) he was tired.\n- 'I saw her,' she said. → She said (that) she had seen her.\n- 'I will call,' he said. → He said (that) he would call.\n\n**常见错误**：\n- 间接引语仍用直接引语动词形式\n- that 不能省略（口语可省）\n\n**注意**：say → said；tell + 宾语。",
+    "grammar_cn": "间接引语（陈述句",
+    "meaning": "用来转述他人的话，而不是直接引用。",
+    "pattern": "主句过去时，从句动词通常后退：现在→过去，过去→过去完成。",
+    "common_mistakes": [
+      "间接引语仍用直接引语动词形式",
+      "that 不能省略（口语可省）"
+    ],
+    "comparison": "",
+    "notes": "say → said；tell + 宾语。",
+    "examples": [
+      {
+        "example": "'I am tired,' he said. → He said (that) he was tired.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'I saw her,' she said. → She said (that) she had seen her.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'I will call,' he said. → He said (that) he would call.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "fb8b62ff-0e01-4c72-89f6-d7430d81f730",
     "level": "A2",
     "grammar": "Reported speech (questions)",
-    "description": "**Reported speech (questions)**（间接引语（疑问句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：疑问句变陈述语序，用 if/whether 或疑问词引导。\n\n**例句**：\n- 'Are you coming?' she asked. → She asked if I was coming.\n- 'Where is he?' he asked. → He asked where he was.\n- 'Do you like it?' she asked. → She asked whether I liked it.\n\n**常见错误**：\n- 间接疑问句仍用疑问语序\n- 助动词 do 仍保留\n\n**注意**：asked + if/whether + 陈述语序。"
+    "description": "**Reported speech (questions)**（间接引语（疑问句）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**用法**：疑问句变陈述语序，用 if/whether 或疑问词引导。\n\n**例句**：\n- 'Are you coming?' she asked. → She asked if I was coming.\n- 'Where is he?' he asked. → He asked where he was.\n- 'Do you like it?' she asked. → She asked whether I liked it.\n\n**常见错误**：\n- 间接疑问句仍用疑问语序\n- 助动词 do 仍保留\n\n**注意**：asked + if/whether + 陈述语序。",
+    "grammar_cn": "间接引语（疑问句",
+    "meaning": "用来转述他人的话，而不是直接引用。",
+    "pattern": "疑问句变陈述语序，用 if/whether 或疑问词引导。",
+    "common_mistakes": [
+      "间接疑问句仍用疑问语序",
+      "助动词 do 仍保留"
+    ],
+    "comparison": "",
+    "notes": "asked + if/whether + 陈述语序。",
+    "examples": [
+      {
+        "example": "'Are you coming?' she asked. → She asked if I was coming.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'Where is he?' he asked. → He asked where he was.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'Do you like it?' she asked. → She asked whether I liked it.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "4b6ae746-a2a5-4f19-9e32-447ed8d54bac",
     "level": "A2",
     "grammar": "Reported speech (commands/requests)",
-    "description": "**Reported speech (commands/requests)**（间接引语（命令/请求）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**结构**：tell/ask/order + 宾语 + to do/not to do\n\n**例句**：\n- 'Close the door,' he said. → He told me to close the door.\n- 'Please help me,' she said. → She asked me to help her.\n- 'Don't be late,' he said. → He told us not to be late.\n\n**常见错误**：\n- 间接引语保留 please\n- tell 后接 that + 从句表命令\n\n**注意**：tell sb to do；ask sb to do；order sb to do。"
+    "description": "**Reported speech (commands/requests)**（间接引语（命令/请求）\n\n**含义**：用来转述他人的话，而不是直接引用。\n\n**结构**：tell/ask/order + 宾语 + to do/not to do\n\n**例句**：\n- 'Close the door,' he said. → He told me to close the door.\n- 'Please help me,' she said. → She asked me to help her.\n- 'Don't be late,' he said. → He told us not to be late.\n\n**常见错误**：\n- 间接引语保留 please\n- tell 后接 that + 从句表命令\n\n**注意**：tell sb to do；ask sb to do；order sb to do。",
+    "grammar_cn": "间接引语（命令/请求",
+    "meaning": "用来转述他人的话，而不是直接引用。",
+    "pattern": "tell/ask/order + 宾语 + to do/not to do",
+    "common_mistakes": [
+      "间接引语保留 please",
+      "tell 后接 that + 从句表命令"
+    ],
+    "comparison": "",
+    "notes": "tell sb to do；ask sb to do；order sb to do。",
+    "examples": [
+      {
+        "example": "'Close the door,' he said. → He told me to close the door.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'Please help me,' she said. → She asked me to help her.",
+        "example_meaning": ""
+      },
+      {
+        "example": "'Don't be late,' he said. → He told us not to be late.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "5c967348-0845-46a9-9f25-8f801c493db8",
     "level": "A2",
     "grammar": "So / because",
-    "description": "**So / because**（so / because）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：because 表原因；so 表结果。\n\n**例句**：\n- I was tired because I worked hard.\n- I worked hard, so I was tired.\n- Because it rained, we stayed home.\n\n**常见错误**：\n- because 与 so 同时用\n- because 后接句子，because of 后接名词/动名词\n\n**注意**：because + 句子；because of + noun/gerund。"
+    "description": "**So / because**（so / because）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：because 表原因；so 表结果。\n\n**例句**：\n- I was tired because I worked hard.\n- I worked hard, so I was tired.\n- Because it rained, we stayed home.\n\n**常见错误**：\n- because 与 so 同时用\n- because 后接句子，because of 后接名词/动名词\n\n**注意**：because + 句子；because of + noun/gerund。",
+    "grammar_cn": "so / because",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "because 表原因；so 表结果。",
+    "common_mistakes": [
+      "because 与 so 同时用",
+      "because 后接句子，because of 后接名词/动名词"
+    ],
+    "comparison": "",
+    "notes": "because + 句子；because of + noun/gerund。",
+    "examples": [
+      {
+        "example": "I was tired because I worked hard.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I worked hard, so I was tired.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Because it rained, we stayed home.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "416ece55-ffc9-4273-933f-a9607dca1c24",
     "level": "A2",
     "grammar": "Although / though / even though",
-    "description": "**Although / though / even though**（although / though / even though）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：表让步，注意不与 but 连用。\n\n**例句**：\n- Although it rained, we went out.\n- Though he is young, he is wise.\n- Even though she was tired, she worked.\n\n**常见错误**：\n- although 与 but 同时用\n- though 用于句末时含义不同\n\n**注意**：although/though 不能与 but 同句；however 可。"
+    "description": "**Although / though / even though**（although / though / even though）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：表让步，注意不与 but 连用。\n\n**例句**：\n- Although it rained, we went out.\n- Though he is young, he is wise.\n- Even though she was tired, she worked.\n\n**常见错误**：\n- although 与 but 同时用\n- though 用于句末时含义不同\n\n**注意**：although/though 不能与 but 同句；however 可。",
+    "grammar_cn": "although / though / even though",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "表让步，注意不与 but 连用。",
+    "common_mistakes": [
+      "although 与 but 同时用",
+      "though 用于句末时含义不同"
+    ],
+    "comparison": "",
+    "notes": "although/though 不能与 but 同句；however 可。",
+    "examples": [
+      {
+        "example": "Although it rained, we went out.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Though he is young, he is wise.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Even though she was tired, she worked.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "88d36d38-cb27-4233-9c7b-6f665a8176b5",
     "level": "A2",
     "grammar": "However / nevertheless",
-    "description": "**However / nevertheless**（however / nevertheless）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：表转折，常放句首或句中，用逗号隔开。\n\n**例句**：\n- It was raining. However, we went out.\n- He was tired. Nevertheless, he finished.\n\n**常见错误**：\n- however 与 but 同句\n- however 后无逗号\n\n**注意**：however 是副词，but 是连词。"
+    "description": "**However / nevertheless**（however / nevertheless）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：表转折，常放句首或句中，用逗号隔开。\n\n**例句**：\n- It was raining. However, we went out.\n- He was tired. Nevertheless, he finished.\n\n**常见错误**：\n- however 与 but 同句\n- however 后无逗号\n\n**注意**：however 是副词，but 是连词。",
+    "grammar_cn": "however / nevertheless",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "表转折，常放句首或句中，用逗号隔开。",
+    "common_mistakes": [
+      "however 与 but 同句",
+      "however 后无逗号"
+    ],
+    "comparison": "",
+    "notes": "however 是副词，but 是连词。",
+    "examples": [
+      {
+        "example": "It was raining. However, we went out.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He was tired. Nevertheless, he finished.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "9c3dc4dd-17df-4c35-afe2-04f8b92812fe",
     "level": "A2",
     "grammar": "In case",
-    "description": "**In case**（in case）\n\n**含义**：in case。\n\n**结构**：in case + 句子，表以防万一\n\n**例句**：\n- Take an umbrella in case it rains.\n- I'll call you in case I need help.\n- In case you forget, here is the key.\n\n**常见错误**：\n- in case 与 if 混用\n- in case 后接 will\n\n**注意**：in case 引导的从句用一般现在时表将来。"
+    "description": "**In case**（in case）\n\n**含义**：in case。\n\n**结构**：in case + 句子，表以防万一\n\n**例句**：\n- Take an umbrella in case it rains.\n- I'll call you in case I need help.\n- In case you forget, here is the key.\n\n**常见错误**：\n- in case 与 if 混用\n- in case 后接 will\n\n**注意**：in case 引导的从句用一般现在时表将来。",
+    "grammar_cn": "in case",
+    "meaning": "in case。",
+    "pattern": "in case + 句子，表以防万一",
+    "common_mistakes": [
+      "in case 与 if 混用",
+      "in case 后接 will"
+    ],
+    "comparison": "",
+    "notes": "in case 引导的从句用一般现在时表将来。",
+    "examples": [
+      {
+        "example": "Take an umbrella in case it rains.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll call you in case I need help.",
+        "example_meaning": ""
+      },
+      {
+        "example": "In case you forget, here is the key.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "5f6371f5-b1b0-40bc-8cbc-bf06889f6c85",
     "level": "A2",
     "grammar": "Unless",
-    "description": "**Unless**（unless）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：unless = if not。除非。\n\n**例句**：\n- I won't go unless you come too.\n- Unless you study, you won't pass.\n- I'll be surprised unless he wins.\n\n**常见错误**：\n- unless 与 if 双重否定\n- unless 后接 will\n\n**注意**：unless 从句用一般现在时表将来。"
+    "description": "**Unless**（unless）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：unless = if not。除非。\n\n**例句**：\n- I won't go unless you come too.\n- Unless you study, you won't pass.\n- I'll be surprised unless he wins.\n\n**常见错误**：\n- unless 与 if 双重否定\n- unless 后接 will\n\n**注意**：unless 从句用一般现在时表将来。",
+    "grammar_cn": "unless",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "unless = if not。除非。",
+    "common_mistakes": [
+      "unless 与 if 双重否定",
+      "unless 后接 will"
+    ],
+    "comparison": "",
+    "notes": "unless 从句用一般现在时表将来。",
+    "examples": [
+      {
+        "example": "I won't go unless you come too.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Unless you study, you won't pass.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll be surprised unless he wins.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "38665ab5-67d5-4f63-a394-77254196dbed",
     "level": "A2",
     "grammar": "As soon as / when / until",
-    "description": "**As soon as / when / until**（时间连词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：as soon as/when/until + 一般现在时表将来\n\n**例句**：\n- Call me when you arrive.\n- I'll wait until you come back.\n- As soon as I finish, I'll call.\n\n**常见错误**：\n- 时间从句用 will\n- until 与 by 混用\n\n**注意**：until 表动作持续到某时；by 表截止时间。"
+    "description": "**As soon as / when / until**（时间连词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：as soon as/when/until + 一般现在时表将来\n\n**例句**：\n- Call me when you arrive.\n- I'll wait until you come back.\n- As soon as I finish, I'll call.\n\n**常见错误**：\n- 时间从句用 will\n- until 与 by 混用\n\n**注意**：until 表动作持续到某时；by 表截止时间。",
+    "grammar_cn": "时间连词",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "as soon as/when/until + 一般现在时表将来",
+    "common_mistakes": [
+      "时间从句用 will",
+      "until 与 by 混用"
+    ],
+    "comparison": "",
+    "notes": "until 表动作持续到某时；by 表截止时间。",
+    "examples": [
+      {
+        "example": "Call me when you arrive.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll wait until you come back.",
+        "example_meaning": ""
+      },
+      {
+        "example": "As soon as I finish, I'll call.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "68710392-9b96-4c66-8fe5-5630d7a42ffa",
     "level": "A2",
     "grammar": "By the time",
-    "description": "**By the time**（by the time）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：by the time + 现在完成时/过去完成时，表到某时为止\n\n**例句**：\n- By the time you arrive, I'll have finished.\n- By the time he arrived, we had left.\n- By the time she calls, I'll be ready.\n\n**常见错误**：\n- by the time 从句用将来时\n- 主句时态错误\n\n**注意**：by the time 从句用现在时/过去时，主句用完成时。"
+    "description": "**By the time**（by the time）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：by the time + 现在完成时/过去完成时，表到某时为止\n\n**例句**：\n- By the time you arrive, I'll have finished.\n- By the time he arrived, we had left.\n- By the time she calls, I'll be ready.\n\n**常见错误**：\n- by the time 从句用将来时\n- 主句时态错误\n\n**注意**：by the time 从句用现在时/过去时，主句用完成时。",
+    "grammar_cn": "by the time",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "by the time + 现在完成时/过去完成时，表到某时为止",
+    "common_mistakes": [
+      "by the time 从句用将来时",
+      "主句时态错误"
+    ],
+    "comparison": "",
+    "notes": "by the time 从句用现在时/过去时，主句用完成时。",
+    "examples": [
+      {
+        "example": "By the time you arrive, I'll have finished.",
+        "example_meaning": ""
+      },
+      {
+        "example": "By the time he arrived, we had left.",
+        "example_meaning": ""
+      },
+      {
+        "example": "By the time she calls, I'll be ready.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "bd60aa03-541a-4122-b02b-866a3a6655e0",
     "level": "A2",
     "grammar": "Quantity: a few / few / a little / little",
-    "description": "**Quantity: a few / few / a little / little**（a few / few / a little / little）\n\n**含义**：a few / few / a little / little。\n\n**结构**：a few/few + 可数；a little/little + 不可数；a few/a little 表肯定，few/little 表否定\n\n**例句**：\n- I have a few friends. (有几个)\n- I have few friends. (几乎没有)\n- There's a little milk left. (还有一点)\n\n**常见错误**：\n- 混淆：few  vs.  a few 语气\n- little 与 a little 混用\n\n**注意**：a few/a little = 一些；few/little = 几乎没有。"
+    "description": "**Quantity: a few / few / a little / little**（a few / few / a little / little）\n\n**含义**：a few / few / a little / little。\n\n**结构**：a few/few + 可数；a little/little + 不可数；a few/a little 表肯定，few/little 表否定\n\n**例句**：\n- I have a few friends. (有几个)\n- I have few friends. (几乎没有)\n- There's a little milk left. (还有一点)\n\n**常见错误**：\n- 混淆：few  vs.  a few 语气\n- little 与 a little 混用\n\n**注意**：a few/a little = 一些；few/little = 几乎没有。",
+    "grammar_cn": "a few / few / a little / little",
+    "meaning": "a few / few / a little / little。",
+    "pattern": "a few/few + 可数；a little/little + 不可数；a few/a little 表肯定，few/little 表否定",
+    "common_mistakes": [
+      "混淆：few  vs.  a few 语气",
+      "little 与 a little 混用"
+    ],
+    "comparison": "",
+    "notes": "a few/a little = 一些；few/little = 几乎没有。",
+    "examples": [
+      {
+        "example": "I have a few friends. (",
+        "example_meaning": "有几个)"
+      },
+      {
+        "example": "I have few friends. (",
+        "example_meaning": "几乎没有)"
+      },
+      {
+        "example": "There's a little milk left. (",
+        "example_meaning": "还有一点)"
+      }
+    ]
   },
   {
     "id": "f2bf3e1a-e922-41df-b034-a6bbb6d8d3d9",
     "level": "A2",
     "grammar": "All / none / both / neither / either",
-    "description": "**All / none / both / neither / either**（all / none / both / neither / either）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：all 全部，none 全无，both 两者都，neither 两者都不，either 两者任一。\n\n**例句**：\n- All of us are here.\n- Neither answer is correct.\n- Either day is fine.\n\n**常见错误**：\n- neither 与 both 混用\n- either 后接单数还是复数动词\n\n**注意**：neither/either + 单数动词；both + 复数动词。"
+    "description": "**All / none / both / neither / either**（all / none / both / neither / either）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：all 全部，none 全无，both 两者都，neither 两者都不，either 两者任一。\n\n**例句**：\n- All of us are here.\n- Neither answer is correct.\n- Either day is fine.\n\n**常见错误**：\n- neither 与 both 混用\n- either 后接单数还是复数动词\n\n**注意**：neither/either + 单数动词；both + 复数动词。",
+    "grammar_cn": "all / none / both / neither / either",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "all 全部，none 全无，both 两者都，neither 两者都不，either 两者任一。",
+    "common_mistakes": [
+      "neither 与 both 混用",
+      "either 后接单数还是复数动词"
+    ],
+    "comparison": "",
+    "notes": "neither/either + 单数动词；both + 复数动词。",
+    "examples": [
+      {
+        "example": "All of us are here.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Neither answer is correct.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Either day is fine.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "fea3562e-416e-43f4-9a74-cc32de15a0f8",
     "level": "A2",
     "grammar": "Each / every",
-    "description": "**Each / every**（each / every）\n\n**含义**：表示each / every。\n\n**用法**：each 强调个体，可接 of；every 强调整体，不接 of。\n\n**例句**：\n- Each student has a book.\n- Every student has a book.\n- Each of the students has a book.\n\n**常见错误**：\n- every 接 of\n- 混淆：each  vs.  every 后接单数动词\n\n**注意**：each/every + 单数动词。"
+    "description": "**Each / every**（each / every）\n\n**含义**：表示each / every。\n\n**用法**：each 强调个体，可接 of；every 强调整体，不接 of。\n\n**例句**：\n- Each student has a book.\n- Every student has a book.\n- Each of the students has a book.\n\n**常见错误**：\n- every 接 of\n- 混淆：each  vs.  every 后接单数动词\n\n**注意**：each/every + 单数动词。",
+    "grammar_cn": "each / every",
+    "meaning": "表示each / every。",
+    "pattern": "each 强调个体，可接 of；every 强调整体，不接 of。",
+    "common_mistakes": [
+      "every 接 of",
+      "混淆：each  vs.  every 后接单数动词"
+    ],
+    "comparison": "",
+    "notes": "each/every + 单数动词。",
+    "examples": [
+      {
+        "example": "Each student has a book.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Every student has a book.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Each of the students has a book.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "9f6356cc-3b46-4a5e-a169-37e9f06f5dc4",
     "level": "A2",
     "grammar": "Other / another / others / the others",
-    "description": "**Other / another / others / the others**（other / another / others）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：another + 单数；other + 复数\n\n**用法说明**：others 泛指其他人；the others 特定范围内其余\n\n**例句**：\n- I need another cup.\n- Other people may agree.\n- Some students left, the others stayed.\n\n**常见错误**：\n- another 后接复数\n- other 后接单数\n\n**注意**：another one = 再一个；other = 其他的。"
+    "description": "**Other / another / others / the others**（other / another / others）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：another + 单数；other + 复数\n\n**用法说明**：others 泛指其他人；the others 特定范围内其余\n\n**例句**：\n- I need another cup.\n- Other people may agree.\n- Some students left, the others stayed.\n\n**常见错误**：\n- another 后接复数\n- other 后接单数\n\n**注意**：another one = 再一个；other = 其他的。",
+    "grammar_cn": "other / another / others",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "another + 单数；other + 复数",
+    "common_mistakes": [
+      "another 后接复数",
+      "other 后接单数"
+    ],
+    "comparison": "",
+    "notes": "another one = 再一个；other = 其他的。",
+    "examples": [
+      {
+        "example": "I need another cup.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Other people may agree.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Some students left, the others stayed.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "73af210c-d788-4476-a7ca-52a5c2bf0d01",
     "level": "A2",
     "grammar": "One / ones",
-    "description": "**One / ones**（one / ones）\n\n**含义**：表示one / ones。\n\n**用法**：one 代替前文提到的单数可数名词，ones 代替复数。\n\n**例句**：\n- I prefer the red one.\n- Your shoes are nicer than mine, but mine are cheaper ones.\n- I want a big one.\n\n**常见错误**：\n- one 代替不可数名词\n- ones 代替单数名词\n\n**注意**：one/ones 用于避免重复名词。"
+    "description": "**One / ones**（one / ones）\n\n**含义**：表示one / ones。\n\n**用法**：one 代替前文提到的单数可数名词，ones 代替复数。\n\n**例句**：\n- I prefer the red one.\n- Your shoes are nicer than mine, but mine are cheaper ones.\n- I want a big one.\n\n**常见错误**：\n- one 代替不可数名词\n- ones 代替单数名词\n\n**注意**：one/ones 用于避免重复名词。",
+    "grammar_cn": "one / ones",
+    "meaning": "表示one / ones。",
+    "pattern": "one 代替前文提到的单数可数名词，ones 代替复数。",
+    "common_mistakes": [
+      "one 代替不可数名词",
+      "ones 代替单数名词"
+    ],
+    "comparison": "",
+    "notes": "one/ones 用于避免重复名词。",
+    "examples": [
+      {
+        "example": "I prefer the red one.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Your shoes are nicer than mine, but mine are cheaper ones.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I want a big one.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "5cd11590-c127-4d62-9e16-c5adffcec959",
     "level": "A2",
     "grammar": "So do I / Neither do I",
-    "description": "**So do I / Neither do I**（so do I / neither do I）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：so + 助动词 + 主语，表示也一样；neither + 助动词 + 主语，表示也不\n\n**例句**：\n- I like coffee. So do I.\n- I don't like tea. Neither do I.\n- He can swim. So can she.\n\n**常见错误**：\n- 用 So do I 回应否定句\n- 助动词与上句不一致\n\n**注意**：so/neither 后接助动词/be/情态动词，再接主语。"
+    "description": "**So do I / Neither do I**（so do I / neither do I）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：so + 助动词 + 主语，表示也一样；neither + 助动词 + 主语，表示也不\n\n**例句**：\n- I like coffee. So do I.\n- I don't like tea. Neither do I.\n- He can swim. So can she.\n\n**常见错误**：\n- 用 So do I 回应否定句\n- 助动词与上句不一致\n\n**注意**：so/neither 后接助动词/be/情态动词，再接主语。",
+    "grammar_cn": "so do I / neither do I",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "so + 助动词 + 主语，表示也一样；neither + 助动词 + 主语，表示也不",
+    "common_mistakes": [
+      "用 So do I 回应否定句",
+      "助动词与上句不一致"
+    ],
+    "comparison": "",
+    "notes": "so/neither 后接助动词/be/情态动词，再接主语。",
+    "examples": [
+      {
+        "example": "I like coffee. So do I.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I don't like tea. Neither do I.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He can swim. So can she.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "40299212-95e1-4978-b95b-f498e4d1b93d",
     "level": "A2",
     "grammar": "Linking words: addition",
-    "description": "**Linking words: addition**（连接词（递进）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：also, too, as well, besides, in addition, moreover, furthermore。\n\n**例句**：\n- I like coffee. I also like tea.\n- She is smart. Moreover, she works hard.\n- Besides, it's too expensive.\n\n**常见错误**：\n- also 位置错误（句末）\n- 混淆：too  vs.  also 位置\n\n**注意**：also 在句中，too/as well 在句末。"
+    "description": "**Linking words: addition**（连接词（递进）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：also, too, as well, besides, in addition, moreover, furthermore。\n\n**例句**：\n- I like coffee. I also like tea.\n- She is smart. Moreover, she works hard.\n- Besides, it's too expensive.\n\n**常见错误**：\n- also 位置错误（句末）\n- 混淆：too  vs.  also 位置\n\n**注意**：also 在句中，too/as well 在句末。",
+    "grammar_cn": "连接词（递进",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "also, too, as well, besides, in addition, moreover, furthermore。",
+    "common_mistakes": [
+      "also 位置错误（句末）",
+      "混淆：too  vs.  also 位置"
+    ],
+    "comparison": "",
+    "notes": "also 在句中，too/as well 在句末。",
+    "examples": [
+      {
+        "example": "I like coffee. I also like tea.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She is smart. Moreover, she works hard.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Besides, it's too expensive.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "30d1735a-86b3-4c3d-b95c-8c7b8b2cc212",
     "level": "A2",
     "grammar": "Linking words: contrast",
-    "description": "**Linking words: contrast**（连接词（对比）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：however, on the other hand, in contrast, whereas, while。\n\n**例句**：\n- He is rich, whereas she is poor.\n- On the other hand, it might rain.\n- In contrast, the second option is cheaper.\n\n**常见错误**：\n- 错误：将 whereas 和 however 当作完全相同。\n- while 表时间 vs. 对比混淆\n\n**注意**：while/whereas 可直接连接两个分句。"
+    "description": "**Linking words: contrast**（连接词（对比）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：however, on the other hand, in contrast, whereas, while。\n\n**例句**：\n- He is rich, whereas she is poor.\n- On the other hand, it might rain.\n- In contrast, the second option is cheaper.\n\n**常见错误**：\n- 错误：将 whereas 和 however 当作完全相同。\n- while 表时间 vs. 对比混淆\n\n**注意**：while/whereas 可直接连接两个分句。",
+    "grammar_cn": "连接词（对比",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "however, on the other hand, in contrast, whereas, while。",
+    "common_mistakes": [
+      "错误：将 whereas 和 however 当作完全相同。",
+      "while 表时间 vs. 对比混淆"
+    ],
+    "comparison": "",
+    "notes": "while/whereas 可直接连接两个分句。",
+    "examples": [
+      {
+        "example": "He is rich, whereas she is poor.",
+        "example_meaning": ""
+      },
+      {
+        "example": "On the other hand, it might rain.",
+        "example_meaning": ""
+      },
+      {
+        "example": "In contrast, the second option is cheaper.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "6920b613-52f4-4f9f-8327-89535dc19a73",
     "level": "A2",
     "grammar": "Linking words: result",
-    "description": "**Linking words: result**（连接词（结果）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：so, therefore, as a result, consequently, thus。\n\n**例句**：\n- It rained. Therefore, the match was cancelled.\n- She was ill. As a result, she stayed home.\n- He studied hard, so he passed.\n\n**常见错误**：\n- therefore 与 because 混用\n- so 与 therefore 同句冗余\n\n**注意**：therefore 是副词，常放句首或句中。"
+    "description": "**Linking words: result**（连接词（结果）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：so, therefore, as a result, consequently, thus。\n\n**例句**：\n- It rained. Therefore, the match was cancelled.\n- She was ill. As a result, she stayed home.\n- He studied hard, so he passed.\n\n**常见错误**：\n- therefore 与 because 混用\n- so 与 therefore 同句冗余\n\n**注意**：therefore 是副词，常放句首或句中。",
+    "grammar_cn": "连接词（结果",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "so, therefore, as a result, consequently, thus。",
+    "common_mistakes": [
+      "therefore 与 because 混用",
+      "so 与 therefore 同句冗余"
+    ],
+    "comparison": "",
+    "notes": "therefore 是副词，常放句首或句中。",
+    "examples": [
+      {
+        "example": "It rained. Therefore, the match was cancelled.",
+        "example_meaning": ""
+      },
+      {
+        "example": "She was ill. As a result, she stayed home.",
+        "example_meaning": ""
+      },
+      {
+        "example": "He studied hard, so he passed.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "c85fa660-add9-497e-b0c0-8117b8184790",
     "level": "A2",
     "grammar": "Linking words: giving examples",
-    "description": "**Linking words: giving examples**（连接词（举例）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：for example, for instance, such as, like, e.g.\n\n**例句**：\n- I like fruit, such as apples and oranges.\n- For example, he always arrives early.\n- Some countries, like Japan, have high-speed trains.\n\n**常见错误**：\n- such as 与 for example 后都接完整句子\n- like 与 as 混用\n\n**注意**：such as 列举同类事物；for example 可接句子。"
+    "description": "**Linking words: giving examples**（连接词（举例）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：for example, for instance, such as, like, e.g.\n\n**例句**：\n- I like fruit, such as apples and oranges.\n- For example, he always arrives early.\n- Some countries, like Japan, have high-speed trains.\n\n**常见错误**：\n- such as 与 for example 后都接完整句子\n- like 与 as 混用\n\n**注意**：such as 列举同类事物；for example 可接句子。",
+    "grammar_cn": "连接词（举例",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "for example, for instance, such as, like, e.g.",
+    "common_mistakes": [
+      "such as 与 for example 后都接完整句子",
+      "like 与 as 混用"
+    ],
+    "comparison": "",
+    "notes": "such as 列举同类事物；for example 可接句子。",
+    "examples": [
+      {
+        "example": "I like fruit, such as apples and oranges.",
+        "example_meaning": ""
+      },
+      {
+        "example": "For example, he always arrives early.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Some countries, like Japan, have high-speed trains.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "a67bbc37-fff2-4fee-969a-57bc376942e6",
     "level": "A2",
     "grammar": "Countable and uncountable review",
-    "description": "**Countable and uncountable review**（可数/不可数复习）\n\n**含义**：表示可数/不可数复习。\n\n**用法**：复习不可数名词与量词搭配，以及常见错误。\n\n**例句**：\n- a piece of advice\n- a loaf of bread\n- a bar of chocolate\n\n**常见错误**：\n- 不可数名词直接加 a/an\n- 量词用错（*a glass of bread*）\n\n**注意**：不可数名词需用量词才能计数。"
+    "description": "**Countable and uncountable review**（可数/不可数复习）\n\n**含义**：表示可数/不可数复习。\n\n**用法**：复习不可数名词与量词搭配，以及常见错误。\n\n**例句**：\n- a piece of advice\n- a loaf of bread\n- a bar of chocolate\n\n**常见错误**：\n- 不可数名词直接加 a/an\n- 量词用错（*a glass of bread*）\n\n**注意**：不可数名词需用量词才能计数。",
+    "grammar_cn": "可数/不可数复习",
+    "meaning": "表示可数/不可数复习。",
+    "pattern": "复习不可数名词与量词搭配，以及常见错误。",
+    "common_mistakes": [
+      "不可数名词直接加 a/an",
+      "量词用错（*a glass of bread*）"
+    ],
+    "comparison": "",
+    "notes": "不可数名词需用量词才能计数。",
+    "examples": [
+      {
+        "example": "a piece of advice",
+        "example_meaning": ""
+      },
+      {
+        "example": "a loaf of bread",
+        "example_meaning": ""
+      },
+      {
+        "example": "a bar of chocolate",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "c39d3525-0ba5-4eac-9079-d62fd4866907",
     "level": "A2",
     "grammar": "Expressing opinions",
-    "description": "**Expressing opinions**（表达观点）\n\n**含义**：表达观点。\n\n**结构**：I think (that)..., I believe..., In my opinion..., I agree/disagree\n\n**例句**：\n- I think we should leave early.\n- In my opinion, this is the best option.\n- I don't agree with you.\n\n**常见错误**：\n- In my opinion 与 I think 同句冗余\n- I am agree 错误\n\n**注意**：I agree（不是 I am agree）；I think + (that) + 从句。"
+    "description": "**Expressing opinions**（表达观点）\n\n**含义**：表达观点。\n\n**结构**：I think (that)..., I believe..., In my opinion..., I agree/disagree\n\n**例句**：\n- I think we should leave early.\n- In my opinion, this is the best option.\n- I don't agree with you.\n\n**常见错误**：\n- In my opinion 与 I think 同句冗余\n- I am agree 错误\n\n**注意**：I agree（不是 I am agree）；I think + (that) + 从句。",
+    "grammar_cn": "表达观点",
+    "meaning": "表达观点。",
+    "pattern": "I think (that)..., I believe..., In my opinion..., I agree/disagree",
+    "common_mistakes": [
+      "In my opinion 与 I think 同句冗余",
+      "I am agree 错误"
+    ],
+    "comparison": "",
+    "notes": "I agree（不是 I am agree）；I think + (that) + 从句。",
+    "examples": [
+      {
+        "example": "I think we should leave early.",
+        "example_meaning": ""
+      },
+      {
+        "example": "In my opinion, this is the best option.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I don't agree with you.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "5639569d-4618-4e02-9b12-43852c057c62",
     "level": "A2",
     "grammar": "Making suggestions",
-    "description": "**Making suggestions**（提出建议）\n\n**含义**：表示提出建议。\n\n**用法**：Why don't we...?, How about...?, Let's..., You could..., Maybe we should...\n\n**例句**：\n- Why don't we go to the cinema?\n- How about having dinner out?\n- Maybe we should leave early.\n\n**常见错误**：\n- How about 后接 to do（应为 doing）\n- Why don't 后接 I/we 主语不一致\n\n**注意**：How about/What about + doing/noun。"
+    "description": "**Making suggestions**（提出建议）\n\n**含义**：表示提出建议。\n\n**用法**：Why don't we...?, How about...?, Let's..., You could..., Maybe we should...\n\n**例句**：\n- Why don't we go to the cinema?\n- How about having dinner out?\n- Maybe we should leave early.\n\n**常见错误**：\n- How about 后接 to do（应为 doing）\n- Why don't 后接 I/we 主语不一致\n\n**注意**：How about/What about + doing/noun。",
+    "grammar_cn": "提出建议",
+    "meaning": "表示提出建议。",
+    "pattern": "Why don't we...?, How about...?, Let's..., You could..., Maybe we should...",
+    "common_mistakes": [
+      "How about 后接 to do（应为 doing）",
+      "Why don't 后接 I/we 主语不一致"
+    ],
+    "comparison": "",
+    "notes": "How about/What about + doing/noun。",
+    "examples": [
+      {
+        "example": "Why don't we go to the cinema?",
+        "example_meaning": ""
+      },
+      {
+        "example": "How about having dinner out?",
+        "example_meaning": ""
+      },
+      {
+        "example": "Maybe we should leave early.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "fd2da3ad-10c9-4203-b8e0-a60ee6754f78",
     "level": "A2",
     "grammar": "Agreeing and disagreeing",
-    "description": "**Agreeing and disagreeing**（同意与不同意）\n\n**含义**：同意与不同意。\n\n**结构**：I agree, That's right, Exactly, I don't think so, I'm not sure about that\n\n**例句**：\n- I agree with you.\n- That's right.\n- I'm not sure I agree with that.\n\n**常见错误**：\n- 混淆：I agree  vs.  I am agree \n- I'm agree 错误\n\n**注意**：agree 是动词，不是形容词。"
+    "description": "**Agreeing and disagreeing**（同意与不同意）\n\n**含义**：同意与不同意。\n\n**结构**：I agree, That's right, Exactly, I don't think so, I'm not sure about that\n\n**例句**：\n- I agree with you.\n- That's right.\n- I'm not sure I agree with that.\n\n**常见错误**：\n- 混淆：I agree  vs.  I am agree \n- I'm agree 错误\n\n**注意**：agree 是动词，不是形容词。",
+    "grammar_cn": "同意与不同意",
+    "meaning": "同意与不同意。",
+    "pattern": "I agree, That's right, Exactly, I don't think so, I'm not sure about that",
+    "common_mistakes": [
+      "混淆：I agree  vs.  I am agree",
+      "I'm agree 错误"
+    ],
+    "comparison": "",
+    "notes": "agree 是动词，不是形容词。",
+    "examples": [
+      {
+        "example": "I agree with you.",
+        "example_meaning": ""
+      },
+      {
+        "example": "That's right.",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'm not sure I agree with that.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "510458da-699a-4e69-ad81-83d2812ffc6d",
     "level": "A2",
     "grammar": "Telephone phrases",
-    "description": "**Telephone phrases**（电话用语）\n\n**含义**：表示电话用语。\n\n**用法**：Can I speak to...?, I'll put you through, Hold on, I'm afraid he's not here.\n\n**例句**：\n- Can I speak to John, please?\n- I'll put you through.\n- Hold on a moment, please.\n\n**常见错误**：\n- 电话中说 I want to speak John（漏 to）\n- Who is calling? 说成 Who are you?（太直接）\n\n**注意**：This is ... speaking；Who's calling?"
+    "description": "**Telephone phrases**（电话用语）\n\n**含义**：表示电话用语。\n\n**用法**：Can I speak to...?, I'll put you through, Hold on, I'm afraid he's not here.\n\n**例句**：\n- Can I speak to John, please?\n- I'll put you through.\n- Hold on a moment, please.\n\n**常见错误**：\n- 电话中说 I want to speak John（漏 to）\n- Who is calling? 说成 Who are you?（太直接）\n\n**注意**：This is ... speaking；Who's calling?",
+    "grammar_cn": "电话用语",
+    "meaning": "表示电话用语。",
+    "pattern": "Can I speak to...?, I'll put you through, Hold on, I'm afraid he's not here.",
+    "common_mistakes": [
+      "电话中说 I want to speak John（漏 to）",
+      "Who is calling? 说成 Who are you?（太直接）"
+    ],
+    "comparison": "",
+    "notes": "This is ... speaking；Who's calling?",
+    "examples": [
+      {
+        "example": "Can I speak to John, please?",
+        "example_meaning": ""
+      },
+      {
+        "example": "I'll put you through.",
+        "example_meaning": ""
+      },
+      {
+        "example": "Hold on a moment, please.",
+        "example_meaning": ""
+      }
+    ]
   },
   {
     "id": "784c1758-ad73-4bce-92b2-b6da1385d499",
     "level": "A2",
     "grammar": "Emails: formal and informal",
-    "description": "**Emails: formal and informal**（邮件正式与非正式）\n\n**含义**：表示特定文体或写作中的表达方式与技巧。\n\n**用法**：正式邮件用 Dear Sir/Madam, Yours faithfully/sincerely；非正式用 Hi/Hello, Best/Bye。\n\n**例句**：\n- Dear Mr. Smith, ... Yours sincerely, ...\n- Hi Tom, ... Best, ...\n- I am writing to inquire about...\n\n**常见错误**：\n- 正式邮件结尾用 Love\n- 非正式邮件用 Yours faithfully\n\n**注意**：I look forward to hearing from you."
+    "description": "**Emails: formal and informal**（邮件正式与非正式）\n\n**含义**：表示特定文体或写作中的表达方式与技巧。\n\n**用法**：正式邮件用 Dear Sir/Madam, Yours faithfully/sincerely；非正式用 Hi/Hello, Best/Bye。\n\n**例句**：\n- Dear Mr. Smith, ... Yours sincerely, ...\n- Hi Tom, ... Best, ...\n- I am writing to inquire about...\n\n**常见错误**：\n- 正式邮件结尾用 Love\n- 非正式邮件用 Yours faithfully\n\n**注意**：I look forward to hearing from you.",
+    "grammar_cn": "邮件正式与非正式",
+    "meaning": "表示特定文体或写作中的表达方式与技巧。",
+    "pattern": "正式邮件用 Dear Sir/Madam, Yours faithfully/sincerely；非正式用 Hi/Hello, Best/Bye。",
+    "common_mistakes": [
+      "正式邮件结尾用 Love",
+      "非正式邮件用 Yours faithfully"
+    ],
+    "comparison": "",
+    "notes": "I look forward to hearing from you.",
+    "examples": [
+      {
+        "example": "Dear Mr. Smith, ... Yours sincerely, ...",
+        "example_meaning": ""
+      },
+      {
+        "example": "Hi Tom, ... Best, ...",
+        "example_meaning": ""
+      },
+      {
+        "example": "I am writing to inquire about...",
+        "example_meaning": ""
+      }
+    ]
   }
 ]

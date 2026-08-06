@@ -172,15 +172,16 @@
             return selected.map(item => {
                 const r = Math.random();
                 let type, question, sub, correctText, distractorMap;
+                const meaningSnippet = (item.grammar_cn || item.meaning || item.grammar).trim();
                 if (r < 0.5) {
                     type = 'grammar_meaning';
-                    question = `${item.grammar} 的意思是？`;
+                    question = `${escapeHtml(item.grammar)} 的意思是？`;
                     sub = '';
-                    correctText = item.meaning;
-                    distractorMap = x => x.meaning;
+                    correctText = meaningSnippet;
+                    distractorMap = x => (x.grammar_cn || x.meaning || x.grammar).trim();
                 } else {
                     type = 'grammar_form';
-                    question = `「${item.meaning}」对应的语法点是？`;
+                    question = `「${escapeHtml(meaningSnippet)}」对应的语法点是？`;
                     sub = '';
                     correctText = item.grammar;
                     distractorMap = x => x.grammar;
@@ -196,9 +197,19 @@
                     type, key: item.id, data: item,
                     question, sub, options,
                     answerIndex: options.indexOf(correctText),
-                    explanation: `${item.grammar}：${item.meaning}`
+                    explanation: `${escapeHtml(item.grammar)}：${escapeHtml(meaningSnippet)}`
                 };
             });
+        }
+
+        function escapeHtml(text) {
+            if (text === null || text === undefined) return '';
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
         }
 
         function generateQuestions() {

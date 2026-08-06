@@ -1,2 +1,4 @@
 scripts/ecdict_cache.csv
 *.bak
+
+.enrich_example_meanings_checkpoint.json

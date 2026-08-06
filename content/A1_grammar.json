@@ -3,318 +3,1551 @@
     "id": "b23c11f4-3d95-4dd4-a2ed-c0966189189f",
     "level": "A1",
     "grammar": "Present simple (be)",
-    "description": "**Present simple (be)**（be 动词的一般现在时）\n\n**含义**：表示现在的身份、状态、位置或特征。\n\n**结构**：I am / You are / He is / She is / It is / We are / They are\n\n**例句**：\n- I am a student. 我是一名学生。\n- They are in the park. 他们在公园里。\n- She is happy. 她很高兴。\n\n**常见错误**：\n- 错误：*He am.* → 正确：He is.（第三人称单数用 is）\n- 错误：*I are.* → 正确：I am.（第一人称单数用 am）\n- 错误：*They is.* → 正确：They are.（复数用 are）\n\n**辨析**：be 表示状态或身份；have/has 表示拥有。例如：He is tall.（状态）vs. He has a car.（拥有）"
+    "description": "**Present simple (be)**（be 动词的一般现在时）\n\n**含义**：表示现在的身份、状态、位置或特征。\n\n**结构**：I am / You are / He is / She is / It is / We are / They are\n\n**例句**：\n- I am a student. 我是一名学生。\n- They are in the park. 他们在公园里。\n- She is happy. 她很高兴。\n\n**常见错误**：\n- 错误：*He am.* → 正确：He is.（第三人称单数用 is）\n- 错误：*I are.* → 正确：I am.（第一人称单数用 am）\n- 错误：*They is.* → 正确：They are.（复数用 are）\n\n**辨析**：be 表示状态或身份；have/has 表示拥有。例如：He is tall.（状态）vs. He has a car.（拥有）",
+    "grammar_cn": "be 动词的一般现在时",
+    "meaning": "表示现在的身份、状态、位置或特征。",
+    "pattern": "I am / You are / He is / She is / It is / We are / They are",
+    "common_mistakes": [
+      "错误：*He am.* → 正确：He is.（第三人称单数用 is）",
+      "错误：*I are.* → 正确：I am.（第一人称单数用 am）",
+      "错误：*They is.* → 正确：They are.（复数用 are）"
+    ],
+    "comparison": "be 表示状态或身份；have/has 表示拥有。例如：He is tall.（状态）vs. He has a car.（拥有）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I am a student.",
+        "example_meaning": "我是一名学生。"
+      },
+      {
+        "example": "They are in the park.",
+        "example_meaning": "他们在公园里。"
+      },
+      {
+        "example": "She is happy.",
+        "example_meaning": "她很高兴。"
+      }
+    ]
   },
   {
     "id": "c155692a-5ff3-4528-a3b2-ef2459308fce",
     "level": "A1",
     "grammar": "Present simple (regular verbs)",
-    "description": "**Present simple (regular verbs)**（一般现在时：一般动词）\n\n**含义**：表示习惯、反复发生的动作、事实或固定安排。\n\n**结构**：主语 + 动词原形；第三人称单数动词加 -s / -es\n\n**例句**：\n- She works in Tokyo. 她在东京工作。\n- I drink coffee every morning. 我每天早上喝咖啡。\n- The sun rises in the east. 太阳从东方升起。\n\n**常见错误**：\n- 错误：*She work in Tokyo.* → 正确：She works in Tokyo.（第三人称单数要加 -s）\n- 错误：*Does he works?* → 正确：Does he work?（疑问句中 does 已体现人称，动词用原形）\n- 错误：*He don't like it.* → 正确：He doesn't like it.（第三人称单数用 doesn't）\n\n**辨析**：一般现在时表示习惯或事实；现在进行时表示此刻正在发生的动作。例如：I work here.（习惯/事实）vs. I am working now.（此刻）"
+    "description": "**Present simple (regular verbs)**（一般现在时：一般动词）\n\n**含义**：表示习惯、反复发生的动作、事实或固定安排。\n\n**结构**：主语 + 动词原形；第三人称单数动词加 -s / -es\n\n**例句**：\n- She works in Tokyo. 她在东京工作。\n- I drink coffee every morning. 我每天早上喝咖啡。\n- The sun rises in the east. 太阳从东方升起。\n\n**常见错误**：\n- 错误：*She work in Tokyo.* → 正确：She works in Tokyo.（第三人称单数要加 -s）\n- 错误：*Does he works?* → 正确：Does he work?（疑问句中 does 已体现人称，动词用原形）\n- 错误：*He don't like it.* → 正确：He doesn't like it.（第三人称单数用 doesn't）\n\n**辨析**：一般现在时表示习惯或事实；现在进行时表示此刻正在发生的动作。例如：I work here.（习惯/事实）vs. I am working now.（此刻）",
+    "grammar_cn": "一般现在时：一般动词",
+    "meaning": "表示习惯、反复发生的动作、事实或固定安排。",
+    "pattern": "主语 + 动词原形；第三人称单数动词加 -s / -es",
+    "common_mistakes": [
+      "错误：*She work in Tokyo.* → 正确：She works in Tokyo.（第三人称单数要加 -s）",
+      "错误：*Does he works?* → 正确：Does he work?（疑问句中 does 已体现人称，动词用原形）",
+      "错误：*He don't like it.* → 正确：He doesn't like it.（第三人称单数用 doesn't）"
+    ],
+    "comparison": "一般现在时表示习惯或事实；现在进行时表示此刻正在发生的动作。例如：I work here.（习惯/事实）vs. I am working now.（此刻）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "She works in Tokyo.",
+        "example_meaning": "她在东京工作。"
+      },
+      {
+        "example": "I drink coffee every morning.",
+        "example_meaning": "我每天早上喝咖啡。"
+      },
+      {
+        "example": "The sun rises in the east.",
+        "example_meaning": "太阳从东方升起。"
+      }
+    ]
   },
   {
     "id": "4e5a4e8f-3b27-47a3-9d08-f61dba82d81e",
     "level": "A1",
     "grammar": "Present continuous",
-    "description": "**Present continuous**（现在进行时）\n\n**含义**：表示此刻正在进行的动作，或近期临时安排。\n\n**结构**：am / is / are + 动词-ing\n\n**例句**：\n- I am reading a book now. 我现在正在读书。\n- They are playing football. 他们正在踢足球。\n- She is meeting her friend tomorrow. 她明天临时约好见朋友。\n\n**常见错误**：\n- 错误：*I reading a book.* → 正确：I am reading a book.（不能省略 be 动词）\n- 错误：*I am read a book.* → 正确：I am reading a book.（be 动词后接 -ing，不接原形）\n- 错误：*He is play football.* → 正确：He is playing football.（动词用 -ing 形式）\n\n**辨析**：现在进行时强调此刻或临时；一般现在时强调习惯或事实。例如：I am drinking coffee now.（此刻）vs. I drink coffee every morning.（习惯）"
+    "description": "**Present continuous**（现在进行时）\n\n**含义**：表示此刻正在进行的动作，或近期临时安排。\n\n**结构**：am / is / are + 动词-ing\n\n**例句**：\n- I am reading a book now. 我现在正在读书。\n- They are playing football. 他们正在踢足球。\n- She is meeting her friend tomorrow. 她明天临时约好见朋友。\n\n**常见错误**：\n- 错误：*I reading a book.* → 正确：I am reading a book.（不能省略 be 动词）\n- 错误：*I am read a book.* → 正确：I am reading a book.（be 动词后接 -ing，不接原形）\n- 错误：*He is play football.* → 正确：He is playing football.（动词用 -ing 形式）\n\n**辨析**：现在进行时强调此刻或临时；一般现在时强调习惯或事实。例如：I am drinking coffee now.（此刻）vs. I drink coffee every morning.（习惯）",
+    "grammar_cn": "现在进行时",
+    "meaning": "表示此刻正在进行的动作，或近期临时安排。",
+    "pattern": "am / is / are + 动词-ing",
+    "common_mistakes": [
+      "错误：*I reading a book.* → 正确：I am reading a book.（不能省略 be 动词）",
+      "错误：*I am read a book.* → 正确：I am reading a book.（be 动词后接 -ing，不接原形）",
+      "错误：*He is play football.* → 正确：He is playing football.（动词用 -ing 形式）"
+    ],
+    "comparison": "现在进行时强调此刻或临时；一般现在时强调习惯或事实。例如：I am drinking coffee now.（此刻）vs. I drink coffee every morning.（习惯）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I am reading a book now.",
+        "example_meaning": "我现在正在读书。"
+      },
+      {
+        "example": "They are playing football.",
+        "example_meaning": "他们正在踢足球。"
+      },
+      {
+        "example": "She is meeting her friend tomorrow.",
+        "example_meaning": "她明天临时约好见朋友。"
+      }
+    ]
   },
   {
     "id": "7a403c59-faae-4e86-a863-0b7759eec9c1",
     "level": "A1",
     "grammar": "Articles: a/an/the",
-    "description": "**Articles: a/an/the**（冠词）\n\n**含义**：a/an 表示首次提到或泛指；the 表示特指、独一无二或上文已提到。\n\n**结构**：\n- a + 以辅音音素开头的单数可数名词：a book, a university\n- an + 以元音音素开头的单数可数名词：an apple, an hour\n- the + 特指名词：the book on the table\n\n**例句**：\n- I have a dog. The dog is brown. 我有一只狗。这只狗是棕色的。\n- She is an engineer. 她是一名工程师。\n- The sun is hot. 太阳很热。\n\n**常见错误**：\n- 错误：*I have a advice.* → 正确：I have some advice.（advice 不可数，不用 a）\n- 错误：*I want book.* → 正确：I want a book.（单数可数名词前不能没有冠词）\n- 错误：*Please open door.* → 正确：Please open the door.（双方都知的门用 the）\n\n**辨析**：a/an 表示泛指；the 表示特指。零冠词常用于泛指的复数名词或抽象名词：I like music.（泛指音乐）"
+    "description": "**Articles: a/an/the**（冠词）\n\n**含义**：a/an 表示首次提到或泛指；the 表示特指、独一无二或上文已提到。\n\n**结构**：\n- a + 以辅音音素开头的单数可数名词：a book, a university\n- an + 以元音音素开头的单数可数名词：an apple, an hour\n- the + 特指名词：the book on the table\n\n**例句**：\n- I have a dog. The dog is brown. 我有一只狗。这只狗是棕色的。\n- She is an engineer. 她是一名工程师。\n- The sun is hot. 太阳很热。\n\n**常见错误**：\n- 错误：*I have a advice.* → 正确：I have some advice.（advice 不可数，不用 a）\n- 错误：*I want book.* → 正确：I want a book.（单数可数名词前不能没有冠词）\n- 错误：*Please open door.* → 正确：Please open the door.（双方都知的门用 the）\n\n**辨析**：a/an 表示泛指；the 表示特指。零冠词常用于泛指的复数名词或抽象名词：I like music.（泛指音乐）",
+    "grammar_cn": "冠词",
+    "meaning": "a/an 表示首次提到或泛指；the 表示特指、独一无二或上文已提到。",
+    "pattern": "- a + 以辅音音素开头的单数可数名词：a book, a university\n- an + 以元音音素开头的单数可数名词：an apple, an hour\n- the + 特指名词：the book on the table",
+    "common_mistakes": [
+      "错误：*I have a advice.* → 正确：I have some advice.（advice 不可数，不用 a）",
+      "错误：*I want book.* → 正确：I want a book.（单数可数名词前不能没有冠词）",
+      "错误：*Please open door.* → 正确：Please open the door.（双方都知的门用 the）"
+    ],
+    "comparison": "a/an 表示泛指；the 表示特指。零冠词常用于泛指的复数名词或抽象名词：I like music.（泛指音乐）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have a dog. The dog is brown.",
+        "example_meaning": "我有一只狗。这只狗是棕色的。"
+      },
+      {
+        "example": "She is an engineer.",
+        "example_meaning": "她是一名工程师。"
+      },
+      {
+        "example": "The sun is hot.",
+        "example_meaning": "太阳很热。"
+      }
+    ]
   },
   {
     "id": "50482abe-3d0f-4588-8d38-49213e10f88a",
     "level": "A1",
     "grammar": "Possessive adjectives",
-    "description": "**Possessive adjectives**（物主形容词）\n\n**含义**：表示所属关系，放在名词前面。\n\n**结构**：my / your / his / her / its / our / their + 名词\n\n**例句**：\n- This is my book. 这是我的书。\n- Her brother is a doctor. 她的哥哥是医生。\n- Our house is big. 我们的房子很大。\n\n**常见错误**：\n- 错误：*This book is my.* → 正确：This book is mine.（句尾单独用名词性物主代词）\n- 错误：*This is mine book.* → 正确：This is my book.（名词前用物主形容词）\n- 错误：*She is a her friend.* → 正确：She is her friend.（物主形容词和名词之间不加 a）\n\n**辨析**：my + 名词（物主形容词）vs. mine（名词性物主代词，单独用）。例如：This is my pen. / This pen is mine."
+    "description": "**Possessive adjectives**（物主形容词）\n\n**含义**：表示所属关系，放在名词前面。\n\n**结构**：my / your / his / her / its / our / their + 名词\n\n**例句**：\n- This is my book. 这是我的书。\n- Her brother is a doctor. 她的哥哥是医生。\n- Our house is big. 我们的房子很大。\n\n**常见错误**：\n- 错误：*This book is my.* → 正确：This book is mine.（句尾单独用名词性物主代词）\n- 错误：*This is mine book.* → 正确：This is my book.（名词前用物主形容词）\n- 错误：*She is a her friend.* → 正确：She is her friend.（物主形容词和名词之间不加 a）\n\n**辨析**：my + 名词（物主形容词）vs. mine（名词性物主代词，单独用）。例如：This is my pen. / This pen is mine.",
+    "grammar_cn": "物主形容词",
+    "meaning": "表示所属关系，放在名词前面。",
+    "pattern": "my / your / his / her / its / our / their + 名词",
+    "common_mistakes": [
+      "错误：*This book is my.* → 正确：This book is mine.（句尾单独用名词性物主代词）",
+      "错误：*This is mine book.* → 正确：This is my book.（名词前用物主形容词）",
+      "错误：*She is a her friend.* → 正确：She is her friend.（物主形容词和名词之间不加 a）"
+    ],
+    "comparison": "my + 名词（物主形容词）vs. mine（名词性物主代词，单独用）。例如：This is my pen. / This pen is mine.",
+    "notes": "",
+    "examples": [
+      {
+        "example": "This is my book.",
+        "example_meaning": "这是我的书。"
+      },
+      {
+        "example": "Her brother is a doctor.",
+        "example_meaning": "她的哥哥是医生。"
+      },
+      {
+        "example": "Our house is big.",
+        "example_meaning": "我们的房子很大。"
+      }
+    ]
   },
   {
     "id": "c5daa4b9-bdc2-460a-b304-145cec7edd63",
     "level": "A1",
     "grammar": "There is / There are",
-    "description": "**There is / There are**（存在句）\n\n**含义**：表示某地存在某物。\n\n**结构**：\n- There is + 单数名词 / 不可数名词\n- There are + 复数名词\n\n**例句**：\n- There is a book on the table. 桌子上有一本书。\n- There are two cats in the garden. 花园里有两只猫。\n- There is some milk in the fridge. 冰箱里有一些牛奶。\n\n**常见错误**：\n- 错误：*There are a student.* → 正确：There is a student.（单数用 there is）\n- 错误：*There have two cats.* → 正确：There are two cats.（存在句用 there is/are，不是 there have）\n- 错误：*There is some books.* → 正确：There are some books.（复数用 there are）\n\n**辨析**：There is/are 表示某地存在；have/has 表示某人拥有。例如：There is a bank near here.（某地存在）vs. I have a car.（某人拥有）"
+    "description": "**There is / There are**（存在句）\n\n**含义**：表示某地存在某物。\n\n**结构**：\n- There is + 单数名词 / 不可数名词\n- There are + 复数名词\n\n**例句**：\n- There is a book on the table. 桌子上有一本书。\n- There are two cats in the garden. 花园里有两只猫。\n- There is some milk in the fridge. 冰箱里有一些牛奶。\n\n**常见错误**：\n- 错误：*There are a student.* → 正确：There is a student.（单数用 there is）\n- 错误：*There have two cats.* → 正确：There are two cats.（存在句用 there is/are，不是 there have）\n- 错误：*There is some books.* → 正确：There are some books.（复数用 there are）\n\n**辨析**：There is/are 表示某地存在；have/has 表示某人拥有。例如：There is a bank near here.（某地存在）vs. I have a car.（某人拥有）",
+    "grammar_cn": "存在句",
+    "meaning": "表示某地存在某物。",
+    "pattern": "- There is + 单数名词 / 不可数名词\n- There are + 复数名词",
+    "common_mistakes": [
+      "错误：*There are a student.* → 正确：There is a student.（单数用 there is）",
+      "错误：*There have two cats.* → 正确：There are two cats.（存在句用 there is/are，不是 there have）",
+      "错误：*There is some books.* → 正确：There are some books.（复数用 there are）"
+    ],
+    "comparison": "There is/are 表示某地存在；have/has 表示某人拥有。例如：There is a bank near here.（某地存在）vs. I have a car.（某人拥有）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "There is a book on the table.",
+        "example_meaning": "桌子上有一本书。"
+      },
+      {
+        "example": "There are two cats in the garden.",
+        "example_meaning": "花园里有两只猫。"
+      },
+      {
+        "example": "There is some milk in the fridge.",
+        "example_meaning": "冰箱里有一些牛奶。"
+      }
+    ]
   },
   {
     "id": "6f1731c3-38b8-4d70-9401-9e6ba7ee4ef2",
     "level": "A1",
     "grammar": "Can / Can't",
-    "description": "**Can / Can't**（能力 / 许可 / 可能性）\n\n**含义**：can 表示能力、许可或可能性；can't 表示否定。\n\n**结构**：can + 动词原形；can't + 动词原形；Can + 主语 + 动词原形？\n\n**例句**：\n- I can swim. 我会游泳。\n- Can you help me? 你能帮我吗？\n- It can't be true. 这不可能是真的。\n\n**常见错误**：\n- 错误：*I can to swim.* → 正确：I can swim.（can 后接动词原形，不加 to）\n- 错误：*She can swimming.* → 正确：She can swim.（can 后接原形，不是 -ing）\n- 错误：*Can you to help me?* → 正确：Can you help me?（疑问句中 can 后直接加主语和原形）\n\n**辨析**：can 表示现在或将来的能力；could 表示过去的能力或更委婉的请求。例如：Can you open the door?（现在）vs. Could you open the door?（更礼貌）"
+    "description": "**Can / Can't**（能力 / 许可 / 可能性）\n\n**含义**：can 表示能力、许可或可能性；can't 表示否定。\n\n**结构**：can + 动词原形；can't + 动词原形；Can + 主语 + 动词原形？\n\n**例句**：\n- I can swim. 我会游泳。\n- Can you help me? 你能帮我吗？\n- It can't be true. 这不可能是真的。\n\n**常见错误**：\n- 错误：*I can to swim.* → 正确：I can swim.（can 后接动词原形，不加 to）\n- 错误：*She can swimming.* → 正确：She can swim.（can 后接原形，不是 -ing）\n- 错误：*Can you to help me?* → 正确：Can you help me?（疑问句中 can 后直接加主语和原形）\n\n**辨析**：can 表示现在或将来的能力；could 表示过去的能力或更委婉的请求。例如：Can you open the door?（现在）vs. Could you open the door?（更礼貌）",
+    "grammar_cn": "能力 / 许可 / 可能性",
+    "meaning": "can 表示能力、许可或可能性；can't 表示否定。",
+    "pattern": "can + 动词原形；can't + 动词原形；Can + 主语 + 动词原形？",
+    "common_mistakes": [
+      "错误：*I can to swim.* → 正确：I can swim.（can 后接动词原形，不加 to）",
+      "错误：*She can swimming.* → 正确：She can swim.（can 后接原形，不是 -ing）",
+      "错误：*Can you to help me?* → 正确：Can you help me?（疑问句中 can 后直接加主语和原形）"
+    ],
+    "comparison": "can 表示现在或将来的能力；could 表示过去的能力或更委婉的请求。例如：Can you open the door?（现在）vs. Could you open the door?（更礼貌）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I can swim.",
+        "example_meaning": "我会游泳。"
+      },
+      {
+        "example": "Can you help me?",
+        "example_meaning": "你能帮我吗？"
+      },
+      {
+        "example": "It can't be true.",
+        "example_meaning": "这不可能是真的。"
+      }
+    ]
   },
   {
     "id": "a12da22b-8a99-4164-ae19-dcf5a6c17488",
     "level": "A1",
     "grammar": "Simple past (be)",
-    "description": "**Simple past (be)**（be 动词的一般过去时）\n\n**含义**：表示过去的状态、位置或身份。\n\n**结构**：I / he / she / it + was；you / we / they + were\n\n**例句**：\n- I was tired yesterday. 我昨天很累。\n- They were at school last week. 他们上周在学校。\n- She was happy as a child. 她小时候很快乐。\n\n**常见错误**：\n- 错误：*They was happy.* → 正确：They were happy.（复数用 were）\n- 错误：*He were at home.* → 正确：He was at home.（第三人称单数用 was）\n- 错误：*I was go to school.* → 正确：I went to school.（was 是 be 的过去式，不能当助动词 do 用）\n\n**辨析**：was/were 是 be 的过去式；did 是助动词 do 的过去式，用于其他动词。例如：She was tired.（be 动词）vs. She did her homework.（实义动词）"
+    "description": "**Simple past (be)**（be 动词的一般过去时）\n\n**含义**：表示过去的状态、位置或身份。\n\n**结构**：I / he / she / it + was；you / we / they + were\n\n**例句**：\n- I was tired yesterday. 我昨天很累。\n- They were at school last week. 他们上周在学校。\n- She was happy as a child. 她小时候很快乐。\n\n**常见错误**：\n- 错误：*They was happy.* → 正确：They were happy.（复数用 were）\n- 错误：*He were at home.* → 正确：He was at home.（第三人称单数用 was）\n- 错误：*I was go to school.* → 正确：I went to school.（was 是 be 的过去式，不能当助动词 do 用）\n\n**辨析**：was/were 是 be 的过去式；did 是助动词 do 的过去式，用于其他动词。例如：She was tired.（be 动词）vs. She did her homework.（实义动词）",
+    "grammar_cn": "be 动词的一般过去时",
+    "meaning": "表示过去的状态、位置或身份。",
+    "pattern": "I / he / she / it + was；you / we / they + were",
+    "common_mistakes": [
+      "错误：*They was happy.* → 正确：They were happy.（复数用 were）",
+      "错误：*He were at home.* → 正确：He was at home.（第三人称单数用 was）",
+      "错误：*I was go to school.* → 正确：I went to school.（was 是 be 的过去式，不能当助动词 do 用）"
+    ],
+    "comparison": "was/were 是 be 的过去式；did 是助动词 do 的过去式，用于其他动词。例如：She was tired.（be 动词）vs. She did her homework.（实义动词）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I was tired yesterday.",
+        "example_meaning": "我昨天很累。"
+      },
+      {
+        "example": "They were at school last week.",
+        "example_meaning": "他们上周在学校。"
+      },
+      {
+        "example": "She was happy as a child.",
+        "example_meaning": "她小时候很快乐。"
+      }
+    ]
   },
   {
     "id": "2ef2c56e-0c1a-43fd-bb67-a65bf28012fd",
     "level": "A1",
     "grammar": "Simple past (regular verbs)",
-    "description": "**Simple past (regular verbs)**（一般过去时：规则动词）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**结构**：动词 + -ed（多数规则动词）；疑问句和否定句用 did\n\n**例句**：\n- I walked to school yesterday. 我昨天走路去学校。\n- She watched TV last night. 她昨晚看电视了。\n- We played tennis on Sunday. 我们周日打了网球。\n\n**常见错误**：\n- 错误：*Did you went?* → 正确：Did you go?（did 后动词用原形）\n- 错误：*She didn't went.* → 正确：She didn't go.（否定句中 didn't 后接原形）\n- 错误：*I goed to school.* → 正确：I went to school.（go 是不规则动词，不是 goed）\n\n**辨析**：一般过去时表示过去具体时间发生的动作；现在完成时表示与现在有关的经历。例如：I saw him yesterday.（过去具体）vs. I have seen him before.（过往经历）"
+    "description": "**Simple past (regular verbs)**（一般过去时：规则动词）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**结构**：动词 + -ed（多数规则动词）；疑问句和否定句用 did\n\n**例句**：\n- I walked to school yesterday. 我昨天走路去学校。\n- She watched TV last night. 她昨晚看电视了。\n- We played tennis on Sunday. 我们周日打了网球。\n\n**常见错误**：\n- 错误：*Did you went?* → 正确：Did you go?（did 后动词用原形）\n- 错误：*She didn't went.* → 正确：She didn't go.（否定句中 didn't 后接原形）\n- 错误：*I goed to school.* → 正确：I went to school.（go 是不规则动词，不是 goed）\n\n**辨析**：一般过去时表示过去具体时间发生的动作；现在完成时表示与现在有关的经历。例如：I saw him yesterday.（过去具体）vs. I have seen him before.（过往经历）",
+    "grammar_cn": "一般过去时：规则动词",
+    "meaning": "表示过去某个时间发生的动作或状态。",
+    "pattern": "动词 + -ed（多数规则动词）；疑问句和否定句用 did",
+    "common_mistakes": [
+      "错误：*Did you went?* → 正确：Did you go?（did 后动词用原形）",
+      "错误：*She didn't went.* → 正确：She didn't go.（否定句中 didn't 后接原形）",
+      "错误：*I goed to school.* → 正确：I went to school.（go 是不规则动词，不是 goed）"
+    ],
+    "comparison": "一般过去时表示过去具体时间发生的动作；现在完成时表示与现在有关的经历。例如：I saw him yesterday.（过去具体）vs. I have seen him before.（过往经历）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I walked to school yesterday.",
+        "example_meaning": "我昨天走路去学校。"
+      },
+      {
+        "example": "She watched TV last night.",
+        "example_meaning": "她昨晚看电视了。"
+      },
+      {
+        "example": "We played tennis on Sunday.",
+        "example_meaning": "我们周日打了网球。"
+      }
+    ]
   },
   {
     "id": "3e5e997a-10fb-40e7-8d33-69b8866907f9",
     "level": "A1",
     "grammar": "Imperatives",
-    "description": "**Imperatives**（祈使句）\n\n**含义**：表示命令、请求、指示或建议。\n\n**结构**：动词原形开头；否定用 Don't + 动词原形；Let's + 动词原形表示建议\n\n**例句**：\n- Open the door, please. 请开门。\n- Don't be late. 不要迟到。\n- Sit down. 坐下。\n- Let's go to the cinema. 我们去看电影吧。\n\n**常见错误**：\n- 错误：*You open the door.*（不自然）→ 正确：Open the door.（祈使句通常省略 you）\n- 错误：*Not be late.* → 正确：Don't be late.（否定祈使句用 Don't）\n- 错误：*Let's to go.* → 正确：Let's go.（Let's 后接动词原形，不加 to）\n\n**辨析**：祈使句更直接；You should... 更委婉。例如：Close the door.（命令/指示）vs. You should close the door.（建议）"
+    "description": "**Imperatives**（祈使句）\n\n**含义**：表示命令、请求、指示或建议。\n\n**结构**：动词原形开头；否定用 Don't + 动词原形；Let's + 动词原形表示建议\n\n**例句**：\n- Open the door, please. 请开门。\n- Don't be late. 不要迟到。\n- Sit down. 坐下。\n- Let's go to the cinema. 我们去看电影吧。\n\n**常见错误**：\n- 错误：*You open the door.*（不自然）→ 正确：Open the door.（祈使句通常省略 you）\n- 错误：*Not be late.* → 正确：Don't be late.（否定祈使句用 Don't）\n- 错误：*Let's to go.* → 正确：Let's go.（Let's 后接动词原形，不加 to）\n\n**辨析**：祈使句更直接；You should... 更委婉。例如：Close the door.（命令/指示）vs. You should close the door.（建议）",
+    "grammar_cn": "祈使句",
+    "meaning": "表示命令、请求、指示或建议。",
+    "pattern": "动词原形开头；否定用 Don't + 动词原形；Let's + 动词原形表示建议",
+    "common_mistakes": [
+      "错误：*You open the door.*（不自然）→ 正确：Open the door.（祈使句通常省略 you）",
+      "错误：*Not be late.* → 正确：Don't be late.（否定祈使句用 Don't）",
+      "错误：*Let's to go.* → 正确：Let's go.（Let's 后接动词原形，不加 to）"
+    ],
+    "comparison": "祈使句更直接；You should... 更委婉。例如：Close the door.（命令/指示）vs. You should close the door.（建议）",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Open the door, please.",
+        "example_meaning": "请开门。"
+      },
+      {
+        "example": "Don't be late.",
+        "example_meaning": "不要迟到。"
+      },
+      {
+        "example": "Sit down.",
+        "example_meaning": "坐下。"
+      },
+      {
+        "example": "Let's go to the cinema.",
+        "example_meaning": "我们去看电影吧。"
+      }
+    ]
   },
   {
     "id": "1dedd33b-23a9-4360-9b05-07617704e454",
     "level": "A1",
     "grammar": "Countable/uncountable nouns",
-    "description": "**Countable/uncountable nouns**（可数/不可数名词）\n\n**含义**：可数/不可数名词。\n\n**用法**：可数名词有单复数；不可数名词无复数，常用 some/much/a little。\n\n**例句**：\n- I have two apples. (countable) 我有两个苹果。（可数）\n- I need some advice. (uncountable) 我需要一些建议。（不可数）\n- There is too much noise. 噪音太大了。\n\n**常见错误**：\n- 不可数名词加 s（*advices*）\n- 用 many 修饰不可数名词\n\n**辨析**：a few + 可数 vs. a little + 不可数。"
+    "description": "**Countable/uncountable nouns**（可数/不可数名词）\n\n**含义**：可数/不可数名词。\n\n**用法**：可数名词有单复数；不可数名词无复数，常用 some/much/a little。\n\n**例句**：\n- I have two apples. (countable) 我有两个苹果。（可数）\n- I need some advice. (uncountable) 我需要一些建议。（不可数）\n- There is too much noise. 噪音太大了。\n\n**常见错误**：\n- 不可数名词加 s（*advices*）\n- 用 many 修饰不可数名词\n\n**辨析**：a few + 可数 vs. a little + 不可数。",
+    "grammar_cn": "可数/不可数名词",
+    "meaning": "可数/不可数名词。",
+    "pattern": "可数名词有单复数；不可数名词无复数，常用 some/much/a little。",
+    "common_mistakes": [
+      "不可数名词加 s（*advices*）",
+      "用 many 修饰不可数名词"
+    ],
+    "comparison": "a few + 可数 vs. a little + 不可数。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have two apples.",
+        "example_meaning": "我有两个苹果。（可数）"
+      },
+      {
+        "example": "I need some advice.",
+        "example_meaning": "我需要一些建议。（不可数）"
+      },
+      {
+        "example": "There is too much noise.",
+        "example_meaning": "噪音太大了。"
+      }
+    ]
   },
   {
     "id": "9faa0de9-353b-4344-8261-c872e26521df",
     "level": "A1",
     "grammar": "Prepositions of place",
-    "description": "**Prepositions of place**（地点介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：in（在……里）、on（在……上）、at（在某点/某地）\n\n**例句**：\n- The book is on the table. 书在桌子上。\n- She lives in Paris. 她住在巴黎。\n- I am at the station. 我在车站。\n\n**常见错误**：\n- in 与 on 混用（*on the room*）\n- at 用于大地点（*at Paris*）\n\n**注意**：in 大地点/空间，on 表面/接触，at 精确点。"
+    "description": "**Prepositions of place**（地点介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：in（在……里）、on（在……上）、at（在某点/某地）\n\n**例句**：\n- The book is on the table. 书在桌子上。\n- She lives in Paris. 她住在巴黎。\n- I am at the station. 我在车站。\n\n**常见错误**：\n- in 与 on 混用（*on the room*）\n- at 用于大地点（*at Paris*）\n\n**注意**：in 大地点/空间，on 表面/接触，at 精确点。",
+    "grammar_cn": "地点介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "in（在……里）、on（在……上）、at（在某点/某地）",
+    "common_mistakes": [
+      "in 与 on 混用（*on the room*）",
+      "at 用于大地点（*at Paris*）"
+    ],
+    "comparison": "",
+    "notes": "in 大地点/空间，on 表面/接触，at 精确点。",
+    "examples": [
+      {
+        "example": "The book is on the table.",
+        "example_meaning": "书在桌子上。"
+      },
+      {
+        "example": "She lives in Paris.",
+        "example_meaning": "她住在巴黎。"
+      },
+      {
+        "example": "I am at the station.",
+        "example_meaning": "我在车站。"
+      }
+    ]
   },
   {
     "id": "e0a87d0e-e540-4e87-80da-41f51c7d2363",
     "level": "A1",
     "grammar": "Prepositions of time",
-    "description": "**Prepositions of time**（时间介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：at 用于钟点/节日；on 用于日期/星期；in 用于月份/年份/季节\n\n**例句**：\n- I wake up at 7 o'clock. 我七点起床。\n- We met on Monday. 我们周一见面了。\n- She was born in 1990. 她出生于1990年。\n\n**常见错误**：\n- on Monday morning 用 in\n- at night 用 in night\n\n**注意**：at 点，on 天，in 段。"
+    "description": "**Prepositions of time**（时间介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：at 用于钟点/节日；on 用于日期/星期；in 用于月份/年份/季节\n\n**例句**：\n- I wake up at 7 o'clock. 我七点起床。\n- We met on Monday. 我们周一见面了。\n- She was born in 1990. 她出生于1990年。\n\n**常见错误**：\n- on Monday morning 用 in\n- at night 用 in night\n\n**注意**：at 点，on 天，in 段。",
+    "grammar_cn": "时间介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "at 用于钟点/节日；on 用于日期/星期；in 用于月份/年份/季节",
+    "common_mistakes": [
+      "on Monday morning 用 in",
+      "at night 用 in night"
+    ],
+    "comparison": "",
+    "notes": "at 点，on 天，in 段。",
+    "examples": [
+      {
+        "example": "I wake up at 7 o'clock.",
+        "example_meaning": "我七点起床。"
+      },
+      {
+        "example": "We met on Monday.",
+        "example_meaning": "我们周一见面了。"
+      },
+      {
+        "example": "She was born in 1990.",
+        "example_meaning": "她出生于1990年。"
+      }
+    ]
   },
   {
     "id": "4a5ca5e7-0781-4bfc-bcc4-3019e2dc7b61",
     "level": "A1",
     "grammar": "Wh- questions",
-    "description": "**Wh- questions**（特殊疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**结构**：What/Where/When/Who/Why/How + 助动词/be + 主语 + 动词\n\n**例句**：\n- Where do you live? 你住在哪里？\n- What is your name? 你叫什么名字？\n- How old are you? 你多大了？\n\n**常见错误**：\n- 疑问句中主语与动词不倒装（*You where live?*）\n- 加了 do 又变动词形式（*Where does she lives?*）\n\n**辨析**：Wh- question vs. Yes/No question：Wh- 需要具体信息。"
+    "description": "**Wh- questions**（特殊疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**结构**：What/Where/When/Who/Why/How + 助动词/be + 主语 + 动词\n\n**例句**：\n- Where do you live? 你住在哪里？\n- What is your name? 你叫什么名字？\n- How old are you? 你多大了？\n\n**常见错误**：\n- 疑问句中主语与动词不倒装（*You where live?*）\n- 加了 do 又变动词形式（*Where does she lives?*）\n\n**辨析**：Wh- question vs. Yes/No question：Wh- 需要具体信息。",
+    "grammar_cn": "特殊疑问句",
+    "meaning": "用来提出问题或确认信息。",
+    "pattern": "What/Where/When/Who/Why/How + 助动词/be + 主语 + 动词",
+    "common_mistakes": [
+      "疑问句中主语与动词不倒装（*You where live?*）",
+      "加了 do 又变动词形式（*Where does she lives?*）"
+    ],
+    "comparison": "Wh- question vs. Yes/No question：Wh- 需要具体信息。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Where do you live?",
+        "example_meaning": "你住在哪里？"
+      },
+      {
+        "example": "What is your name?",
+        "example_meaning": "你叫什么名字？"
+      },
+      {
+        "example": "How old are you?",
+        "example_meaning": "你多大了？"
+      }
+    ]
   },
   {
     "id": "3067b1bb-fe1d-476e-a725-221f2836df27",
     "level": "A1",
     "grammar": "Have got",
-    "description": "**Have got**（拥有（英式口语）\n\n**含义**：拥有（英式口语。\n\n**结构**：I've got / He's got / Have you got... 表拥有、关系或特征\n\n**例句**：\n- I've got a new car. 我有一辆新车。\n- Have you got any brothers? 你有兄弟吗？\n- She's got blue eyes. 她有蓝色的眼睛。\n\n**常见错误**：\n- got 后加 -s（*He's gots*）\n- 混淆：将 have got  vs.  be \n\n**辨析**：have got vs. have：口语中同义，have got 更英式。"
+    "description": "**Have got**（拥有（英式口语）\n\n**含义**：拥有（英式口语。\n\n**结构**：I've got / He's got / Have you got... 表拥有、关系或特征\n\n**例句**：\n- I've got a new car. 我有一辆新车。\n- Have you got any brothers? 你有兄弟吗？\n- She's got blue eyes. 她有蓝色的眼睛。\n\n**常见错误**：\n- got 后加 -s（*He's gots*）\n- 混淆：将 have got  vs.  be \n\n**辨析**：have got vs. have：口语中同义，have got 更英式。",
+    "grammar_cn": "拥有（英式口语",
+    "meaning": "拥有（英式口语。",
+    "pattern": "I've got / He's got / Have you got... 表拥有、关系或特征",
+    "common_mistakes": [
+      "got 后加 -s（*He's gots*）",
+      "混淆：将 have got  vs.  be"
+    ],
+    "comparison": "have got vs. have：口语中同义，have got 更英式。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I've got a new car.",
+        "example_meaning": "我有一辆新车。"
+      },
+      {
+        "example": "Have you got any brothers?",
+        "example_meaning": "你有兄弟吗？"
+      },
+      {
+        "example": "She's got blue eyes.",
+        "example_meaning": "她有蓝色的眼睛。"
+      }
+    ]
   },
   {
     "id": "73f4b178-600e-4d17-9386-c6b27fff7d95",
     "level": "A1",
     "grammar": "Personal pronouns",
-    "description": "**Personal pronouns**（人称代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：主格 I/you/he/she/it/we/they 作动作执行者；宾格 me/you/him/her/it/us/them 作承受者。\n\n**例句**：\n- She likes him. 她喜欢他。\n- They invited us. 他们邀请了我们。\n- I gave it to her. 我把它给了她。\n\n**常见错误**：\n- 主格宾格混用（*He likes she*）\n- 介词后代词用主格（*with I*）\n\n**辨析**：主格 vs. 宾格：动作前用主格，动作/介词后用宾格。"
+    "description": "**Personal pronouns**（人称代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：主格 I/you/he/she/it/we/they 作动作执行者；宾格 me/you/him/her/it/us/them 作承受者。\n\n**例句**：\n- She likes him. 她喜欢他。\n- They invited us. 他们邀请了我们。\n- I gave it to her. 我把它给了她。\n\n**常见错误**：\n- 主格宾格混用（*He likes she*）\n- 介词后代词用主格（*with I*）\n\n**辨析**：主格 vs. 宾格：动作前用主格，动作/介词后用宾格。",
+    "grammar_cn": "人称代词",
+    "meaning": "用来代替或限定名词，避免重复。",
+    "pattern": "主格 I/you/he/she/it/we/they 作动作执行者；宾格 me/you/him/her/it/us/them 作承受者。",
+    "common_mistakes": [
+      "主格宾格混用（*He likes she*）",
+      "介词后代词用主格（*with I*）"
+    ],
+    "comparison": "主格 vs. 宾格：动作前用主格，动作/介词后用宾格。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "She likes him.",
+        "example_meaning": "她喜欢他。"
+      },
+      {
+        "example": "They invited us.",
+        "example_meaning": "他们邀请了我们。"
+      },
+      {
+        "example": "I gave it to her.",
+        "example_meaning": "我把它给了她。"
+      }
+    ]
   },
   {
     "id": "63027851-9e47-428c-9d4c-dd38eb88e79e",
     "level": "A1",
     "grammar": "Possessive pronouns",
-    "description": "**Possessive pronouns**（名词性物主代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：mine, yours, his, hers, ours, theirs 单独使用，后不接名词。\n\n**例句**：\n- This book is mine. 这本书是我的。\n- The house is theirs. 这房子是他们的。\n- Is this yours? 这是你的吗？\n\n**常见错误**：\n- 后接名词（*This is mine book*）\n- 与物主形容词混淆\n\n**注意**：mine = my + 名词；yours = your + 名词。"
+    "description": "**Possessive pronouns**（名词性物主代词）\n\n**含义**：用来代替或限定名词，避免重复。\n\n**用法**：mine, yours, his, hers, ours, theirs 单独使用，后不接名词。\n\n**例句**：\n- This book is mine. 这本书是我的。\n- The house is theirs. 这房子是他们的。\n- Is this yours? 这是你的吗？\n\n**常见错误**：\n- 后接名词（*This is mine book*）\n- 与物主形容词混淆\n\n**注意**：mine = my + 名词；yours = your + 名词。",
+    "grammar_cn": "名词性物主代词",
+    "meaning": "用来代替或限定名词，避免重复。",
+    "pattern": "mine, yours, his, hers, ours, theirs 单独使用，后不接名词。",
+    "common_mistakes": [
+      "后接名词（*This is mine book*）",
+      "与物主形容词混淆"
+    ],
+    "comparison": "",
+    "notes": "mine = my + 名词；yours = your + 名词。",
+    "examples": [
+      {
+        "example": "This book is mine.",
+        "example_meaning": "这本书是我的。"
+      },
+      {
+        "example": "The house is theirs.",
+        "example_meaning": "这房子是他们的。"
+      },
+      {
+        "example": "Is this yours?",
+        "example_meaning": "这是你的吗？"
+      }
+    ]
   },
   {
     "id": "26924088-5d3b-4522-b668-c8e65dc8ee46",
     "level": "A1",
     "grammar": "Demonstratives: this/that/these/those",
-    "description": "**Demonstratives: this/that/these/those**（指示代词/形容词）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：this/that + 单数；these/those + 复数；this/these 指近处，that/those 指远处\n\n**例句**：\n- This is my pen. 这是我的钢笔。\n- Those books are heavy. 那些书很重。\n- That was a good day. 那是美好的一天。\n\n**常见错误**：\n- this 后接复数（*this books*）\n- these/those 后接单数\n\n**辨析**：this/that vs. these/those：单数 vs. 复数。"
+    "description": "**Demonstratives: this/that/these/those**（指示代词/形容词）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：this/that + 单数；these/those + 复数；this/these 指近处，that/those 指远处\n\n**例句**：\n- This is my pen. 这是我的钢笔。\n- Those books are heavy. 那些书很重。\n- That was a good day. 那是美好的一天。\n\n**常见错误**：\n- this 后接复数（*this books*）\n- these/those 后接单数\n\n**辨析**：this/that vs. these/those：单数 vs. 复数。",
+    "grammar_cn": "指示代词/形容词",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "this/that + 单数；these/those + 复数；this/these 指近处，that/those 指远处",
+    "common_mistakes": [
+      "this 后接复数（*this books*）",
+      "these/those 后接单数"
+    ],
+    "comparison": "this/that vs. these/those：单数 vs. 复数。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "This is my pen.",
+        "example_meaning": "这是我的钢笔。"
+      },
+      {
+        "example": "Those books are heavy.",
+        "example_meaning": "那些书很重。"
+      },
+      {
+        "example": "That was a good day.",
+        "example_meaning": "那是美好的一天。"
+      }
+    ]
   },
   {
     "id": "37ac7d32-bfe3-4e95-a836-8cd5ebbea8a6",
     "level": "A1",
     "grammar": "Adjectives: order and position",
-    "description": "**Adjectives: order and position**（形容词）\n\n**含义**：形容词。\n\n**用法**：形容词放在名词前，顺序：观点→大小→形状→颜色→来源→材料。\n\n**例句**：\n- a beautiful old Italian car 一辆漂亮的旧意大利车\n- a small round wooden table 一张小圆木桌\n- She is happy. 她很高兴。\n\n**常见错误**：\n- 形容词后置错误（*a car red*）\n- 形容词顺序混乱\n\n**辨析**：描述性形容词 vs. 限定词：限定词（a/the/my）在形容词前。"
+    "description": "**Adjectives: order and position**（形容词）\n\n**含义**：形容词。\n\n**用法**：形容词放在名词前，顺序：观点→大小→形状→颜色→来源→材料。\n\n**例句**：\n- a beautiful old Italian car 一辆漂亮的旧意大利车\n- a small round wooden table 一张小圆木桌\n- She is happy. 她很高兴。\n\n**常见错误**：\n- 形容词后置错误（*a car red*）\n- 形容词顺序混乱\n\n**辨析**：描述性形容词 vs. 限定词：限定词（a/the/my）在形容词前。",
+    "grammar_cn": "形容词",
+    "meaning": "形容词。",
+    "pattern": "形容词放在名词前，顺序：观点→大小→形状→颜色→来源→材料。",
+    "common_mistakes": [
+      "形容词后置错误（*a car red*）",
+      "形容词顺序混乱"
+    ],
+    "comparison": "描述性形容词 vs. 限定词：限定词（a/the/my）在形容词前。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "a beautiful old Italian car",
+        "example_meaning": "一辆漂亮的旧意大利车"
+      },
+      {
+        "example": "a small round wooden table",
+        "example_meaning": "一张小圆木桌"
+      },
+      {
+        "example": "She is happy.",
+        "example_meaning": "她很高兴。"
+      }
+    ]
   },
   {
     "id": "409ed081-5f7b-419d-a12c-fd44b3df1f71",
     "level": "A1",
     "grammar": "Adverbs of frequency",
-    "description": "**Adverbs of frequency**（频率副词）\n\n**含义**：频率副词。\n\n**用法**：always, usually, often, sometimes, rarely, never 常放在主语后、动词前，be 动词后。\n\n**例句**：\n- I always drink coffee. 我总是喝咖啡。\n- She is usually late. 她通常迟到。\n- Do you often walk? 你经常走路吗？\n\n**常见错误**：\n- 频率副词放在动词后（*I drink always coffee*）\n- be 动词前放频率副词（*She always is late*）\n\n**辨析**：always 100% vs. never 0%。"
+    "description": "**Adverbs of frequency**（频率副词）\n\n**含义**：频率副词。\n\n**用法**：always, usually, often, sometimes, rarely, never 常放在主语后、动词前，be 动词后。\n\n**例句**：\n- I always drink coffee. 我总是喝咖啡。\n- She is usually late. 她通常迟到。\n- Do you often walk? 你经常走路吗？\n\n**常见错误**：\n- 频率副词放在动词后（*I drink always coffee*）\n- be 动词前放频率副词（*She always is late*）\n\n**辨析**：always 100% vs. never 0%。",
+    "grammar_cn": "频率副词",
+    "meaning": "频率副词。",
+    "pattern": "always, usually, often, sometimes, rarely, never 常放在主语后、动词前，be 动词后。",
+    "common_mistakes": [
+      "频率副词放在动词后（*I drink always coffee*）",
+      "be 动词前放频率副词（*She always is late*）"
+    ],
+    "comparison": "always 100% vs. never 0%。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I always drink coffee.",
+        "example_meaning": "我总是喝咖啡。"
+      },
+      {
+        "example": "She is usually late.",
+        "example_meaning": "她通常迟到。"
+      },
+      {
+        "example": "Do you often walk?",
+        "example_meaning": "你经常走路吗？"
+      }
+    ]
   },
   {
     "id": "e8a5e6a4-78cf-4cc7-95b0-fea2b0625d72",
     "level": "A1",
     "grammar": "Subject-verb agreement",
-    "description": "**Subject-verb agreement**（主谓一致）\n\n**含义**：表示主谓一致。\n\n**用法**：主语是第三人称单数，一般现在时动词加 -s。\n\n**例句**：\n- She walks to work. 她走路去上班。\n- The dogs bark loudly. 狗叫得很大声。\n- My brother likes music. 我哥哥喜欢音乐。\n\n**常见错误**：\n- 主语为复数时动词加 -s\n- he/she 后动词不加 -s\n\n**辨析**：第三人称单数 vs. 复数：注意 every/each 接单数。"
+    "description": "**Subject-verb agreement**（主谓一致）\n\n**含义**：表示主谓一致。\n\n**用法**：主语是第三人称单数，一般现在时动词加 -s。\n\n**例句**：\n- She walks to work. 她走路去上班。\n- The dogs bark loudly. 狗叫得很大声。\n- My brother likes music. 我哥哥喜欢音乐。\n\n**常见错误**：\n- 主语为复数时动词加 -s\n- he/she 后动词不加 -s\n\n**辨析**：第三人称单数 vs. 复数：注意 every/each 接单数。",
+    "grammar_cn": "主谓一致",
+    "meaning": "表示主谓一致。",
+    "pattern": "主语是第三人称单数，一般现在时动词加 -s。",
+    "common_mistakes": [
+      "主语为复数时动词加 -s",
+      "he/she 后动词不加 -s"
+    ],
+    "comparison": "第三人称单数 vs. 复数：注意 every/each 接单数。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "She walks to work.",
+        "example_meaning": "她走路去上班。"
+      },
+      {
+        "example": "The dogs bark loudly.",
+        "example_meaning": "狗叫得很大声。"
+      },
+      {
+        "example": "My brother likes music.",
+        "example_meaning": "我哥哥喜欢音乐。"
+      }
+    ]
   },
   {
     "id": "f973571f-7bd9-4378-a937-e42b23bc3702",
     "level": "A1",
     "grammar": "Object pronouns with verbs and prepositions",
-    "description": "**Object pronouns with verbs and prepositions**（宾格代词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：动词或介词后的人称代词用宾格。\n\n**例句**：\n- He saw me. 他看见了我。\n- Between you and me, it's fine. 咱俩私下说，没问题。\n- They called us. 他们给我们打电话了。\n\n**常见错误**：\n- 说 *between you and I*\n- 介词后接主格\n\n**注意**：between you and me 是标准说法，between you and I 是常见错误。"
+    "description": "**Object pronouns with verbs and prepositions**（宾格代词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**用法**：动词或介词后的人称代词用宾格。\n\n**例句**：\n- He saw me. 他看见了我。\n- Between you and me, it's fine. 咱俩私下说，没问题。\n- They called us. 他们给我们打电话了。\n\n**常见错误**：\n- 说 *between you and I*\n- 介词后接主格\n\n**注意**：between you and me 是标准说法，between you and I 是常见错误。",
+    "grammar_cn": "宾格代词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "动词或介词后的人称代词用宾格。",
+    "common_mistakes": [
+      "说 *between you and I*",
+      "介词后接主格"
+    ],
+    "comparison": "",
+    "notes": "between you and me 是标准说法，between you and I 是常见错误。",
+    "examples": [
+      {
+        "example": "He saw me.",
+        "example_meaning": "他看见了我。"
+      },
+      {
+        "example": "Between you and me, it's fine.",
+        "example_meaning": "咱俩私下说，没问题。"
+      },
+      {
+        "example": "They called us.",
+        "example_meaning": "他们给我们打电话了。"
+      }
+    ]
   },
   {
     "id": "c9188a7c-7e0a-41d4-8bea-31ad2a9f2357",
     "level": "A1",
     "grammar": "Conjunctions: and, but, or",
-    "description": "**Conjunctions: and, but, or**（并列连词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：and 表并列，but 表转折，or 表选择。\n\n**例句**：\n- I like tea and coffee. 我喜欢茶和咖啡。\n- He is small but strong. 他个子小但很强壮。\n- Do you want juice or water? 你想要果汁还是水？\n\n**常见错误**：\n- 逗号连接两个独立句子（逗号拼接）\n- and/but 混用\n\n**辨析**：and vs. but：and 同方向，but 反方向。"
+    "description": "**Conjunctions: and, but, or**（并列连词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：and 表并列，but 表转折，or 表选择。\n\n**例句**：\n- I like tea and coffee. 我喜欢茶和咖啡。\n- He is small but strong. 他个子小但很强壮。\n- Do you want juice or water? 你想要果汁还是水？\n\n**常见错误**：\n- 逗号连接两个独立句子（逗号拼接）\n- and/but 混用\n\n**辨析**：and vs. but：and 同方向，but 反方向。",
+    "grammar_cn": "并列连词",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "and 表并列，but 表转折，or 表选择。",
+    "common_mistakes": [
+      "逗号连接两个独立句子（逗号拼接）",
+      "and/but 混用"
+    ],
+    "comparison": "and vs. but：and 同方向，but 反方向。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I like tea and coffee.",
+        "example_meaning": "我喜欢茶和咖啡。"
+      },
+      {
+        "example": "He is small but strong.",
+        "example_meaning": "他个子小但很强壮。"
+      },
+      {
+        "example": "Do you want juice or water?",
+        "example_meaning": "你想要果汁还是水？"
+      }
+    ]
   },
   {
     "id": "8cb38209-f192-4faa-b454-db9586869a41",
     "level": "A1",
     "grammar": "Numbers and dates",
-    "description": "**Numbers and dates**（数字和日期）\n\n**含义**：表示数字和日期。\n\n**用法**：基数词表数量，序数词表顺序。日期读作 the + 序数词 + of + 月份。\n\n**例句**：\n- I have two brothers. 我有两个兄弟。\n- Today is the third of May. 今天是五月三日。\n- She came in first. 她得了第一名。\n\n**常见错误**：\n- 序数词前漏 the\n- 日期读法错误\n\n**辨析**：基数词 one/two vs. 序数词 first/second。"
+    "description": "**Numbers and dates**（数字和日期）\n\n**含义**：表示数字和日期。\n\n**用法**：基数词表数量，序数词表顺序。日期读作 the + 序数词 + of + 月份。\n\n**例句**：\n- I have two brothers. 我有两个兄弟。\n- Today is the third of May. 今天是五月三日。\n- She came in first. 她得了第一名。\n\n**常见错误**：\n- 序数词前漏 the\n- 日期读法错误\n\n**辨析**：基数词 one/two vs. 序数词 first/second。",
+    "grammar_cn": "数字和日期",
+    "meaning": "表示数字和日期。",
+    "pattern": "基数词表数量，序数词表顺序。日期读作 the + 序数词 + of + 月份。",
+    "common_mistakes": [
+      "序数词前漏 the",
+      "日期读法错误"
+    ],
+    "comparison": "基数词 one/two vs. 序数词 first/second。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have two brothers.",
+        "example_meaning": "我有两个兄弟。"
+      },
+      {
+        "example": "Today is the third of May.",
+        "example_meaning": "今天是五月三日。"
+      },
+      {
+        "example": "She came in first.",
+        "example_meaning": "她得了第一名。"
+      }
+    ]
   },
   {
     "id": "5be9156a-bc9b-47bb-943c-47406b213c57",
     "level": "A1",
     "grammar": "Telling the time",
-    "description": "**Telling the time**（时间表达）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：整点：o'clock；半点：half past；一刻：quarter past/to。\n\n**例句**：\n- It's three o'clock. 现在三点。\n- It's half past seven. 现在七点半。\n- It's quarter to ten. 现在差十分十点。\n\n**常见错误**：\n- 将 half past 说成 half to\n- 混淆：past  vs.  to 方向\n\n**注意**：past 表示过，to 表示差几分到。"
+    "description": "**Telling the time**（时间表达）\n\n**含义**：表示名词的泛指或特指。\n\n**用法**：整点：o'clock；半点：half past；一刻：quarter past/to。\n\n**例句**：\n- It's three o'clock. 现在三点。\n- It's half past seven. 现在七点半。\n- It's quarter to ten. 现在差十分十点。\n\n**常见错误**：\n- 将 half past 说成 half to\n- 混淆：past  vs.  to 方向\n\n**注意**：past 表示过，to 表示差几分到。",
+    "grammar_cn": "时间表达",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "整点：o'clock；半点：half past；一刻：quarter past/to。",
+    "common_mistakes": [
+      "将 half past 说成 half to",
+      "混淆：past  vs.  to 方向"
+    ],
+    "comparison": "",
+    "notes": "past 表示过，to 表示差几分到。",
+    "examples": [
+      {
+        "example": "It's three o'clock.",
+        "example_meaning": "现在三点。"
+      },
+      {
+        "example": "It's half past seven.",
+        "example_meaning": "现在七点半。"
+      },
+      {
+        "example": "It's quarter to ten.",
+        "example_meaning": "现在差十分十点。"
+      }
+    ]
   },
   {
     "id": "4ac508b8-5458-4740-93e1-5dd661c0ff77",
     "level": "A1",
     "grammar": "Question words review",
-    "description": "**Question words review**（疑问词复习）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：what（什么）, where（哪里）, when（何时）, who（谁）, why（为什么）, how（如何）。\n\n**例句**：\n- What do you want? 你想要什么？\n- Where is the station? 车站在哪里？\n- Why are you late? 你为什么迟到？\n\n**常见错误**：\n- 混淆：what  vs.  which \n- how 后接形容词/副词时顺序错\n\n**注意**：how + 形容词：how old, how much, how many。"
+    "description": "**Question words review**（疑问词复习）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：what（什么）, where（哪里）, when（何时）, who（谁）, why（为什么）, how（如何）。\n\n**例句**：\n- What do you want? 你想要什么？\n- Where is the station? 车站在哪里？\n- Why are you late? 你为什么迟到？\n\n**常见错误**：\n- 混淆：what  vs.  which \n- how 后接形容词/副词时顺序错\n\n**注意**：how + 形容词：how old, how much, how many。",
+    "grammar_cn": "疑问词复习",
+    "meaning": "用来提出问题或确认信息。",
+    "pattern": "what（什么）, where（哪里）, when（何时）, who（谁）, why（为什么）, how（如何）。",
+    "common_mistakes": [
+      "混淆：what  vs.  which",
+      "how 后接形容词/副词时顺序错"
+    ],
+    "comparison": "",
+    "notes": "how + 形容词：how old, how much, how many。",
+    "examples": [
+      {
+        "example": "What do you want?",
+        "example_meaning": "你想要什么？"
+      },
+      {
+        "example": "Where is the station?",
+        "example_meaning": "车站在哪里？"
+      },
+      {
+        "example": "Why are you late?",
+        "example_meaning": "你为什么迟到？"
+      }
+    ]
   },
   {
     "id": "5654034b-8774-40a1-a74c-88d275632f10",
     "level": "A1",
     "grammar": "Short answers",
-    "description": "**Short answers**（简短回答）\n\n**含义**：简短回答。\n\n**结构**：Yes/No 问句用 Yes/No + 代词 + 助动词/be\n\n**例句**：\n- Yes, I do. 是的。\n- No, he isn't. 不，他不是。\n- Yes, they are. 是的，他们是。\n\n**常见错误**：\n- 用 Yes, I am like 这类错误\n- 回答助动词与问句不一致\n\n**辨析**：简短回答 vs. 完整回答：简短回答更自然。"
+    "description": "**Short answers**（简短回答）\n\n**含义**：简短回答。\n\n**结构**：Yes/No 问句用 Yes/No + 代词 + 助动词/be\n\n**例句**：\n- Yes, I do. 是的。\n- No, he isn't. 不，他不是。\n- Yes, they are. 是的，他们是。\n\n**常见错误**：\n- 用 Yes, I am like 这类错误\n- 回答助动词与问句不一致\n\n**辨析**：简短回答 vs. 完整回答：简短回答更自然。",
+    "grammar_cn": "简短回答",
+    "meaning": "简短回答。",
+    "pattern": "Yes/No 问句用 Yes/No + 代词 + 助动词/be",
+    "common_mistakes": [
+      "用 Yes, I am like 这类错误",
+      "回答助动词与问句不一致"
+    ],
+    "comparison": "简短回答 vs. 完整回答：简短回答更自然。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Yes, I do.",
+        "example_meaning": "是的。"
+      },
+      {
+        "example": "No, he isn't.",
+        "example_meaning": "不，他不是。"
+      },
+      {
+        "example": "Yes, they are.",
+        "example_meaning": "是的，他们是。"
+      }
+    ]
   },
   {
     "id": "9fc779ee-4bc3-4396-bda1-5cb7bc81767f",
     "level": "A1",
     "grammar": "Let's + verb",
-    "description": "**Let's + verb**（Let's 建议）\n\n**含义**：Let's 建议。\n\n**结构**：Let's + 动词原形，用于提出建议\n\n**例句**：\n- Let's go to the cinema. 我们去看电影吧。\n- Let's not worry. 我们别担心了。\n- Let's have lunch. 我们吃午饭吧。\n\n**常见错误**：\n- Let's 后加 to（*Let's to go*）\n- Let's 后加 -ing\n\n**辨析**：Let's vs. Shall we：Let's 更直接，Shall we... 更正式。"
+    "description": "**Let's + verb**（Let's 建议）\n\n**含义**：Let's 建议。\n\n**结构**：Let's + 动词原形，用于提出建议\n\n**例句**：\n- Let's go to the cinema. 我们去看电影吧。\n- Let's not worry. 我们别担心了。\n- Let's have lunch. 我们吃午饭吧。\n\n**常见错误**：\n- Let's 后加 to（*Let's to go*）\n- Let's 后加 -ing\n\n**辨析**：Let's vs. Shall we：Let's 更直接，Shall we... 更正式。",
+    "grammar_cn": "Let's 建议",
+    "meaning": "Let's 建议。",
+    "pattern": "Let's + 动词原形，用于提出建议",
+    "common_mistakes": [
+      "Let's 后加 to（*Let's to go*）",
+      "Let's 后加 -ing"
+    ],
+    "comparison": "Let's vs. Shall we：Let's 更直接，Shall we... 更正式。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Let's go to the cinema.",
+        "example_meaning": "我们去看电影吧。"
+      },
+      {
+        "example": "Let's not worry.",
+        "example_meaning": "我们别担心了。"
+      },
+      {
+        "example": "Let's have lunch.",
+        "example_meaning": "我们吃午饭吧。"
+      }
+    ]
   },
   {
     "id": "302c6f44-35e9-411b-afb9-05d06540ec7f",
     "level": "A1",
     "grammar": "Would like",
-    "description": "**Would like**（礼貌表达意愿）\n\n**含义**：礼貌表达意愿。\n\n**结构**：would like + 名词/to do，用于礼貌地表达想要\n\n**例句**：\n- I'd like a coffee, please. 请给我一杯咖啡。\n- Would you like to dance? 你想跳舞吗？\n- She'd like some water. 她想喝点水。\n\n**常见错误**：\n- I would like 后加动词原形（*I would like go*）\n- Would like 与 like 混用\n\n**辨析**：would like（礼貌意愿） vs. like（喜好）。"
+    "description": "**Would like**（礼貌表达意愿）\n\n**含义**：礼貌表达意愿。\n\n**结构**：would like + 名词/to do，用于礼貌地表达想要\n\n**例句**：\n- I'd like a coffee, please. 请给我一杯咖啡。\n- Would you like to dance? 你想跳舞吗？\n- She'd like some water. 她想喝点水。\n\n**常见错误**：\n- I would like 后加动词原形（*I would like go*）\n- Would like 与 like 混用\n\n**辨析**：would like（礼貌意愿） vs. like（喜好）。",
+    "grammar_cn": "礼貌表达意愿",
+    "meaning": "礼貌表达意愿。",
+    "pattern": "would like + 名词/to do，用于礼貌地表达想要",
+    "common_mistakes": [
+      "I would like 后加动词原形（*I would like go*）",
+      "Would like 与 like 混用"
+    ],
+    "comparison": "would like（礼貌意愿） vs. like（喜好）。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I'd like a coffee, please.",
+        "example_meaning": "请给我一杯咖啡。"
+      },
+      {
+        "example": "Would you like to dance?",
+        "example_meaning": "你想跳舞吗？"
+      },
+      {
+        "example": "She'd like some water.",
+        "example_meaning": "她想喝点水。"
+      }
+    ]
   },
   {
     "id": "0f749420-a1e2-4d13-81bc-4ddc39e6f876",
     "level": "A1",
     "grammar": "Some / any",
-    "description": "**Some / any**（some / any）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：some 用于肯定句和表示请求/建议的疑问句\n\n**用法说明**：any 用于否定句和多数疑问句\n\n**例句**：\n- I have some questions. 我有一些问题。\n- Do you have any money? 你有钱吗？\n- Would you like some tea? 你想喝点茶吗？\n\n**常见错误**：\n- 否定句用 some\n- 疑问句用 any 时不适用于提供/请求\n\n**辨析**：some vs. any：some 偏肯定/提供，any 偏否定/疑问。"
+    "description": "**Some / any**（some / any）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**结构**：some 用于肯定句和表示请求/建议的疑问句\n\n**用法说明**：any 用于否定句和多数疑问句\n\n**例句**：\n- I have some questions. 我有一些问题。\n- Do you have any money? 你有钱吗？\n- Would you like some tea? 你想喝点茶吗？\n\n**常见错误**：\n- 否定句用 some\n- 疑问句用 any 时不适用于提供/请求\n\n**辨析**：some vs. any：some 偏肯定/提供，any 偏否定/疑问。",
+    "grammar_cn": "some / any",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "some 用于肯定句和表示请求/建议的疑问句",
+    "common_mistakes": [
+      "否定句用 some",
+      "疑问句用 any 时不适用于提供/请求"
+    ],
+    "comparison": "some vs. any：some 偏肯定/提供，any 偏否定/疑问。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have some questions.",
+        "example_meaning": "我有一些问题。"
+      },
+      {
+        "example": "Do you have any money?",
+        "example_meaning": "你有钱吗？"
+      },
+      {
+        "example": "Would you like some tea?",
+        "example_meaning": "你想喝点茶吗？"
+      }
+    ]
   },
   {
     "id": "74864746-04e6-4cb8-98e2-3cdeb1f96611",
     "level": "A1",
     "grammar": "Much / many / a lot of",
-    "description": "**Much / many / a lot of**（数量修饰词）\n\n**含义**：数量修饰词。\n\n**用法**：much 修饰不可数，many 修饰可数，a lot of 两者皆可。\n\n**例句**：\n- I don't have much time. 我没有多少时间。\n- How many people are there? 有多少人？\n- We have a lot of friends. 我们有很多朋友。\n\n**常见错误**：\n- many 修饰不可数名词\n- much 修饰可数名词\n\n**注意**：a lot of 最通用，much/many 多用于疑问和否定。"
+    "description": "**Much / many / a lot of**（数量修饰词）\n\n**含义**：数量修饰词。\n\n**用法**：much 修饰不可数，many 修饰可数，a lot of 两者皆可。\n\n**例句**：\n- I don't have much time. 我没有多少时间。\n- How many people are there? 有多少人？\n- We have a lot of friends. 我们有很多朋友。\n\n**常见错误**：\n- many 修饰不可数名词\n- much 修饰可数名词\n\n**注意**：a lot of 最通用，much/many 多用于疑问和否定。",
+    "grammar_cn": "数量修饰词",
+    "meaning": "数量修饰词。",
+    "pattern": "much 修饰不可数，many 修饰可数，a lot of 两者皆可。",
+    "common_mistakes": [
+      "many 修饰不可数名词",
+      "much 修饰可数名词"
+    ],
+    "comparison": "",
+    "notes": "a lot of 最通用，much/many 多用于疑问和否定。",
+    "examples": [
+      {
+        "example": "I don't have much time.",
+        "example_meaning": "我没有多少时间。"
+      },
+      {
+        "example": "How many people are there?",
+        "example_meaning": "有多少人？"
+      },
+      {
+        "example": "We have a lot of friends.",
+        "example_meaning": "我们有很多朋友。"
+      }
+    ]
   },
   {
     "id": "e03f38f8-41aa-4284-b44d-df81cb06a209",
     "level": "A1",
     "grammar": "Too / enough",
-    "description": "**Too / enough**（too / enough）\n\n**含义**：too / enough。\n\n**结构**：too + 形容词/副词（太……）；形容词/副词 + enough（足够……）\n\n**例句**：\n- It's too hot. 太热了。\n- He isn't tall enough. 他不够高。\n- This coffee is too sweet. 这咖啡太甜了。\n\n**常见错误**：\n- enough 放在形容词前（*enough tall*）\n- too 与 very 混用\n\n**注意**：too 表过度（负面），very 表程度（中性）。"
+    "description": "**Too / enough**（too / enough）\n\n**含义**：too / enough。\n\n**结构**：too + 形容词/副词（太……）；形容词/副词 + enough（足够……）\n\n**例句**：\n- It's too hot. 太热了。\n- He isn't tall enough. 他不够高。\n- This coffee is too sweet. 这咖啡太甜了。\n\n**常见错误**：\n- enough 放在形容词前（*enough tall*）\n- too 与 very 混用\n\n**注意**：too 表过度（负面），very 表程度（中性）。",
+    "grammar_cn": "too / enough",
+    "meaning": "too / enough。",
+    "pattern": "too + 形容词/副词（太……）；形容词/副词 + enough（足够……）",
+    "common_mistakes": [
+      "enough 放在形容词前（*enough tall*）",
+      "too 与 very 混用"
+    ],
+    "comparison": "",
+    "notes": "too 表过度（负面），very 表程度（中性）。",
+    "examples": [
+      {
+        "example": "It's too hot.",
+        "example_meaning": "太热了。"
+      },
+      {
+        "example": "He isn't tall enough.",
+        "example_meaning": "他不够高。"
+      },
+      {
+        "example": "This coffee is too sweet.",
+        "example_meaning": "这咖啡太甜了。"
+      }
+    ]
   },
   {
     "id": "12f9cc97-10cf-4f77-b858-d16fde7bba0f",
     "level": "A1",
     "grammar": "Comparative adjectives",
-    "description": "**Comparative adjectives**（形容词比较级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**用法**：短形容词 + -er + than；多音节用 more + 形容词 + than。\n\n**例句**：\n- She is taller than me. 她比我高。\n- This book is more interesting than that one. 这本书比那本更有趣。\n- Today is colder than yesterday. 今天比昨天冷。\n\n**常见错误**：\n- 双音节词比较级规则混乱\n- 比较级后漏 than\n\n**辨析**：比较级 vs. 最高级：比较级两人/物，最高级三者以上。"
+    "description": "**Comparative adjectives**（形容词比较级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**用法**：短形容词 + -er + than；多音节用 more + 形容词 + than。\n\n**例句**：\n- She is taller than me. 她比我高。\n- This book is more interesting than that one. 这本书比那本更有趣。\n- Today is colder than yesterday. 今天比昨天冷。\n\n**常见错误**：\n- 双音节词比较级规则混乱\n- 比较级后漏 than\n\n**辨析**：比较级 vs. 最高级：比较级两人/物，最高级三者以上。",
+    "grammar_cn": "形容词比较级",
+    "meaning": "表示两者或多者之间的比较关系。",
+    "pattern": "短形容词 + -er + than；多音节用 more + 形容词 + than。",
+    "common_mistakes": [
+      "双音节词比较级规则混乱",
+      "比较级后漏 than"
+    ],
+    "comparison": "比较级 vs. 最高级：比较级两人/物，最高级三者以上。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "She is taller than me.",
+        "example_meaning": "她比我高。"
+      },
+      {
+        "example": "This book is more interesting than that one.",
+        "example_meaning": "这本书比那本更有趣。"
+      },
+      {
+        "example": "Today is colder than yesterday.",
+        "example_meaning": "今天比昨天冷。"
+      }
+    ]
   },
   {
     "id": "f63eafdc-ad31-4c8e-8b37-5f38d8f1481e",
     "level": "A1",
     "grammar": "Superlative adjectives",
-    "description": "**Superlative adjectives**（形容词最高级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**用法**：短形容词 + -est；多音节用 the most + 形容词。\n\n**例句**：\n- He is the tallest in the class. 他是班里最高的。\n- This is the most expensive restaurant. 这是最贵的餐厅。\n- Mount Everest is the highest mountain. 珠穆朗玛峰是最高的山。\n\n**常见错误**：\n- 最高级前漏 the\n- 比较级与最高级混用\n\n**注意**：the + 最高级 + in/of。"
+    "description": "**Superlative adjectives**（形容词最高级）\n\n**含义**：表示两者或多者之间的比较关系。\n\n**用法**：短形容词 + -est；多音节用 the most + 形容词。\n\n**例句**：\n- He is the tallest in the class. 他是班里最高的。\n- This is the most expensive restaurant. 这是最贵的餐厅。\n- Mount Everest is the highest mountain. 珠穆朗玛峰是最高的山。\n\n**常见错误**：\n- 最高级前漏 the\n- 比较级与最高级混用\n\n**注意**：the + 最高级 + in/of。",
+    "grammar_cn": "形容词最高级",
+    "meaning": "表示两者或多者之间的比较关系。",
+    "pattern": "短形容词 + -est；多音节用 the most + 形容词。",
+    "common_mistakes": [
+      "最高级前漏 the",
+      "比较级与最高级混用"
+    ],
+    "comparison": "",
+    "notes": "the + 最高级 + in/of。",
+    "examples": [
+      {
+        "example": "He is the tallest in the class.",
+        "example_meaning": "他是班里最高的。"
+      },
+      {
+        "example": "This is the most expensive restaurant.",
+        "example_meaning": "这是最贵的餐厅。"
+      },
+      {
+        "example": "Mount Everest is the highest mountain.",
+        "example_meaning": "珠穆朗玛峰是最高的山。"
+      }
+    ]
   },
   {
     "id": "43ff585a-b686-4eb9-ba22-a7a75c3c2a9b",
     "level": "A1",
     "grammar": "Ordinal numbers",
-    "description": "**Ordinal numbers**（序数词）\n\n**含义**：序数词。\n\n**用法**：first, second, third, fourth... 表顺序。\n\n**例句**：\n- January is the first month. 一月是第一个月。\n- He finished second in the race. 他比赛中得了第二名。\n- This is the third time. 这是第三次。\n\n**常见错误**：\n- 序数词前漏 the\n- 序数词拼写错误（fiveth）\n\n**注意**：基数词变序数词：one→first, two→second, three→third。"
+    "description": "**Ordinal numbers**（序数词）\n\n**含义**：序数词。\n\n**用法**：first, second, third, fourth... 表顺序。\n\n**例句**：\n- January is the first month. 一月是第一个月。\n- He finished second in the race. 他比赛中得了第二名。\n- This is the third time. 这是第三次。\n\n**常见错误**：\n- 序数词前漏 the\n- 序数词拼写错误（fiveth）\n\n**注意**：基数词变序数词：one→first, two→second, three→third。",
+    "grammar_cn": "序数词",
+    "meaning": "序数词。",
+    "pattern": "first, second, third, fourth... 表顺序。",
+    "common_mistakes": [
+      "序数词前漏 the",
+      "序数词拼写错误（fiveth）"
+    ],
+    "comparison": "",
+    "notes": "基数词变序数词：one→first, two→second, three→third。",
+    "examples": [
+      {
+        "example": "January is the first month.",
+        "example_meaning": "一月是第一个月。"
+      },
+      {
+        "example": "He finished second in the race.",
+        "example_meaning": "他比赛中得了第二名。"
+      },
+      {
+        "example": "This is the third time.",
+        "example_meaning": "这是第三次。"
+      }
+    ]
   },
   {
     "id": "85d60800-ab75-4acc-96ef-20ddac386712",
     "level": "A1",
     "grammar": "Going to",
-    "description": "**Going to**（be going to 将来）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**结构**：be going to + 动词原形，表计划、意图或预测\n\n**例句**：\n- I'm going to study medicine. 我打算学医。\n- It's going to rain. 要下雨了。\n- Are you going to come? 你会来吗？\n\n**常见错误**：\n- 注意：漏掉 be 动词（*I going to*）\n- going to 后加 -ing\n\n**辨析**：be going to vs. will：be going to 表已有计划或迹象，will 表临时决定。"
+    "description": "**Going to**（be going to 将来）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**结构**：be going to + 动词原形，表计划、意图或预测\n\n**例句**：\n- I'm going to study medicine. 我打算学医。\n- It's going to rain. 要下雨了。\n- Are you going to come? 你会来吗？\n\n**常见错误**：\n- 注意：漏掉 be 动词（*I going to*）\n- going to 后加 -ing\n\n**辨析**：be going to vs. will：be going to 表已有计划或迹象，will 表临时决定。",
+    "grammar_cn": "be going to 将来",
+    "meaning": "表示将来发生的动作、计划或预测。",
+    "pattern": "be going to + 动词原形，表计划、意图或预测",
+    "common_mistakes": [
+      "注意：漏掉 be 动词（*I going to*）",
+      "going to 后加 -ing"
+    ],
+    "comparison": "be going to vs. will：be going to 表已有计划或迹象，will 表临时决定。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I'm going to study medicine.",
+        "example_meaning": "我打算学医。"
+      },
+      {
+        "example": "It's going to rain.",
+        "example_meaning": "要下雨了。"
+      },
+      {
+        "example": "Are you going to come?",
+        "example_meaning": "你会来吗？"
+      }
+    ]
   },
   {
     "id": "8cf494dd-4c09-4687-a1f3-2b4c1bf5e9c0",
     "level": "A1",
     "grammar": "Will (future)",
-    "description": "**Will (future)**（will 将来）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**结构**：will + 动词原形\n\n**用法说明**：表示即时决定、承诺、预测\n\n**例句**：\n- I'll help you. 我来帮你。\n- I think it will be sunny tomorrow. 我想明天会是晴天。\n- Will you marry me? 你愿意嫁给我吗？\n\n**常见错误**：\n- will 后加过去式或 -s\n- 混淆：will  vs.  be going to \n\n**辨析**：will vs. be going to：will 更临时/承诺，be going to 更计划/迹象。"
+    "description": "**Will (future)**（will 将来）\n\n**含义**：表示将来发生的动作、计划或预测。\n\n**结构**：will + 动词原形\n\n**用法说明**：表示即时决定、承诺、预测\n\n**例句**：\n- I'll help you. 我来帮你。\n- I think it will be sunny tomorrow. 我想明天会是晴天。\n- Will you marry me? 你愿意嫁给我吗？\n\n**常见错误**：\n- will 后加过去式或 -s\n- 混淆：will  vs.  be going to \n\n**辨析**：will vs. be going to：will 更临时/承诺，be going to 更计划/迹象。",
+    "grammar_cn": "will 将来",
+    "meaning": "表示将来发生的动作、计划或预测。",
+    "pattern": "will + 动词原形",
+    "common_mistakes": [
+      "will 后加过去式或 -s",
+      "混淆：will  vs.  be going to"
+    ],
+    "comparison": "will vs. be going to：will 更临时/承诺，be going to 更计划/迹象。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I'll help you.",
+        "example_meaning": "我来帮你。"
+      },
+      {
+        "example": "I think it will be sunny tomorrow.",
+        "example_meaning": "我想明天会是晴天。"
+      },
+      {
+        "example": "Will you marry me?",
+        "example_meaning": "你愿意嫁给我吗？"
+      }
+    ]
   },
   {
     "id": "259168ce-86d6-4d93-a29d-8e3f02dca0bc",
     "level": "A1",
     "grammar": "Could (polite requests)",
-    "description": "**Could (polite requests)**（could 礼貌请求）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**用法**：Could you...? 用于礼貌请求。Could I...? 请求许可。\n\n**例句**：\n- Could you open the door? 你能开一下门吗？\n- Could I use your phone? 我能用一下你的电话吗？\n- Could you help me? 你能帮我吗？\n\n**常见错误**：\n- Could 后加动词原形（正确）但回答时忘了 can\n- 混淆：Could  vs.  Can 语气\n\n**注意**：Could 比 Can 更礼貌。"
+    "description": "**Could (polite requests)**（could 礼貌请求）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**用法**：Could you...? 用于礼貌请求。Could I...? 请求许可。\n\n**例句**：\n- Could you open the door? 你能开一下门吗？\n- Could I use your phone? 我能用一下你的电话吗？\n- Could you help me? 你能帮我吗？\n\n**常见错误**：\n- Could 后加动词原形（正确）但回答时忘了 can\n- 混淆：Could  vs.  Can 语气\n\n**注意**：Could 比 Can 更礼貌。",
+    "grammar_cn": "could 礼貌请求",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "Could you...? 用于礼貌请求。Could I...? 请求许可。",
+    "common_mistakes": [
+      "Could 后加动词原形（正确）但回答时忘了 can",
+      "混淆：Could  vs.  Can 语气"
+    ],
+    "comparison": "",
+    "notes": "Could 比 Can 更礼貌。",
+    "examples": [
+      {
+        "example": "Could you open the door?",
+        "example_meaning": "你能开一下门吗？"
+      },
+      {
+        "example": "Could I use your phone?",
+        "example_meaning": "我能用一下你的电话吗？"
+      },
+      {
+        "example": "Could you help me?",
+        "example_meaning": "你能帮我吗？"
+      }
+    ]
   },
   {
     "id": "9b5ef362-23f6-47e4-ae9c-c11807fccdb3",
     "level": "A1",
     "grammar": "Should",
-    "description": "**Should**（should 建议）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：should + 动词原形，表建议、义务或预期\n\n**例句**：\n- You should see a doctor. 你应该去看医生。\n- She should study more. 她应该更努力学习。\n- Should I call him? 我应该给他打电话吗？\n\n**常见错误**：\n- should 后加 to\n- should 与 must 语气混用\n\n**辨析**：should（建议） vs. must（必须）。"
+    "description": "**Should**（should 建议）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：should + 动词原形，表建议、义务或预期\n\n**例句**：\n- You should see a doctor. 你应该去看医生。\n- She should study more. 她应该更努力学习。\n- Should I call him? 我应该给他打电话吗？\n\n**常见错误**：\n- should 后加 to\n- should 与 must 语气混用\n\n**辨析**：should（建议） vs. must（必须）。",
+    "grammar_cn": "should 建议",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "should + 动词原形，表建议、义务或预期",
+    "common_mistakes": [
+      "should 后加 to",
+      "should 与 must 语气混用"
+    ],
+    "comparison": "should（建议） vs. must（必须）。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "You should see a doctor.",
+        "example_meaning": "你应该去看医生。"
+      },
+      {
+        "example": "She should study more.",
+        "example_meaning": "她应该更努力学习。"
+      },
+      {
+        "example": "Should I call him?",
+        "example_meaning": "我应该给他打电话吗？"
+      }
+    ]
   },
   {
     "id": "73ed5023-1739-4028-9c40-99ac98caf128",
     "level": "A1",
     "grammar": "Must / Mustn't",
-    "description": "**Must / Mustn't**（must 必须/禁止）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：must + 动词原形，表必须或强烈推断；mustn't 表禁止\n\n**例句**：\n- You must wear a seatbelt. 你必须系安全带。\n- We mustn't be late. 我们绝不能迟到。\n- He must be tired. 他一定很累。\n\n**常见错误**：\n- mustn't 表不必（错误，应为 don't have to）\n- 错误：将 must 和 have to 当作完全相同。\n\n**辨析**：mustn't（禁止） vs. don't have to（不必）。"
+    "description": "**Must / Mustn't**（must 必须/禁止）\n\n**含义**：表示能力、许可、可能性、义务或建议等语气。\n\n**结构**：must + 动词原形，表必须或强烈推断；mustn't 表禁止\n\n**例句**：\n- You must wear a seatbelt. 你必须系安全带。\n- We mustn't be late. 我们绝不能迟到。\n- He must be tired. 他一定很累。\n\n**常见错误**：\n- mustn't 表不必（错误，应为 don't have to）\n- 错误：将 must 和 have to 当作完全相同。\n\n**辨析**：mustn't（禁止） vs. don't have to（不必）。",
+    "grammar_cn": "must 必须/禁止",
+    "meaning": "表示能力、许可、可能性、义务或建议等语气。",
+    "pattern": "must + 动词原形，表必须或强烈推断；mustn't 表禁止",
+    "common_mistakes": [
+      "mustn't 表不必（错误，应为 don't have to）",
+      "错误：将 must 和 have to 当作完全相同。"
+    ],
+    "comparison": "mustn't（禁止） vs. don't have to（不必）。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "You must wear a seatbelt.",
+        "example_meaning": "你必须系安全带。"
+      },
+      {
+        "example": "We mustn't be late.",
+        "example_meaning": "我们绝不能迟到。"
+      },
+      {
+        "example": "He must be tired.",
+        "example_meaning": "他一定很累。"
+      }
+    ]
   },
   {
     "id": "17b7eab6-b53b-422c-9bda-395fa25a1696",
     "level": "A1",
     "grammar": "Have to / Don't have to",
-    "description": "**Have to / Don't have to**（have to 必须/不必）\n\n**含义**：have to 必须/不必。\n\n**结构**：have to 表客观必须；don't have to 表不必\n\n**例句**：\n- I have to work tomorrow. 我明天必须工作。\n- You don't have to come. 你不必来。\n- Do we have to leave now? 我们必须现在离开吗？\n\n**常见错误**：\n- don't have to 表禁止（应为 mustn't）\n- have to 后加 -ing\n\n**辨析**：must vs. have to：must 主观/个人，have to 客观/外部规则。"
+    "description": "**Have to / Don't have to**（have to 必须/不必）\n\n**含义**：have to 必须/不必。\n\n**结构**：have to 表客观必须；don't have to 表不必\n\n**例句**：\n- I have to work tomorrow. 我明天必须工作。\n- You don't have to come. 你不必来。\n- Do we have to leave now? 我们必须现在离开吗？\n\n**常见错误**：\n- don't have to 表禁止（应为 mustn't）\n- have to 后加 -ing\n\n**辨析**：must vs. have to：must 主观/个人，have to 客观/外部规则。",
+    "grammar_cn": "have to 必须/不必",
+    "meaning": "have to 必须/不必。",
+    "pattern": "have to 表客观必须；don't have to 表不必",
+    "common_mistakes": [
+      "don't have to 表禁止（应为 mustn't）",
+      "have to 后加 -ing"
+    ],
+    "comparison": "must vs. have to：must 主观/个人，have to 客观/外部规则。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "I have to work tomorrow.",
+        "example_meaning": "我明天必须工作。"
+      },
+      {
+        "example": "You don't have to come.",
+        "example_meaning": "你不必来。"
+      },
+      {
+        "example": "Do we have to leave now?",
+        "example_meaning": "我们必须现在离开吗？"
+      }
+    ]
   },
   {
     "id": "41e61b3f-9b3f-4fea-ab86-758df8de78fb",
     "level": "A1",
     "grammar": "Past simple (irregular verbs)",
-    "description": "**Past simple (irregular verbs)**（一般过去时（不规则动词）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**用法**：常见不规则动词需记忆：go→went, eat→ate, see→saw, do→did。\n\n**例句**：\n- I went to Paris last year. 我去年去了巴黎。\n- She ate all the cake. 她吃掉了整个蛋糕。\n- They saw a movie. 他们看了一场电影。\n\n**常见错误**：\n- 不规则动词按规则加 -ed（*goed*）\n- did 与 was/were 混用\n\n**注意**：不规则动词表需要单独记忆。"
+    "description": "**Past simple (irregular verbs)**（一般过去时（不规则动词）\n\n**含义**：表示过去某个时间发生的动作或状态。\n\n**用法**：常见不规则动词需记忆：go→went, eat→ate, see→saw, do→did。\n\n**例句**：\n- I went to Paris last year. 我去年去了巴黎。\n- She ate all the cake. 她吃掉了整个蛋糕。\n- They saw a movie. 他们看了一场电影。\n\n**常见错误**：\n- 不规则动词按规则加 -ed（*goed*）\n- did 与 was/were 混用\n\n**注意**：不规则动词表需要单独记忆。",
+    "grammar_cn": "一般过去时（不规则动词",
+    "meaning": "表示过去某个时间发生的动作或状态。",
+    "pattern": "常见不规则动词需记忆：go→went, eat→ate, see→saw, do→did。",
+    "common_mistakes": [
+      "不规则动词按规则加 -ed（*goed*）",
+      "did 与 was/were 混用"
+    ],
+    "comparison": "",
+    "notes": "不规则动词表需要单独记忆。",
+    "examples": [
+      {
+        "example": "I went to Paris last year.",
+        "example_meaning": "我去年去了巴黎。"
+      },
+      {
+        "example": "She ate all the cake.",
+        "example_meaning": "她吃掉了整个蛋糕。"
+      },
+      {
+        "example": "They saw a movie.",
+        "example_meaning": "他们看了一场电影。"
+      }
+    ]
   },
   {
     "id": "5ad558d5-3005-4fd2-a6a1-3a2c988c861f",
     "level": "A1",
     "grammar": "Present simple vs. present continuous",
-    "description": "**Present simple vs. present continuous**（一般现在时 vs. 现在进行时）\n\n**含义**：表示现在的习惯、事实或固定安排。\n\n**用法**：一般现在表习惯和事实；现在进行表此刻和临时。\n\n**例句**：\n- I work in Tokyo. (习惯)\n- I'm working now. (此刻)\n- He plays tennis on Sundays. (习惯)\n\n**常见错误**：\n- 此刻动作用一般现在\n- 习惯性动作用现在进行\n\n**注意**：一般现在=习惯/事实，现在进行=此刻/临时。"
+    "description": "**Present simple vs. present continuous**（一般现在时 vs. 现在进行时）\n\n**含义**：表示现在的习惯、事实或固定安排。\n\n**用法**：一般现在表习惯和事实；现在进行表此刻和临时。\n\n**例句**：\n- I work in Tokyo. (习惯)\n- I'm working now. (此刻)\n- He plays tennis on Sundays. (习惯)\n\n**常见错误**：\n- 此刻动作用一般现在\n- 习惯性动作用现在进行\n\n**注意**：一般现在=习惯/事实，现在进行=此刻/临时。",
+    "grammar_cn": "一般现在时 vs. 现在进行时",
+    "meaning": "表示现在的习惯、事实或固定安排。",
+    "pattern": "一般现在表习惯和事实；现在进行表此刻和临时。",
+    "common_mistakes": [
+      "此刻动作用一般现在",
+      "习惯性动作用现在进行"
+    ],
+    "comparison": "",
+    "notes": "一般现在=习惯/事实，现在进行=此刻/临时。",
+    "examples": [
+      {
+        "example": "I work in Tokyo. (",
+        "example_meaning": "习惯)"
+      },
+      {
+        "example": "I'm working now. (",
+        "example_meaning": "此刻)"
+      },
+      {
+        "example": "He plays tennis on Sundays. (",
+        "example_meaning": "习惯)"
+      }
+    ]
   },
   {
     "id": "748caa12-56a8-4423-b38a-2c0068c35082",
     "level": "A1",
     "grammar": "Object questions",
-    "description": "**Object questions**（宾语疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：疑问词作宾语时，结构为 疑问词 + 助动词 + 主语 + 动词？\n\n**例句**：\n- What did you buy? 你买了什么？\n- Who did you see? 你看见了谁？\n- Which car do you like? 你喜欢哪辆车？\n\n**常见错误**：\n- 疑问句不倒装（*What you bought?*）\n- 加了 did 还用过去式\n\n**注意**：Who 作主语时不用 did：Who saw you?"
+    "description": "**Object questions**（宾语疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：疑问词作宾语时，结构为 疑问词 + 助动词 + 主语 + 动词？\n\n**例句**：\n- What did you buy? 你买了什么？\n- Who did you see? 你看见了谁？\n- Which car do you like? 你喜欢哪辆车？\n\n**常见错误**：\n- 疑问句不倒装（*What you bought?*）\n- 加了 did 还用过去式\n\n**注意**：Who 作主语时不用 did：Who saw you?",
+    "grammar_cn": "宾语疑问句",
+    "meaning": "用来提出问题或确认信息。",
+    "pattern": "疑问词作宾语时，结构为 疑问词 + 助动词 + 主语 + 动词？",
+    "common_mistakes": [
+      "疑问句不倒装（*What you bought?*）",
+      "加了 did 还用过去式"
+    ],
+    "comparison": "",
+    "notes": "Who 作主语时不用 did：Who saw you?",
+    "examples": [
+      {
+        "example": "What did you buy?",
+        "example_meaning": "你买了什么？"
+      },
+      {
+        "example": "Who did you see?",
+        "example_meaning": "你看见了谁？"
+      },
+      {
+        "example": "Which car do you like?",
+        "example_meaning": "你喜欢哪辆车？"
+      }
+    ]
   },
   {
     "id": "a62f16cc-9a3b-4972-a3a9-56e0b2125cfb",
     "level": "A1",
     "grammar": "Subject questions",
-    "description": "**Subject questions**（主语疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：疑问词作主语时，动词按主语人称变化，不加助动词 do。\n\n**例句**：\n- Who broke the window? 谁打破了窗户？\n- What happened? 发生了什么事？\n- Which student came first? 哪个学生最先到？\n\n**常见错误**：\n- Who 作主语时加 did（*Who did break* 除非强调）\n- 动词人称不一致\n\n**辨析**：Who saw you? vs. Who did you see? 主语 vs. 宾语。"
+    "description": "**Subject questions**（主语疑问句）\n\n**含义**：用来提出问题或确认信息。\n\n**用法**：疑问词作主语时，动词按主语人称变化，不加助动词 do。\n\n**例句**：\n- Who broke the window? 谁打破了窗户？\n- What happened? 发生了什么事？\n- Which student came first? 哪个学生最先到？\n\n**常见错误**：\n- Who 作主语时加 did（*Who did break* 除非强调）\n- 动词人称不一致\n\n**辨析**：Who saw you? vs. Who did you see? 主语 vs. 宾语。",
+    "grammar_cn": "主语疑问句",
+    "meaning": "用来提出问题或确认信息。",
+    "pattern": "疑问词作主语时，动词按主语人称变化，不加助动词 do。",
+    "common_mistakes": [
+      "Who 作主语时加 did（*Who did break* 除非强调）",
+      "动词人称不一致"
+    ],
+    "comparison": "Who saw you? vs. Who did you see? 主语 vs. 宾语。",
+    "notes": "",
+    "examples": [
+      {
+        "example": "Who broke the window?",
+        "example_meaning": "谁打破了窗户？"
+      },
+      {
+        "example": "What happened?",
+        "example_meaning": "发生了什么事？"
+      },
+      {
+        "example": "Which student came first?",
+        "example_meaning": "哪个学生最先到？"
+      }
+    ]
   },
   {
     "id": "d7e85fd5-34e5-4dc2-9a94-bb6789bb3057",
     "level": "A1",
     "grammar": "Prepositions with transport",
-    "description": "**Prepositions with transport**（交通方式介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：by + 交通工具（无冠词）\n\n**用法说明**：on foot 步行\n\n**例句**：\n- I go to work by bus. 我乘公交车上班。\n- She travels by train. 她乘火车旅行。\n- They came on foot. 他们步行来的。\n\n**常见错误**：\n- by 后加 the/a（*by the bus*）\n- 混淆：by car  vs.  on car \n\n**注意**：by car/bus/train/plane 与 in a car/on a bus 都可说。"
+    "description": "**Prepositions with transport**（交通方式介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：by + 交通工具（无冠词）\n\n**用法说明**：on foot 步行\n\n**例句**：\n- I go to work by bus. 我乘公交车上班。\n- She travels by train. 她乘火车旅行。\n- They came on foot. 他们步行来的。\n\n**常见错误**：\n- by 后加 the/a（*by the bus*）\n- 混淆：by car  vs.  on car \n\n**注意**：by car/bus/train/plane 与 in a car/on a bus 都可说。",
+    "grammar_cn": "交通方式介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "by + 交通工具（无冠词）",
+    "common_mistakes": [
+      "by 后加 the/a（*by the bus*）",
+      "混淆：by car  vs.  on car"
+    ],
+    "comparison": "",
+    "notes": "by car/bus/train/plane 与 in a car/on a bus 都可说。",
+    "examples": [
+      {
+        "example": "I go to work by bus.",
+        "example_meaning": "我乘公交车上班。"
+      },
+      {
+        "example": "She travels by train.",
+        "example_meaning": "她乘火车旅行。"
+      },
+      {
+        "example": "They came on foot.",
+        "example_meaning": "他们步行来的。"
+      }
+    ]
   },
   {
     "id": "c7af59d6-c3aa-4e6b-b1ca-8720c7534b92",
     "level": "A1",
     "grammar": "Prepositions with meals and places",
-    "description": "**Prepositions with meals and places**（三餐与地点介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：for breakfast/lunch/dinner\n\n**用法说明**：at home, at school, at work\n\n**例句**：\n- I'm at home. 我在家。\n- What's for dinner? 晚饭吃什么？\n- She's at work. 她在上班。\n\n**常见错误**：\n- in home（应为 at home）\n- 混淆：at breakfast  vs.  for breakfast \n\n**注意**：at 表所在地点，for 表目的/内容。"
+    "description": "**Prepositions with meals and places**（三餐与地点介词）\n\n**含义**：表示名词、代词或动词与其他词之间的关系。\n\n**结构**：for breakfast/lunch/dinner\n\n**用法说明**：at home, at school, at work\n\n**例句**：\n- I'm at home. 我在家。\n- What's for dinner? 晚饭吃什么？\n- She's at work. 她在上班。\n\n**常见错误**：\n- in home（应为 at home）\n- 混淆：at breakfast  vs.  for breakfast \n\n**注意**：at 表所在地点，for 表目的/内容。",
+    "grammar_cn": "三餐与地点介词",
+    "meaning": "表示名词、代词或动词与其他词之间的关系。",
+    "pattern": "for breakfast/lunch/dinner",
+    "common_mistakes": [
+      "in home（应为 at home）",
+      "混淆：at breakfast  vs.  for breakfast"
+    ],
+    "comparison": "",
+    "notes": "at 表所在地点，for 表目的/内容。",
+    "examples": [
+      {
+        "example": "I'm at home.",
+        "example_meaning": "我在家。"
+      },
+      {
+        "example": "What's for dinner?",
+        "example_meaning": "晚饭吃什么？"
+      },
+      {
+        "example": "She's at work.",
+        "example_meaning": "她在上班。"
+      }
+    ]
   },
   {
     "id": "35d094e9-f5e1-4449-9b56-238932bfc5ef",
     "level": "A1",
     "grammar": "Family vocabulary",
-    "description": "**Family vocabulary**（家庭成员词汇）\n\n**含义**：表示词汇的用法、搭配或含义辨析。\n\n**用法**：family members 名词单复数：parents（双亲），children（复数），people（复数）。\n\n**例句**：\n- My parents live in Beijing. 我父母住在北京。\n- How many children do you have? 你有几个孩子？\n- There are three people in my family. 我家有三口人。\n\n**常见错误**：\n- people 的复数形式（peoples 表民族）\n- child 的复数写成 childs\n\n**注意**：people 是 person 的复数；children 是 child 的复数。"
+    "description": "**Family vocabulary**（家庭成员词汇）\n\n**含义**：表示词汇的用法、搭配或含义辨析。\n\n**用法**：family members 名词单复数：parents（双亲），children（复数），people（复数）。\n\n**例句**：\n- My parents live in Beijing. 我父母住在北京。\n- How many children do you have? 你有几个孩子？\n- There are three people in my family. 我家有三口人。\n\n**常见错误**：\n- people 的复数形式（peoples 表民族）\n- child 的复数写成 childs\n\n**注意**：people 是 person 的复数；children 是 child 的复数。",
+    "grammar_cn": "家庭成员词汇",
+    "meaning": "表示词汇的用法、搭配或含义辨析。",
+    "pattern": "family members 名词单复数：parents（双亲），children（复数），people（复数）。",
+    "common_mistakes": [
+      "people 的复数形式（peoples 表民族）",
+      "child 的复数写成 childs"
+    ],
+    "comparison": "",
+    "notes": "people 是 person 的复数；children 是 child 的复数。",
+    "examples": [
+      {
+        "example": "My parents live in Beijing.",
+        "example_meaning": "我父母住在北京。"
+      },
+      {
+        "example": "How many children do you have?",
+        "example_meaning": "你有几个孩子？"
+      },
+      {
+        "example": "There are three people in my family.",
+        "example_meaning": "我家有三口人。"
+      }
+    ]
   },
   {
     "id": "60c9cfe2-24b2-4fcc-b262-18c1dd49de84",
     "level": "A1",
     "grammar": "Clothes and colors",
-    "description": "**Clothes and colors**（衣服与颜色）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：a pair of + 裤子/鞋/眼镜\n\n**用法说明**：clothes 本身复数\n\n**例句**：\n- I need a pair of jeans. 我需要一条牛仔裤。\n- These shoes are new. 这双鞋是新的。\n- She bought some clothes. 她买了一些衣服。\n\n**常见错误**：\n- clothes 加 s 表示多件（正确）但说 a cloth 是另一意思\n- a pair of 后接单数动词\n\n**注意**：a pair of shoes 是单数，但 shoes 是复数。"
+    "description": "**Clothes and colors**（衣服与颜色）\n\n**含义**：表示名词的泛指或特指。\n\n**结构**：a pair of + 裤子/鞋/眼镜\n\n**用法说明**：clothes 本身复数\n\n**例句**：\n- I need a pair of jeans. 我需要一条牛仔裤。\n- These shoes are new. 这双鞋是新的。\n- She bought some clothes. 她买了一些衣服。\n\n**常见错误**：\n- clothes 加 s 表示多件（正确）但说 a cloth 是另一意思\n- a pair of 后接单数动词\n\n**注意**：a pair of shoes 是单数，但 shoes 是复数。",
+    "grammar_cn": "衣服与颜色",
+    "meaning": "表示名词的泛指或特指。",
+    "pattern": "a pair of + 裤子/鞋/眼镜",
+    "common_mistakes": [
+      "clothes 加 s 表示多件（正确）但说 a cloth 是另一意思",
+      "a pair of 后接单数动词"
+    ],
+    "comparison": "",
+    "notes": "a pair of shoes 是单数，但 shoes 是复数。",
+    "examples": [
+      {
+        "example": "I need a pair of jeans.",
+        "example_meaning": "我需要一条牛仔裤。"
+      },
+      {
+        "example": "These shoes are new.",
+        "example_meaning": "这双鞋是新的。"
+      },
+      {
+        "example": "She bought some clothes.",
+        "example_meaning": "她买了一些衣服。"
+      }
+    ]
   },
   {
     "id": "07429130-d43e-4a41-af33-d0108a6b5feb",
     "level": "A1",
     "grammar": "Daily routines",
-    "description": "**Daily routines**（日常活动）\n\n**含义**：表示日常活动。\n\n**用法**：描述日常顺序：first, then, after that, finally。\n\n**例句**：\n- First I wake up, then I have breakfast. 我先醒来，然后吃早餐。\n- After that, I go to work. 之后我去上班。\n- Finally, I go to bed. 最后我上床睡觉。\n\n**常见错误**：\n- 时间顺序副词位置混乱\n- 一般现在时与现在进行时混用\n\n**注意**：first/then/after that/finally 用于讲故事或描述日程。"
+    "description": "**Daily routines**（日常活动）\n\n**含义**：表示日常活动。\n\n**用法**：描述日常顺序：first, then, after that, finally。\n\n**例句**：\n- First I wake up, then I have breakfast. 我先醒来，然后吃早餐。\n- After that, I go to work. 之后我去上班。\n- Finally, I go to bed. 最后我上床睡觉。\n\n**常见错误**：\n- 时间顺序副词位置混乱\n- 一般现在时与现在进行时混用\n\n**注意**：first/then/after that/finally 用于讲故事或描述日程。",
+    "grammar_cn": "日常活动",
+    "meaning": "表示日常活动。",
+    "pattern": "描述日常顺序：first, then, after that, finally。",
+    "common_mistakes": [
+      "时间顺序副词位置混乱",
+      "一般现在时与现在进行时混用"
+    ],
+    "comparison": "",
+    "notes": "first/then/after that/finally 用于讲故事或描述日程。",
+    "examples": [
+      {
+        "example": "First I wake up, then I have breakfast.",
+        "example_meaning": "我先醒来，然后吃早餐。"
+      },
+      {
+        "example": "After that, I go to work.",
+        "example_meaning": "之后我去上班。"
+      },
+      {
+        "example": "Finally, I go to bed.",
+        "example_meaning": "最后我上床睡觉。"
+      }
+    ]
   },
   {
     "id": "43dbe2cf-2a1d-4089-a2dc-49f013b7dda1",
     "level": "A1",
     "grammar": "Food and drink quantifiers",
-    "description": "**Food and drink quantifiers**（食物与饮料量词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：a cup of, a glass of, a bottle of, a piece of, a slice of。\n\n**例句**：\n- a cup of coffee 一杯咖啡\n- a glass of water 一杯水\n- a piece of cake 一块蛋糕\n\n**常见错误**：\n- a bread（应为 a piece of bread）\n- a milk（应为 a glass of milk）\n\n**注意**：不可数名词需借助量词才能用 a/an。"
+    "description": "**Food and drink quantifiers**（食物与饮料量词）\n\n**含义**：用来连接句子或表达逻辑关系。\n\n**用法**：a cup of, a glass of, a bottle of, a piece of, a slice of。\n\n**例句**：\n- a cup of coffee 一杯咖啡\n- a glass of water 一杯水\n- a piece of cake 一块蛋糕\n\n**常见错误**：\n- a bread（应为 a piece of bread）\n- a milk（应为 a glass of milk）\n\n**注意**：不可数名词需借助量词才能用 a/an。",
+    "grammar_cn": "食物与饮料量词",
+    "meaning": "用来连接句子或表达逻辑关系。",
+    "pattern": "a cup of, a glass of, a bottle of, a piece of, a slice of。",
+    "common_mistakes": [
+      "a bread（应为 a piece of bread）",
+      "a milk（应为 a glass of milk）"
+    ],
+    "comparison": "",
+    "notes": "不可数名词需借助量词才能用 a/an。",
+    "examples": [
+      {
+        "example": "a cup of coffee",
+        "example_meaning": "一杯咖啡"
+      },
+      {
+        "example": "a glass of water",
+        "example_meaning": "一杯水"
+      },
+      {
+        "example": "a piece of cake",
+        "example_meaning": "一块蛋糕"
+      }
+    ]
   },
   {
     "id": "f1b9d3ec-c661-42aa-b20b-e006dde7da47",
     "level": "A1",
     "grammar": "Giving directions",
-    "description": "**Giving directions**（指路）\n\n**含义**：表示指路。\n\n**用法**：用 Go straight, Turn left/right, It's on the left/right 指路。\n\n**例句**：\n- Go straight ahead. 一直往前走。\n- Turn left at the traffic lights. 在红绿灯处左转。\n- It's on the right. 在右边。\n\n**常见错误**：\n- turn to left 与 turn left 混用\n- 混淆：at the corner  vs.  on the corner \n\n**注意**：turn left/right，go straight on。"
+    "description": "**Giving directions**（指路）\n\n**含义**：表示指路。\n\n**用法**：用 Go straight, Turn left/right, It's on the left/right 指路。\n\n**例句**：\n- Go straight ahead. 一直往前走。\n- Turn left at the traffic lights. 在红绿灯处左转。\n- It's on the right. 在右边。\n\n**常见错误**：\n- turn to left 与 turn left 混用\n- 混淆：at the corner  vs.  on the corner \n\n**注意**：turn left/right，go straight on。",
+    "grammar_cn": "指路",
+    "meaning": "表示指路。",
+    "pattern": "用 Go straight, Turn left/right, It's on the left/right 指路。",
+    "common_mistakes": [
+      "turn to left 与 turn left 混用",
+      "混淆：at the corner  vs.  on the corner"
+    ],
+    "comparison": "",
+    "notes": "turn left/right，go straight on。",
+    "examples": [
+      {
+        "example": "Go straight ahead.",
+        "example_meaning": "一直往前走。"
+      },
+      {
+        "example": "Turn left at the traffic lights.",
+        "example_meaning": "在红绿灯处左转。"
+      },
+      {
+        "example": "It's on the right.",
+        "example_meaning": "在右边。"
+      }
+    ]
   },
   {
     "id": "41fc1415-51e5-4b27-9988-69969580cdc4",
     "level": "A1",
     "grammar": "Phone and email phrases",
-    "description": "**Phone and email phrases**（电话和邮件用语）\n\n**含义**：表示电话和邮件用语。\n\n**用法**：This is... (on the phone), I'm writing to..., I look forward to hearing from you。\n\n**例句**：\n- Hello, this is John. 你好，我是约翰。\n- I'm writing to ask about... 我写信是想询问……\n- I look forward to hearing from you. 期待您的回复。\n\n**常见错误**：\n- 电话中说 I am John（不自然，应为 This is John）\n- look forward to 后加 do（应为 doing）\n\n**注意**：look forward to + doing/noun。"
+    "description": "**Phone and email phrases**（电话和邮件用语）\n\n**含义**：表示电话和邮件用语。\n\n**用法**：This is... (on the phone), I'm writing to..., I look forward to hearing from you。\n\n**例句**：\n- Hello, this is John. 你好，我是约翰。\n- I'm writing to ask about... 我写信是想询问……\n- I look forward to hearing from you. 期待您的回复。\n\n**常见错误**：\n- 电话中说 I am John（不自然，应为 This is John）\n- look forward to 后加 do（应为 doing）\n\n**注意**：look forward to + doing/noun。",
+    "grammar_cn": "电话和邮件用语",
+    "meaning": "表示电话和邮件用语。",
+    "pattern": "This is... (on the phone), I'm writing to..., I look forward to hearing from you。",
+    "common_mistakes": [
+      "电话中说 I am John（不自然，应为 This is John）",
+      "look forward to 后加 do（应为 doing）"
+    ],
+    "comparison": "",
+    "notes": "look forward to + doing/noun。",
+    "examples": [
+      {
+        "example": "Hello, this is John.",
+        "example_meaning": "你好，我是约翰。"
+      },
+      {
+        "example": "I'm writing to ask about...",
+        "example_meaning": "我写信是想询问……"
+      },
+      {
+        "example": "I look forward to hearing from you.",
+        "example_meaning": "期待您的回复。"
+      }
+    ]
   }
 ]

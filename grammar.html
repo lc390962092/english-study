@@ -75,23 +75,66 @@
             localStorage.setItem(`english_grammar_progress_${level}`, JSON.stringify([...known]));
         }
 
+        function escapeHtml(text) {
+            if (text === null || text === undefined) return '';
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function renderMarkdownInline(text) {
+            return escapeHtml(text)
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>');
+        }
+
+        function renderDescription(g) {
+            let html = '';
+            if (g.grammar_cn) {
+                html += `<div class="grammar-title"><strong>${escapeHtml(g.grammar)}</strong>（${escapeHtml(g.grammar_cn)}）</div>`;
+            } else {
+                html += `<div class="grammar-title"><strong>${escapeHtml(g.grammar)}</strong></div>`;
+            }
+            if (g.meaning) {
+                html += `<p><strong class="desc-label">含义：</strong>${renderMarkdownInline(g.meaning)}</p>`;
+            }
+            if (g.pattern) {
+                html += `<p><strong class="desc-label">结构 / 用法：</strong>${renderMarkdownInline(g.pattern)}</p>`;
+            }
+            if (g.examples && g.examples.length) {
+                html += `<p><strong class="desc-label">例句：</strong></p><ul>`;
+                for (const ex of g.examples) {
+                    html += `<li>${renderMarkdownInline(ex.example)}<br><span class="example-meaning">${renderMarkdownInline(ex.example_meaning || '')}</span></li>`;
+                }
+                html += `</ul>`;
+            }
+            if (g.common_mistakes && g.common_mistakes.length) {
+                html += `<p><strong class="desc-label">常见错误：</strong></p><ul>`;
+                for (const m of g.common_mistakes) {
+                    html += `<li>${renderMarkdownInline(m)}</li>`;
+                }
+                html += `</ul>`;
+            }
+            if (g.comparison) {
+                html += `<p><strong class="desc-label">辨析：</strong>${renderMarkdownInline(g.comparison)}</p>`;
+            }
+            if (g.notes) {
+                html += `<p><strong class="desc-label">注意：</strong>${renderMarkdownInline(g.notes)}</p>`;
+            }
+            return html;
+        }
+
         function renderCardContent(g) {
             return {
                 front: `
-                    <div class="grammar">${g.grammar}</div>
-                    <div class="hint">点击卡片查看释义</div>
+                    <div class="grammar">${escapeHtml(g.grammar)}</div>
+                    ${g.grammar_cn ? `<div class="hint">${escapeHtml(g.grammar_cn)}</div>` : '<div class="hint">点击卡片查看释义</div>'}
                 `,
                 back: `
-                    <div class="grammar">${g.grammar}</div>
-                    <div class="meaning">${g.meaning}</div>
-                    <div class="usage"><span class="label">用法：</span>${g.usage}</div>
-                    ${g.compare ? `<div class="compare"><span class="label">对比：</span>${g.compare}</div>` : ''}
-                    ${g.examples && g.examples.length ? g.examples.map(ex => `
-                    <div class="example-box">
-                        <div class="example">${ex}</div>
-                    </div>
-                    `).join('') : ''}
-                    ${g.mistakes && g.mistakes.length ? `<div class="mistakes"><span class="label">常见错误：</span><ul>${g.mistakes.map(m => `<li>${m}</li>`).join('')}</ul></div>` : ''}
+                    <div class="grammar-back">${renderDescription(g)}</div>
                 `
             };
         }
@@ -140,7 +183,7 @@
                 </div>
                 <div class="btn-group">
                     <button class="btn btn-grammar" onclick="event.stopPropagation(); speakGrammar()">🔊 读法</button>
-                    ${g.example ? `<button class="btn btn-example" onclick="event.stopPropagation(); speakExample()">📝 例句</button>` : ''}
+                    <button class="btn btn-example" onclick="event.stopPropagation(); speakExample()">📝 例句</button>
                     <button class="btn ${isKnown ? 'btn-unknown' : 'btn-known'}" onclick="event.stopPropagation(); toggleKnown()">${isKnown ? '取消掌握' : '✓ 掌握'}</button>
                 </div>
                 <div class="controls">
@@ -234,7 +277,9 @@
 
         function speakExample() {
             const g = items[index];
-            if (g.examples && g.examples.length) speak(g.examples[0], 0.9);
+            // 优先使用结构化例句
+            const ex = (g.examples && g.examples[0] && g.examples[0].example) || '';
+            if (ex) speak(ex, 0.9);
         }
 
         function toggleKnown() {
