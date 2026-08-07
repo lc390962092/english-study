@@ -475,6 +475,24 @@ a {
   transition: background-color 0.25s, color 0.25s;
 }
 
+.choice-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.choice-main {
+  font-size: 15px;
+  color: var(--text);
+}
+
+.choice-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.35;
+}
+
 .choice.correct {
   border-color: var(--success);
   background: var(--success-soft);
@@ -1441,7 +1459,10 @@ a {
 }
 
 .mode-btn {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
   text-decoration: none;
   border-radius: 12px;
   padding: 10px 4px;
@@ -1451,6 +1472,7 @@ a {
   color: var(--text-secondary);
   border: 1px solid var(--border);
   transition: all 0.15s, background-color 0.25s, color 0.25s, border-color 0.25s;
+  text-align: center;
 }
 
 .mode-btn:active {

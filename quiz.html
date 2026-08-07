@@ -313,6 +313,27 @@
                 .replace(/'/g, '&#039;');
         }
 
+        function optionHTML(q, opt, i) {
+            let sub = '';
+            if (q.type === 'word_recognition' && q.data && Array.isArray(words)) {
+                const matched = words.find(w => w.word === opt || w.id === opt);
+                if (matched && matched.meaning) sub = matched.meaning;
+            } else if (q.type === 'grammar_form' && Array.isArray(grammars)) {
+                const matched = grammars.find(g => g.grammar === opt);
+                if (matched && matched.grammar_cn) sub = matched.grammar_cn;
+                else if (matched && matched.meaning) sub = matched.meaning;
+            }
+            return `
+                <div class="choice" data-idx="${i}">
+                    <span class="badge">${String.fromCharCode(65 + i)}</span>
+                    <div class="choice-text">
+                        <span class="choice-main">${escapeHtml(opt)}</span>
+                        ${sub ? `<span class="choice-sub">${escapeHtml(sub)}</span>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
         function generateQuestions() {
             const count = settings.count;
             if (settings.mistakesOnly) {
@@ -495,12 +516,7 @@
                     ${q.sub ? `<div class="q-sub">${escapeHtml(q.sub)}</div>` : ''}
                 </div>
                 <div class="choices" id="choices">
-                    ${q.options.map((opt, i) => `
-                        <div class="choice" data-idx="${i}">
-                            <span class="badge">${String.fromCharCode(65 + i)}</span>
-                            <span>${escapeHtml(opt)}</span>
-                        </div>
-                    `).join('')}
+                    ${q.options.map((opt, i) => optionHTML(q, opt, i)).join('')}
                 </div>
                 <div id="feedback"></div>
                 <button class="next-btn hidden" id="nextBtn">下一题</button>
