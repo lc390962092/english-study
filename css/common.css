@@ -1456,13 +1456,16 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
+  align-items: stretch;
 }
 
 .mode-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
+  min-height: 44px;
+  height: 100%;
+  line-height: 1.2;
   text-decoration: none;
   border-radius: 12px;
   padding: 10px 4px;
