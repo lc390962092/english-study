@@ -16,7 +16,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <link rel="icon" type="image/png" href="icons/icon-96x96.png">
-    <link rel="stylesheet" href="css/common.css?v=3">
+    <link rel="stylesheet" href="css/common.css?v=4">
     <style>
         .header { padding: 40px 20px 30px; }
         .loading-msg { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
@@ -68,7 +68,8 @@
             const container = document.getElementById('levels');
             const loading = document.getElementById('loadingMsg');
             try {
-                const summary = await fetch('content/summary.json').then(r => {
+                const basePath = location.pathname.replace(/\/[^/]*$/, '/');
+                const summary = await fetch(`${basePath}content/summary.json`).then(r => {
                     if (!r.ok) throw new Error(`HTTP ${r.status}`);
                     return r.json();
                 });
