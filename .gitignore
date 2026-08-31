@@ -2,3 +2,7 @@ scripts/ecdict_cache.csv
 *.bak
 
 .enrich_example_meanings_checkpoint.json
+
+# 本地私有数据不上传
+private/
+
