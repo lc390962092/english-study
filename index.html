@@ -16,11 +16,25 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <link rel="icon" type="image/png" href="icons/icon-96x96.png">
-    <link rel="stylesheet" href="css/common.css?v=4">
+    <link rel="stylesheet" href="css/common.css?v=5">
     <style>
         .header { padding: 40px 20px 30px; }
         .loading-msg { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
         .loading-msg.error { color: var(--danger); }
+        .tool-card { max-width: 600px; margin: 0 auto 16px; padding: 0 20px; }
+        .tool-card a {
+            display: flex; align-items: center; gap: 14px;
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 18px 20px;
+            box-shadow: var(--shadow);
+            text-decoration: none;
+            transition: transform 0.15s, background-color 0.25s, box-shadow 0.25s;
+        }
+        .tool-card a:active { transform: scale(0.99); }
+        .tool-icon { width: 46px; height: 46px; border-radius: 14px; background: var(--primary-grad); color: white; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+        .tool-title { font-size: 16px; font-weight: bold; color: var(--text); margin-bottom: 2px; }
+        .tool-desc { font-size: 13px; color: var(--text-secondary); }
     </style>
 </head>
 <body>
@@ -30,6 +44,15 @@
     </div>
     <div class="levels" id="levels">
         <div class="loading-msg" id="loadingMsg">加载中...</div>
+    </div>
+    <div class="tool-card">
+        <a href="methods.html">
+            <div class="tool-icon">🎯</div>
+            <div>
+                <div class="tool-title">学习方法</div>
+                <div class="tool-desc">10 步英语自学法 · 打卡坚持</div>
+            </div>
+        </a>
     </div>
 
     <script src="js/common.js"></script>

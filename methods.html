@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="英语学习方法：10 步从输入到输出">
+    <meta name="theme-color" content="#667eea" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="English学习">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" href="icons/icon-96x96.png">
+    <title>English 学习方法</title>
+    <link rel="stylesheet" href="css/common.css?v=5">
+    <style>
+        .methods-intro {
+            background: var(--primary-grad);
+            color: white;
+            padding: 28px 20px 24px;
+            text-align: center;
+            margin: -20px -20px 20px;
+            border-radius: 0 0 24px 24px;
+        }
+        .methods-intro h2 {
+            font-size: 22px;
+            margin-bottom: 6px;
+        }
+        .methods-intro p {
+            font-size: 14px;
+            opacity: 0.92;
+            margin: 0;
+        }
+        .method-card {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 18px 18px 18px 56px;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+            transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .method-card:active {
+            transform: scale(0.99);
+        }
+        .method-card.done {
+            opacity: 0.75;
+        }
+        .method-card.done .method-title {
+            text-decoration: line-through;
+            color: var(--text-secondary);
+        }
+        .method-number {
+            position: absolute;
+            left: 14px;
+            top: 16px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: var(--primary-grad);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .method-card.done .method-number {
+            background: var(--success);
+        }
+        .method-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--text);
+            margin-bottom: 6px;
+            transition: color 0.25s ease;
+        }
+        .method-desc {
+            font-size: 14px;
+            line-height: 1.55;
+            color: var(--text-secondary);
+            transition: color 0.25s ease;
+        }
+        .method-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .method-tag {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            background: var(--surface-3);
+            color: var(--text-secondary);
+        }
+        .method-tag.base {
+            background: var(--primary-soft);
+            color: var(--primary-text);
+        }
+        .method-tag.adv {
+            background: var(--warning-soft);
+            color: var(--warning-text);
+        }
+        .progress-row-methods {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 4px 0 18px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        .progress-bar-methods {
+            flex: 1;
+            height: 8px;
+            background: var(--surface-3);
+            border-radius: 4px;
+            margin: 0 12px;
+            overflow: hidden;
+        }
+        .progress-bar-methods .fill {
+            height: 100%;
+            background: var(--primary-grad);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .reset-btn {
+            width: auto;
+            padding: 10px 18px;
+            font-size: 13px;
+            margin: 8px auto 0;
+            display: block;
+            background: var(--surface-3);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+        }
+        .note {
+            background: var(--surface);
+            border-radius: 16px;
+            padding: 14px 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-top: 10px;
+            border-left: 4px solid var(--warning);
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html" class="back">← 返回</a>
+        <div class="level-title">学习方法</div>
+        <div style="width:40px"></div>
+    </div>
+    <div class="stage" id="stage">
+        <div class="methods-intro">
+            <h2>📚 英语学习 10 步法</h2>
+            <p>从“泡脑子”到“录下来”，循序渐进建立英语思维</p>
+        </div>
+
+        <div class="progress-row-methods">
+            <span id="doneCount">0 / 10</span>
+            <div class="progress-bar-methods"><div class="fill" id="progressFill" style="width:0%"></div></div>
+            <span id="progressPct">0%</span>
+        </div>
+
+        <div id="methodsList"></div>
+
+        <div class="note">
+            💡 提示：第 9、10 步建议在前面 8 步已经养成习惯后再加入，避免贪多嚼不烂。
+        </div>
+
+        <button class="reset-btn" id="resetBtn">重置今日打卡</button>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script>
+        const methods = [
+            {
+                title: "每天听英语（泡脑子）",
+                desc: "听不懂也没关系，关键是让耳朵习惯英语的节奏和声音。每天哪怕只听 5 分钟也要坚持。",
+                tag: "基础 · 输入"
+            },
+            {
+                title: "用英语提问",
+                desc: "遇到问题，第一反应尝试用英语去提问。把大脑从“中文→翻译→英文”切换成直接用英语思考。",
+                tag: "基础 · 思维"
+            },
+            {
+                title: "给身边事物贴英语标签",
+                desc: "出门逛街、在家休息、看到具体实物时，用英语说出它的名字，能写出来更好。把英语融入真实生活场景。",
+                tag: "基础 · 环境"
+            },
+            {
+                title: "训练耳朵辨音",
+                desc: "同一个字母在不同单词里发音可能不同。多听各种口音和读法，锻炼自己能辨别差异，再一点点修正自己的发音。",
+                tag: "基础 · 辨音"
+            },
+            {
+                title: "让单词和词组有画面感",
+                desc: "遇到生词或词组时，在脑海中形成具体画面和情绪，而不仅仅是中文意思。让语言和身体感受连接起来。",
+                tag: "基础 · 记忆"
+            },
+            {
+                title: "玩词，串词造句",
+                desc: "不要先考虑语法对不对，把已经会的词串起来、造出句子。允许自己“胡说”，在玩的过程中建立语感。",
+                tag: "基础 · 输出"
+            },
+            {
+                title: "每天用英语正式开口",
+                desc: "从打招呼、自我介绍、简单问候开始，每天找机会用英语进行真正的沟通。开口是突破口语的第一步。",
+                tag: "基础 · 开口"
+            },
+            {
+                title: "每天碎片时间练发音",
+                desc: "抓住碎片时间，针对发音不熟悉、不准确的单词反复练 20 次、30 次。44 个音标每天练 2 个，积少成多。",
+                tag: "基础 · 发音"
+            },
+            {
+                title: "用英语文字写出来",
+                desc: "给朋友发英语问候、正式用英语聊天、写英语日记，每天 50～100 词。写作倒逼输出，让学过的词真正属于你。",
+                tag: "进阶 · 写作"
+            },
+            {
+                title: "录音并对比",
+                desc: "录下自己说的英语和外国朋友或原声的英语，对比声音、节奏、语调。找到差距，有针对性地调整。",
+                tag: "进阶 · 录音"
+            }
+        ];
+
+        const STORAGE_KEY = 'english_methods_done';
+
+        function loadDone() {
+            try {
+                return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+            } catch (e) {
+                return new Set();
+            }
+        }
+
+        function saveDone(done) {
+            try {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify([...done]));
+            } catch (e) {
+                // ignore
+            }
+        }
+
+        let done = loadDone();
+
+        function updateProgress() {
+            const total = methods.length;
+            const count = done.size;
+            const pct = Math.round((count / total) * 100);
+            document.getElementById('doneCount').textContent = `${count} / ${total}`;
+            document.getElementById('progressPct').textContent = `${pct}%`;
+            document.getElementById('progressFill').style.width = `${pct}%`;
+        }
+
+        function render() {
+            const list = document.getElementById('methodsList');
+            list.innerHTML = methods.map((m, i) => {
+                const isDone = done.has(String(i));
+                const tagClass = m.tag.includes('进阶') ? 'adv' : 'base';
+                return `
+                    <div class="method-card ${isDone ? 'done' : ''}" data-idx="${i}">
+                        <div class="method-number">${isDone ? '✓' : i + 1}</div>
+                        <div class="method-title">${m.title}</div>
+                        <div class="method-desc">${m.desc}</div>
+                        <div class="method-tags">
+                            <span class="method-tag ${tagClass}">${m.tag}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            list.querySelectorAll('.method-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const idx = card.dataset.idx;
+                    if (done.has(idx)) done.delete(idx);
+                    else done.add(idx);
+                    saveDone(done);
+                    render();
+                    updateProgress();
+                });
+            });
+
+            updateProgress();
+        }
+
+        document.getElementById('resetBtn').addEventListener('click', () => {
+            if (confirm('确定要重置学习方法打卡状态吗？')) {
+                done = new Set();
+                saveDone(done);
+                render();
+            }
+        });
+
+        render();
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 /* English PWA Service Worker */
-const CACHE_NAME = 'english-study-v4';
+const CACHE_NAME = 'english-study-v5';
 
 // 根据 SW 脚本所在路径自动推断项目 base 路径
 const SW_PATH = self.location.pathname; // e.g. /jlpt-study/sw.js or /sw.js
@@ -12,7 +12,8 @@ const STATIC_ASSETS = [
   BASE + '/grammar.html',
   BASE + '/quiz.html',
   BASE + '/exam.html',
-  BASE + '/css/common.css?v=4',
+  BASE + '/methods.html',
+  BASE + '/css/common.css?v=5',
   BASE + '/js/common.js',
   BASE + '/site.webmanifest',
   BASE + '/icons/icon-192x192.png',
