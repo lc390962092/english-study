@@ -195,6 +195,23 @@
                 if (chineseVoice) meaningUtter.voice = chineseVoice;
                 synth.speak(meaningUtter);
             }
+
+            // 展开释义时，例句也读
+            if (autoFlip && w.example) {
+                const exampleUtter = new SpeechSynthesisUtterance(w.example);
+                exampleUtter.lang = 'en-US';
+                exampleUtter.rate = 0.9;
+                if (englishVoice) exampleUtter.voice = englishVoice;
+                synth.speak(exampleUtter);
+
+                if (w.example_meaning) {
+                    const exampleMeaningUtter = new SpeechSynthesisUtterance(w.example_meaning);
+                    exampleMeaningUtter.lang = 'zh-CN';
+                    exampleMeaningUtter.rate = 0.95;
+                    if (chineseVoice) exampleMeaningUtter.voice = chineseVoice;
+                    synth.speak(exampleMeaningUtter);
+                }
+            }
         }
 
         function loadProgress() {
