@@ -416,6 +416,45 @@
             autoSpeak();
         }
 
+        // 键盘控制翻页
+        document.addEventListener('keydown', (e) => {
+            // 跳转弹窗打开时不响应
+            if (document.getElementById('jumpOverlay').classList.contains('active')) return;
+            // 输入框聚焦时不响应
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+            switch(e.key) {
+                case 'ArrowRight':
+                case ' ':
+                case 'PageDown':
+                    e.preventDefault();
+                    next();
+                    break;
+                case 'ArrowLeft':
+                case 'PageUp':
+                    e.preventDefault();
+                    prev();
+                    break;
+                case 'Home':
+                    e.preventDefault();
+                    restart();
+                    break;
+                case 'k':
+                case 'K':
+                    toggleKnown();
+                    break;
+                case 's':
+                case 'S':
+                    speakCurrent();
+                    break;
+            }
+        });
+
+        function speakCurrent() {
+            if (synth) synth.cancel();
+            autoSpeak();
+        }
+
         function showJump() {
             const overlay = document.getElementById('jumpOverlay');
             const totalEl = document.getElementById('jumpTotal');
