@@ -149,17 +149,19 @@
         let autoFlip = localStorage.getItem('english_auto_flip') === 'true';
         let synth = window.speechSynthesis;
         let englishVoice = null;
+        let chineseVoice = null;
 
-        function findEnglishVoice() {
+        function findVoices() {
             const voices = synth.getVoices();
             for (const v of voices) {
-                if (v.lang.startsWith('en')) { englishVoice = v; break; }
+                if (!englishVoice && v.lang.startsWith('en')) englishVoice = v;
+                if (!chineseVoice && v.lang.startsWith('zh')) chineseVoice = v;
             }
         }
         if (synth.onvoiceschanged !== undefined) {
-            synth.onvoiceschanged = findEnglishVoice;
+            synth.onvoiceschanged = findVoices;
         }
-        findEnglishVoice();
+        findVoices();
 
         function speak(text, rate = 0.85) {
             if (!synth) return;
@@ -170,6 +172,29 @@
             utter.pitch = 1.0;
             if (englishVoice) utter.voice = englishVoice;
             synth.speak(utter);
+        }
+
+        // 翻页后自动朗读：单词 + （默认展开时）释义
+        function autoSpeak() {
+            if (!synth || index >= words.length) return;
+            synth.cancel();
+            const w = words[index];
+            if (!w) return;
+
+            const wordUtter = new SpeechSynthesisUtterance(w.word);
+            wordUtter.lang = 'en-US';
+            wordUtter.rate = 0.9;
+            wordUtter.pitch = 1.0;
+            if (englishVoice) wordUtter.voice = englishVoice;
+            synth.speak(wordUtter);
+
+            if (autoFlip && w.meaning) {
+                const meaningUtter = new SpeechSynthesisUtterance(w.meaning);
+                meaningUtter.lang = 'zh-CN';
+                meaningUtter.rate = 0.95;
+                if (chineseVoice) meaningUtter.voice = chineseVoice;
+                synth.speak(meaningUtter);
+            }
         }
 
         function loadProgress() {
@@ -351,23 +376,27 @@
             else known.add(w.id);
             saveProgress();
             render();
+            // 掌握/取消掌握时不自动朗读，避免打断当前操作
         }
 
         function next() {
             if (synth) synth.cancel();
             index++;
             render();
+            autoSpeak();
         }
 
         function prev() {
             if (synth) synth.cancel();
             if (index > 0) index--;
             render();
+            autoSpeak();
         }
 
         function restart() {
             index = 0;
             render();
+            autoSpeak();
         }
 
         function showJump() {
@@ -459,6 +488,7 @@
             index = target;
             closeJump();
             render();
+            autoSpeak();
         }
 
         async function init() {
@@ -468,6 +498,8 @@
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             words = await resp.json();
             render();
+            // 初始加载时也自动朗读第一个单词
+            autoSpeak();
         }
         init().catch(err => {
             console.error('加载失败', err);
